@@ -1,8 +1,9 @@
 const express = require('express');
+const cors = require('cors');
 const fs = require('fs');
 const app = express();
 const PORT = process.env.PORT || 3000;
-
+app.use(cors());
 // Load dictionary.json once at startup
 const dictionary = JSON.parse(fs.readFileSync('dictionary.json', 'utf8'));
 
