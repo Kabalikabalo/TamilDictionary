@@ -7173,7 +7173,6 @@
       "depot",
       "droga",
       "jalan",
-      "jezdnia",
       "mall",
       "road",
       "shop"
@@ -80105,7 +80104,6 @@
       "sister"
     ],
     "default": [
-      "siostra",
       "wombmate",
       "sister"
     ]
@@ -89385,7 +89383,6 @@
     ],
     "default": [
       "key (for a key way)",
-      "klucz",
       "kunci",
       "switch",
       "key"
@@ -90287,7 +90284,6 @@
   },
   "சதுரம்": {
     "default": [
-      "kwadrat",
       "persegi",
       "quadrato",
       "quadratus",
@@ -104738,7 +104734,6 @@
       "mouse - lemur",
       "mouse lemur",
       "mus musculus",
-      "mysz",
       "tikus",
       "mouse"
     ],
@@ -123249,14 +123244,10 @@
     ]
   },
   "சகோதரி மகன்": {
-    "default": [
-      "siostrzeniec"
-    ]
+    "default": []
   },
   "சகோதரி மகள்": {
-    "default": [
-      "siostrzenica"
-    ]
+    "default": []
   },
   "சைன் வடிவ அலை": {
     "default": [

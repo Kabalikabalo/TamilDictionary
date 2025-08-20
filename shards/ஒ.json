@@ -17492,7 +17492,6 @@
   "ஒற்றன்": {
     "default": [
       "eavesdropper",
-      "szpieg",
       "weasel"
     ]
   },
@@ -34689,9 +34688,7 @@
     ]
   },
   "ஒளிவிலகல்": {
-    "default": [
-      "refrakcja"
-    ]
+    "default": []
   },
   "ஒளி முறிவு எண்": {
     "default": [

@@ -959,8 +959,7 @@
     "default": [
       "instructress",
       "maestra",
-      "mistress",
-      "nauczycielka"
+      "mistress"
     ],
     "பெயர்ச்சொல்": [
       "profesora",
@@ -1148,7 +1147,6 @@
       "masculine",
       "right side",
       "saddleback",
-      "samiec",
       "uomo",
       "male"
     ]
@@ -2615,13 +2613,6 @@
   },
   "ஆங்கிலம்": {
     "பெயர்ச்சொல்": [
-      "Englisch",
-      "anglais",
-      "english"
-    ],
-    "default": [
-      "angielski",
-      "język angielski",
       "English"
     ]
   },
@@ -25067,9 +25058,7 @@
     "பெயர்ச்சொல்": [
       "teacher"
     ],
-    "default": [
-      "nauczyciel"
-    ]
+    "default": []
   },
   "ஆயுட் காலவரி": {
     "default": [

@@ -7138,5 +7138,10 @@
     "default": [
       "swarmspore"
     ]
+  },
+  "zebra": {
+    "default": [
+      "வரிக்குதிரை"
+    ]
   }
 }

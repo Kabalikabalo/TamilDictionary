@@ -14,7 +14,6 @@
   "ஜூலை": {
     "default": [
       "julho",
-      "lipiec",
       "luglio",
       "july"
     ]
@@ -417,7 +416,6 @@
   },
   "ஜூன்": {
     "default": [
-      "czerwiec",
       "giugno",
       "junho",
       "june"
@@ -1825,7 +1823,7 @@
   },
   "ஜெர்மன்": {
     "default": [
-      "język niemiecki"
+      "German"
     ]
   },
   "ஜப்பானிய விறை பட்டுச் சுதுக்கத் துணி": {

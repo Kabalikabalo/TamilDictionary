@@ -4527,7 +4527,6 @@
       "fao",
       "food and agricultural organization",
       "food and drugs act",
-      "jedzenie",
       "nosh",
       "pabulum",
       "prandial",
@@ -9413,7 +9412,6 @@
       "kin",
       "nexus",
       "relation",
-      "stosunek",
       "relationship",
       "sexual intercourse"
     ],
@@ -9952,7 +9950,6 @@
       "apoyo",
       "assistance",
       "beneficence",
-      "pomoc",
       "sub",
       "help"
     ]
@@ -19817,7 +19814,6 @@
     ],
     "default": [
       "handicpped",
-      "korpus",
       "phy",
       "physical",
       "skeletal frame",
@@ -20631,17 +20627,13 @@
     ]
   },
   "உடன் பிறந்தவரின் மகன்": {
-    "default": [
-      "bratanek"
-    ],
+    "default": [],
     "பெயர்ச்சொல்": [
       "nephew"
     ]
   },
   "உடன் பிறந்தவரின் மகள்": {
-    "default": [
-      "bratanica"
-    ],
+    "default": [],
     "பெயர்ச்சொல்": [
       "niece"
     ]
@@ -69146,14 +69138,10 @@
     ]
   },
   "உடன் பிறந்தவளின் மகன்": {
-    "default": [
-      "siostrzeniec"
-    ]
+    "default": []
   },
   "உடன் பிறந்தவளின் மகள்": {
-    "default": [
-      "siostrzenica"
-    ]
+    "default": []
   },
   "உட்புழை நரம்பு": {
     "default": [

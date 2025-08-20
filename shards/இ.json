@@ -3109,7 +3109,6 @@
       "left side",
       "locality",
       "locum",
-      "miejsce",
       "position space",
       "sky",
       "space position",
@@ -15226,7 +15225,6 @@
       "mortality",
       "obit",
       "passing",
-      "zgon",
       "death"
     ],
     "பெயர்ச்சொல்": [
@@ -47705,7 +47703,6 @@
   },
   "இளம்பெண்": {
     "default": [
-      "dziewczyna",
       "signorina",
       "young lady"
     ]
@@ -51126,9 +51123,7 @@
     ]
   },
   "இன்ப கனவு": {
-    "default": [
-      "fantazy"
-    ]
+    "default": []
   },
   "இன்பக்கனா": {
     "default": [

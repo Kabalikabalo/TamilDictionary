@@ -1083,7 +1083,6 @@
     "default": [
       "Lymnal Ecosystem",
       "hump",
-      "jezioro",
       "nape",
       "revulet",
       "tank sluice",
@@ -4744,9 +4743,7 @@
     ]
   },
   "ஏன்?": {
-    "default": [
-      "dlaczego"
-    ]
+    "default": []
   },
   "ஏற்புக்கெதிராக ஆவணங்கள்(d/a)": {
     "default": [
@@ -5920,7 +5917,6 @@
       "hepta",
       "number seven",
       "sete",
-      "siedem",
       "tujuh",
       "seven"
     ],

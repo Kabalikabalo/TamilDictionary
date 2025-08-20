@@ -12670,7 +12670,6 @@
       "dance"
     ],
     "default": [
-      "taniec",
       "dance"
     ]
   },
@@ -23139,7 +23138,6 @@
       "fidelity",
       "reliance",
       "troth",
-      "zaufanie",
       "hope",
       "trust",
       "faith",
@@ -29675,8 +29673,7 @@
   },
   "நதி": {
     "default": [
-      "bowing",
-      "rzeka"
+      "bowing"
     ],
     "பெயர்ச்சொல்": [
       "fiume",
@@ -44634,7 +44631,6 @@
   },
   "நான்கு": {
     "default": [
-      "cztery",
       "empat",
       "four",
       "quatro",

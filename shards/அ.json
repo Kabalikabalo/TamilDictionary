@@ -1577,15 +1577,13 @@
       "catastrophe",
       "crash",
       "defeasance",
-      "destrukcja",
       "devastation",
       "dilapidation",
       "labile",
       "lesion",
       "lysis",
       "ruination",
-      "wrack",
-      "zniszczenie"
+      "wrack"
     ],
     "பெயர்ச்சொல்": [
       "bane",
@@ -2707,7 +2705,6 @@
       "compartment",
       "demi",
       "disappearing",
-      "izba",
       "separating",
       "slapping",
       "to speak",
@@ -4086,7 +4083,6 @@
       "helot",
       "junkie",
       "mameluke",
-      "niewolnik",
       "thrall",
       "vassal",
       "vassals",
@@ -5834,7 +5830,6 @@
       "mother wit",
       "sense",
       "sensibleness",
-      "wiedza",
       "working knowledge",
       "knowledge"
     ],
@@ -45004,8 +44999,7 @@
       "didactical",
       "educative",
       "hortative",
-      "hortatory",
-      "informatory"
+      "hortatory"
     ]
   },
   "அறிவுரைப் பா": {
@@ -51717,7 +51711,6 @@
   "அடிமைப்பெண்": {
     "default": [
       "female slave",
-      "niewolnica",
       "slave-girl"
     ]
   },
