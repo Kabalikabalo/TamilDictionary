@@ -1,12 +1,12 @@
 {
-  "E-selectin": {
+  "e-selectin": {
     "default": [
       [
         "அகச்சவ்வு தேர்விணைவி"
       ]
     ]
   },
-  "EAP": {
+  "eap": {
     "default": [
       [
         "Emergency Action Plan என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -15,7 +15,7 @@
       ]
     ]
   },
-  "EBITDA": {
+  "ebitda": {
     "default": [
       [
         "வட்டி",
@@ -25,7 +25,7 @@
       ]
     ]
   },
-  "EBPS": {
+  "ebps": {
     "default": [
       [
         "Enhanced Bought Place Scheme என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -34,7 +34,7 @@
       ]
     ]
   },
-  "EC": {
+  "ec": {
     "default": [
       [
         "Commission of the European Communities என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -43,7 +43,7 @@
       ]
     ]
   },
-  "ECA": {
+  "eca": {
     "default": [
       [
         "Economic Commission for Africa என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -52,7 +52,7 @@
       ]
     ]
   },
-  "ECE": {
+  "ece": {
     "default": [
       [
         "Economic Commission for Europe என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -61,7 +61,7 @@
       ]
     ]
   },
-  "ECLA": {
+  "ecla": {
     "default": [
       [
         "Economic Committee of Latin America என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -70,7 +70,7 @@
       ]
     ]
   },
-  "ECOSCO": {
+  "ecosco": {
     "default": [
       [
         "Economic and Social Council என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -79,7 +79,7 @@
       ]
     ]
   },
-  "ECOSOC": {
+  "ecosoc": {
     "default": [
       [
         "Economic and Social Council என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -88,7 +88,7 @@
       ]
     ]
   },
-  "ED": {
+  "ed": {
     "default": [
       [
         "Extreme Democracy என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -97,7 +97,7 @@
       ]
     ]
   },
-  "EDF": {
+  "edf": {
     "default": [
       [
         "European Development Fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -106,7 +106,7 @@
       ]
     ]
   },
-  "EDHR": {
+  "edhr": {
     "default": [
       [
         "European Declaration of Human Rights என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -115,21 +115,21 @@
       ]
     ]
   },
-  "EDI": {
+  "edi": {
     "default": [
       [
         "Electronic Data Interchange என்பதன் குறுக்கம்."
       ]
     ]
   },
-  "EGC_lead": {
+  "egc_lead": {
     "default": [
       [
         "மிதவக் கம்பி"
       ]
     ]
   },
-  "EGL": {
+  "egl": {
     "default": [
       [
         "English as a Global Language என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -138,21 +138,21 @@
       ]
     ]
   },
-  "EIR": {
+  "eir": {
     "default": [
       [
         "environmental impact reportஎன்பதைக் காணவும்."
       ]
     ]
   },
-  "EJVS": {
+  "ejvs": {
     "default": [
       [
         "Electronic Journal of Vedic Studies என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)"
       ]
     ]
   },
-  "EMEA": {
+  "emea": {
     "default": [
       [
         "European Medicines Agency என்பதனை குறிக்கிறது. மேலும்",
@@ -160,7 +160,7 @@
       ]
     ]
   },
-  "EMRO": {
+  "emro": {
     "default": [
       [
         "Eastern Mediterranean Region of Operations என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -169,21 +169,22 @@
       ]
     ]
   },
-  "EMU": {
+  "emu": {
     "default": [
       [
-        "Electric Multiple Unit என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)"
+        "நமது பூமியில் காணப்படும் பறவைகளில்",
+        "இது ஒரு சிறப்பு இனமாகும்"
       ]
     ]
   },
-  "ENIAC": {
+  "eniac": {
     "default": [
       [
         "Electronic Numerical Integrator And Computer என்பதன் அஃகுப்பெயர்."
       ]
     ]
   },
-  "EPRP": {
+  "eprp": {
     "default": [
       [
         "இது ஐக்கிய நாட்டு சபையால் பயன்படுத்தப்படும்",
@@ -195,7 +196,7 @@
       ]
     ]
   },
-  "EPS": {
+  "eps": {
     "default": [
       [
         "Essential Programs And Services என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -204,16 +205,21 @@
       ]
     ]
   },
-  "ERA": {
+  "era": {
     "default": [
       [
-        "Elite Rebel Alliance என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
-        "அஃகுப்பெயர்களுள்ஒன்றாகும்.இவ்வகையின் பிற சொற்களை",
-        "இங்குகாணலாம். (எ. கா.)"
+        "நெடுங்காலத்தைக் குறிக்கும் தோராயமான ஓரளவு",
+        "வரலாற்றுக் காலப் பகுதி",
+        "யுகம்",
+        "சகாப்தம்"
+      ],
+      [
+        "[நிலவியல்.] ஊழி",
+        "கேம்"
       ]
     ]
   },
-  "ERDF": {
+  "erdf": {
     "default": [
       [
         "European Rural Development Fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -222,7 +228,7 @@
       ]
     ]
   },
-  "ESCO": {
+  "esco": {
     "default": [
       [
         "Economic Social And Cultural Organization என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -231,7 +237,7 @@
       ]
     ]
   },
-  "ESCWA": {
+  "escwa": {
     "default": [
       [
         "Economic and Social Commission for Western Asia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -240,14 +246,14 @@
       ]
     ]
   },
-  "ESEA": {
+  "esea": {
     "default": [
       [
         "East and South East Asia என்பதன் சுருக்கமாகும்"
       ]
     ]
   },
-  "ESF": {
+  "esf": {
     "default": [
       [
         "European Social Fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -256,7 +262,7 @@
       ]
     ]
   },
-  "ESSD": {
+  "essd": {
     "default": [
       [
         "Environmentally and Socially Sustainable Development என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -265,7 +271,7 @@
       ]
     ]
   },
-  "ETAP": {
+  "etap": {
     "default": [
       [
         "Enroute Traffic Analysis Program என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -274,14 +280,14 @@
       ]
     ]
   },
-  "ETD": {
+  "etd": {
     "default": [
       [
         "electronic theses and dissertations என்பதன் சுருக்கம்/ அஃகுப்பெயர்"
       ]
     ]
   },
-  "ETER": {
+  "eter": {
     "default": [
       [
         "சைகை இயக்கமானி"
@@ -291,7 +297,7 @@
       ]
     ]
   },
-  "EUFOR": {
+  "eufor": {
     "default": [
       [
         "European Union Force என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -300,7 +306,7 @@
       ]
     ]
   },
-  "EUSG": {
+  "eusg": {
     "default": [
       [
         "Secretariat General for European Union Affairs என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -309,7 +315,7 @@
       ]
     ]
   },
-  "EUSR": {
+  "eusr": {
     "default": [
       [
         "European Union Special Representative என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -318,14 +324,14 @@
       ]
     ]
   },
-  "EU_Council_of_Ministers": {
+  "eu_council_of_ministers": {
     "default": [
       [
         "ஐரோப்பிய அமைச்சர் மன்றம்"
       ]
     ]
   },
-  "EXEKUTIEREN": {
+  "exekutieren": {
     "default": [
       [
         "hinrichten",
@@ -336,49 +342,49 @@
       ]
     ]
   },
-  "EXIM_bank": {
+  "exim_bank": {
     "default": [
       [
-        "ஏற்றிறக்குமதி வங்கி"
+        "-இறக்குமதி வங்கி"
       ]
     ]
   },
-  "Earth_Day": {
+  "earth_day": {
     "default": [
       [
-        "புவி நாள்"
+        "நிலநாள்"
       ]
     ]
   },
-  "East_Indian_walnut": {
+  "east_indian_walnut": {
     "default": [
       [
         "வாகை"
       ]
     ]
   },
-  "Easter_Bunny": {
+  "easter_bunny": {
     "default": [
       [
         "உயிர்த்தெழு நாள் முயல்"
       ]
     ]
   },
-  "Easter_Rabbit": {
+  "easter_rabbit": {
     "default": [
       [
         "உயிர்த்தெழு நாள் முயல்"
       ]
     ]
   },
-  "Easter_egg": {
+  "easter_egg": {
     "default": [
       [
         "உயிர்ப்புப் பெருவிழா (ஏசு உயிர்த்தெழு விழா) பயன்படுத்தப்படும் முட்டை."
       ]
     ]
   },
-  "Easter_giant": {
+  "easter_giant": {
     "default": [
       [
         "நமது பூமியில் காணப்படும்",
@@ -386,42 +392,42 @@
       ]
     ]
   },
-  "Eastern_Africa": {
+  "eastern_africa": {
     "default": [
       [
         "கிழக்கு ஆப்பிரிக்கா"
       ]
     ]
   },
-  "Eastern_Armenian": {
+  "eastern_armenian": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Eastern_Balochi": {
+  "eastern_balochi": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Ebbinghaus_illusion": {
+  "ebbinghaus_illusion": {
     "default": [
       [
         "இது பன்மை இல்லாத அல்லது அமையாத ஒருமைச் சொல்லாகும்."
       ]
     ]
   },
-  "Eblaite": {
+  "eblaite": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Echis_carinatus": {
+  "echis_carinatus": {
     "default": [
       [
         "[விலங்கியல்.] எக்கிஸ் காரினேட்டஸ்",
@@ -429,35 +435,36 @@
       ]
     ]
   },
-  "EcoRI": {
+  "ecori": {
     "default": [
       [
         "முதல் இகோவ"
       ]
     ]
   },
-  "EcoRII": {
+  "ecorii": {
     "default": [
       [
         "இரண்டாம் இகோவ"
       ]
     ]
   },
-  "EcoRV": {
+  "ecorv": {
     "default": [
       [
         "ஐந்தாம் இகோவ"
       ]
     ]
   },
-  "Edelweiss": {
+  "edelweiss": {
     "default": [
       [
-        "இது பூ வகைகளுள் ஒன்று ஆகும்."
+        "நமது பூமியில் காணப்படும்",
+        "தாவரங்களில் ஒன்றாகும்."
       ]
     ]
   },
-  "Edit-a-thon": {
+  "edit-a-thon": {
     "default": [
       [
         "தொடர்தொகுப்பு"
@@ -467,115 +474,118 @@
       ]
     ]
   },
-  "Edomite": {
+  "edomite": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Edward": {
+  "edward": {
     "default": [
       [
         "ஒரு ஆணின் பெயர்"
       ]
     ]
   },
-  "Egg_Donation": {
+  "egg_donation": {
     "default": [
       [
         "(கரு) முட்டை தானம்"
       ]
     ]
   },
-  "Egypt": {
+  "egypt": {
     "default": [
       [
-        "எகிப்து நாடு"
+        "மிசிர்தேசம்"
+      ]
+    ]
+  },
+  "egyptian": {
+    "default": [
+      [
+        "எகிப்தியர்"
       ],
       [
-        "எகிப்திய நாகரீகம்"
+        "எகிப்திய நாட்டார்"
+      ],
+      [
+        "நாடோடி"
       ]
     ]
   },
-  "Egyptian": {
+  "egyptian_arabic": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Egyptian_Arabic": {
-    "default": [
-      [
-        "இது உலக மொழிகளுள் ஒன்று ஆகும்."
-      ]
-    ]
-  },
-  "Egyptology": {
+  "egyptology": {
     "பெயர்ச்சொல்": [
       [
         "எகிப்தியல்"
       ]
     ]
   },
-  "Ehrlich": {
+  "ehrlich": {
     "default": [
       [
         "எர்லிச்"
       ]
     ]
   },
-  "Ehrlich's_test": {
+  "ehrlich's_test": {
     "default": [
       [
         "எர்லிச்சின் சோதனை"
       ]
     ]
   },
-  "Einstein": {
+  "einstein": {
     "default": [
       [
         "ஐன்ஸ்டைன்"
       ]
     ]
   },
-  "Einstein_equation": {
+  "einstein_equation": {
     "default": [
       [
         "ஐனுத்தீன் சமன்பாடு"
       ]
     ]
   },
-  "Ekachakra": {
+  "ekachakra": {
     "default": [
       [
         "இந்தியாவிலுள்ள முக்கிய ஊர்களுள் இதுவும் ஒன்று ஆகும்"
       ]
     ]
   },
-  "Ekavian": {
+  "ekavian": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Ekoti": {
+  "ekoti": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "El_Nino_current": {
+  "el_nino_current": {
     "default": [
       [
         "ஆண் நீரோட்டம்"
       ]
     ]
   },
-  "Electric_Water_Heater": {
+  "electric_water_heater": {
     "default": [
       [
         "மின்சார வெந்நீர் பொறி"
@@ -585,31 +595,28 @@
       ]
     ]
   },
-  "Electronic_Data_Interchange": {
+  "electronic_data_interchange": {
     "default": [
       [
-        "மின் தரவு இடைமாற்றம்"
-      ],
-      [
-        "மின்னணுவியல் தரவு மாறுகொள்ளல்"
+        "மின்னணுத் தகவல் பரிமாற்றம் (EDI)"
       ]
     ]
   },
-  "Elephants,investment": {
+  "elephants,investment": {
     "default": [
       [
         "யானைகள் (பெரிய, நிறுவன முதலீட்டாளர்கள்)"
       ]
     ]
   },
-  "Eleusinian_mysteries": {
+  "eleusinian_mysteries": {
     "default": [
       [
         "கமுக்கச் செய்தி"
       ]
     ]
   },
-  "Eleutherian": {
+  "eleutherian": {
     "default": [
       [
         "விடுதலை வாழ்க்கை வாழ்நர்",
@@ -617,27 +624,24 @@
       ]
     ]
   },
-  "Elizabethan": {
+  "elizabethan": {
     "default": [
       [
         "முதலாவது எலிசபெத் அரசியின் காலத்தவர்"
       ],
       [
         "முதலாவது எலிசபெத் அரசிகாலத்து எழுத்தாளர்"
-      ],
-      [
-        "முதலாவது எலிசபெத் அரசியின் ஆட்சிக்காலத்துக்குரிய"
       ]
     ]
   },
-  "Elliptical_Galaxies": {
+  "elliptical_galaxies": {
     "default": [
       [
         "நீள் வட்ட அண்டம்"
       ]
     ]
   },
-  "Elysium": {
+  "elysium": {
     "default": [
       [
         "பேரின்ப நிலை"
@@ -648,233 +652,224 @@
       ]
     ]
   },
-  "Em": {
+  "em": {
     "default": [
       [
         "எழுத்துச்சதுரலகு"
       ]
     ]
   },
-  "Embden": {
+  "embden": {
     "default": [
       [
         "எம்டன்"
       ]
     ]
   },
-  "Embu": {
+  "embu": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Employment_Assurance_Scheme": {
+  "employment_assurance_scheme": {
     "default": [
       [
         "பணிகொள் வாக்கீட்டுத் திட்டம்"
       ]
     ]
   },
-  "End_Lines)": {
+  "end_lines)": {
     "default": [
       [
         "கடைக்கோடுகள்"
       ]
     ]
   },
-  "Enets": {
+  "enets": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Englisch": {
+  "englisch": {
     "பெயர்ச்சொல்": [
       [
         "ஆங்கிலம்"
       ]
     ]
   },
-  "English": {
-    "default": [
+  "english": {
+    "பெயர்ச்சொல்": [
       [
-        "இது உலக மொழிகளுள் ஒன்று ஆகும்."
+        "ஆங்கிலம்"
       ]
     ]
   },
-  "English_bond": {
+  "english_bond": {
     "default": [
       [
         "ஆங்கிலேயப் பிணைப்பு"
       ]
     ]
   },
-  "English_covenants": {
+  "english_covenants": {
     "default": [
       [
         "இது ஒருமை இல்லாத அல்லது அமையாத பன்மைச் சொல்லாகும்."
       ]
     ]
   },
-  "English_monthly": {
+  "english_monthly": {
     "default": [
       [
         "ஆங்கில மாசிகை"
       ]
     ]
   },
-  "Enrico_Fermi": {
+  "enrico_fermi": {
     "default": [
       [
         "என்ரிகோ ஃபெர்மி"
       ]
     ]
   },
-  "Entner-Doudoroff_pathway": {
+  "entner-doudoroff_pathway": {
     "default": [
       [
         "என்றுனர் தூடராப்பின் வழித்தடம்"
       ]
     ]
   },
-  "Environmental_Defense_Fund": {
+  "environmental_defense_fund": {
     "default": [
       [
         "சுற்றுச்சூழல் காப்பு நிதி"
       ]
     ]
   },
-  "Environmental_Geography": {
+  "environmental_geography": {
     "default": [
       [
         "சுற்றுச்சூழல் புவியியல்"
       ]
     ]
   },
-  "Eolian": {
+  "eolian": {
     "default": [
       [
         "எழுத்துப்பிழை"
       ]
     ]
   },
-  "Epicurianism": {
+  "epicurianism": {
     "default": [
       [
         "அகமகிழ்ச்சிவாதம்"
       ]
     ]
   },
-  "Episteme": {
+  "episteme": {
     "default": [
       [
-        "அறிவுக்குவியம்"
-      ],
-      [
-        "அறிவின் முதற்கட்ட வடிவம்"
-      ],
-      [
-        "அறிவின் அடிப்படை அலகு"
-      ],
-      [
-        "அறிவுக்கூறு"
+        "அறிவன்"
       ]
     ]
   },
-  "Eponymous": {
+  "eponymous": {
     "default": [
       [
         "பெயருக்குரிய"
       ]
     ]
   },
-  "Epstein-Barr_virus": {
+  "epstein-barr_virus": {
     "default": [
       [
         "எப்பிதைன் பாரின் வைரசு"
       ]
     ]
   },
-  "Equilibrium_Phase": {
+  "equilibrium_phase": {
     "default": [
       [
         "ஒக்கலிப்பு வாகை"
       ]
     ]
   },
-  "Equivorous": {
+  "equivorous": {
     "பெயர்ச்சொல்": [
       [
         "பரிச்சதைஉண்ணி"
       ]
     ]
   },
-  "Erebus": {
+  "erebus": {
     "default": [
       [
         "இருட்டுரு"
       ]
     ]
   },
-  "Erich_Hückel": {
+  "erich_hückel": {
     "default": [
       [
         "எரிக் ஹுக்கல்"
       ]
     ]
   },
-  "Erlebnisse": {
+  "erlebnisse": {
     "default": [
       [
         "வீரச்செயல்"
       ]
     ]
   },
-  "Ernst_Mayr": {
+  "ernst_mayr": {
     "default": [
       [
         "எர்ன்ஸ்ட் மெயர்"
       ]
     ]
   },
-  "Erzya": {
+  "erzya": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Eshtehardi": {
+  "eshtehardi": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Eskimo-Aleut": {
+  "eskimo-aleut": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Esperanto": {
+  "esperanto": {
+    "default": [
+      [
+        "உலகப் பொதுச் செயற்கைமொழி"
+      ]
+    ]
+  },
+  "estonian": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Estonian": {
-    "default": [
-      [
-        "இது உலக மொழிகளுள் ஒன்று ஆகும்."
-      ]
-    ]
-  },
-  "Estuarian_Ecosystem": {
+  "estuarian_ecosystem": {
     "default": [
       [
         "...கழிமுக வண்டற் பரப்பு"
@@ -884,28 +879,32 @@
       ]
     ]
   },
-  "Ethiopian_wolf": {
+  "ethiopian_wolf": {
     "default": [
       [
         "இது பூமியில் உள்ள பாலூட்டி விலங்குகளானநரி வகைகளிலுள்ள ஒரு சிற்றினம் ஆகும்."
       ]
     ]
   },
-  "Ethnology": {
-    "பெயர்ச்சொல்": [
-      [
-        "இனப் பண்பாட்டியல்"
-      ]
-    ]
-  },
-  "Etruscan": {
+  "ethnology": {
     "default": [
       [
-        "இது உலக மொழிகளுள் ஒன்று ஆகும்."
+        "இனப்பண்பாட்டுயல்",
+        "மக்கள் இன விளக்க நூல்"
+      ],
+      [
+        "[உளவியல்.] மனிதப் பண்பாட்டுயல்"
       ]
     ]
   },
-  "Etruscan_bear": {
+  "etruscan": {
+    "default": [
+      [
+        "இத்தாலியிலிருந்த பண்டை எட்ரூரியவைச் சேர்ந்தவர்"
+      ]
+    ]
+  },
+  "etruscan_bear": {
     "default": [
       [
         "கரடியின் சிற்றினங்களுள் ஒன்று. இதுபூமியில்இருந்தபாலூட்டிவிலங்குகளில்",
@@ -913,71 +912,73 @@
       ]
     ]
   },
-  "Euahlayi": {
+  "euahlayi": {
     "default": [
       [
         "இது ஒருமை இல்லாத அல்லது அமையாத பன்மைச் சொல்லாகும்."
       ]
     ]
   },
-  "Euclid": {
+  "euclid": {
     "default": [
       [
         "யூக்ளிட்"
       ]
     ]
   },
-  "Euclidean": {
+  "euclidean": {
     "default": [
       [
-        "யூக்கிளிட"
+        "கிரேக்க வடிவியலறிஞர் யூக்ளிட் என்பாருக்குரிய"
+      ],
+      [
+        "யூக்ளிட் வகுத்துணர்ந்து கண்ட மூல மெய்ம்மைகளுக்கிசைவான இலக்கணமுடைய இடவெளி சார்ந்த"
       ]
     ]
   },
-  "Eugene": {
+  "eugene": {
     "default": [
       [
         "மீமரபணு"
       ]
     ]
   },
-  "Euglenophyceae": {
+  "euglenophyceae": {
     "default": [
       [
         "பழக்கண்ணியால்கவை"
       ]
     ]
   },
-  "Eukaryote": {
+  "eukaryote": {
     "default": [
       [
-        "மெய்க்கருவுயிரி"
+        "கருவைக் கொண்டிருக்கும் உயிரணுக்களை உடைய உயிரினம்."
       ]
     ]
   },
-  "Euler": {
+  "euler": {
     "default": [
       [
         "ஆய்லர்"
       ]
     ]
   },
-  "Euphorbia": {
+  "euphorbia": {
     "default": [
       [
-        "நமது பூமியில் காணப்படும்",
-        "தாவரங்களில் ஒன்றாகும்."
+        "[நிலவியல்.] கள்ளிவகை"
       ]
     ]
   },
-  "Eurasia": {
+  "eurasia": {
     "default": [
       [
         "யூரேசியா"
       ]
     ]
   },
-  "Eurasian_badger": {
+  "eurasian_badger": {
     "default": [
       [
         "தேனுன்னும் வேட்டை நாய் வகை."
@@ -992,7 +993,7 @@
       ]
     ]
   },
-  "Eurasian_black_vulture": {
+  "eurasian_black_vulture": {
     "default": [
       [
         "நமது பூமியில் காணப்படும் பறவைகளில்",
@@ -1000,7 +1001,7 @@
       ]
     ]
   },
-  "Eurasian_bullfinch": {
+  "eurasian_bullfinch": {
     "default": [
       [
         "நமது பூமியில் காணப்படும் பறவைகளில்",
@@ -1008,7 +1009,7 @@
       ]
     ]
   },
-  "Eurasian_lynx": {
+  "eurasian_lynx": {
     "default": [
       [
         "இந்தியாவின் காசுமீரிலும்",
@@ -1020,42 +1021,42 @@
       ]
     ]
   },
-  "Eurasiatic": {
+  "eurasiatic": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Euro_currency_market": {
+  "euro_currency_market": {
     "default": [
       [
         "யூறோ நாணயச் சந்தை"
       ]
     ]
   },
-  "Eurocentrism": {
+  "eurocentrism": {
     "default": [
       [
         "ஐரோப்பியமையவாதம்"
       ]
     ]
   },
-  "European_Commission": {
+  "european_commission": {
     "default": [
       [
-        "ஐரோப்பிய ஆணையம்"
+        "ஐரோப்பிய (அரசியல்) ஆணையம்"
       ]
     ]
   },
-  "European_Monetary_Union": {
+  "european_monetary_union": {
     "default": [
       [
-        "ஐரோப்பிய நிதி ஒன்றியம்"
+        "ஐரோப்பிய பண ஒன்றியம் (EMU)"
       ]
     ]
   },
-  "European_badger": {
+  "european_badger": {
     "default": [
       [
         "தேனுன்னும் வேட்டை நாய் வகை."
@@ -1070,7 +1071,7 @@
       ]
     ]
   },
-  "European_beaver": {
+  "european_beaver": {
     "default": [
       [
         "பெரும் எலி வகைகளுள் ஒன்றாகும்."
@@ -1084,7 +1085,7 @@
       ]
     ]
   },
-  "European_bullhead": {
+  "european_bullhead": {
     "default": [
       [
         "நமது பூமியில் காணப்படும்",
@@ -1092,7 +1093,7 @@
       ]
     ]
   },
-  "European_eel": {
+  "european_eel": {
     "default": [
       [
         "நமது பூமியில் காணப்படும்",
@@ -1100,7 +1101,7 @@
       ]
     ]
   },
-  "European_flounder": {
+  "european_flounder": {
     "default": [
       [
         "நமது பூமியில் காணப்படும்",
@@ -1108,7 +1109,7 @@
       ]
     ]
   },
-  "European_hake": {
+  "european_hake": {
     "default": [
       [
         "நமது பூமியில் காணப்படும்",
@@ -1116,7 +1117,7 @@
       ]
     ]
   },
-  "European_minnow": {
+  "european_minnow": {
     "default": [
       [
         "நமது பூமியில் காணப்படும்",
@@ -1124,7 +1125,7 @@
       ]
     ]
   },
-  "European_mistletoe": {
+  "european_mistletoe": {
     "default": [
       [
         "நமது பூமியில் காணப்படும்",
@@ -1132,7 +1133,7 @@
       ]
     ]
   },
-  "European_paper_wasp": {
+  "european_paper_wasp": {
     "default": [
       [
         "நமது பூமியில் காணப்படும் பூச்சிகளில்",
@@ -1144,7 +1145,7 @@
       ]
     ]
   },
-  "European_pollock": {
+  "european_pollock": {
     "default": [
       [
         "நமது பூமியில் காணப்படும்",
@@ -1152,7 +1153,7 @@
       ]
     ]
   },
-  "European_robin": {
+  "european_robin": {
     "default": [
       [
         "நமது பூமியில் காணப்படும் பறவைகளில்",
@@ -1160,21 +1161,21 @@
       ]
     ]
   },
-  "Europhobia": {
+  "europhobia": {
     "default": [
       [
         "ஐரோப்பிய வெருளி"
       ]
     ]
   },
-  "Europian_Union": {
+  "europian_union": {
     "default": [
       [
         "ஐரோப்பிய ஒன்றியம்"
       ]
     ]
   },
-  "Evangelist": {
+  "evangelist": {
     "default": [
       [
         "(கிறித்தவ வழக்கில்) நற்செய்திநூல் ஆசிரியர்",
@@ -1198,42 +1199,47 @@
       ]
     ]
   },
-  "Evenki": {
+  "evenki": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Ewe": {
+  "ewe": {
+    "default": [
+      [
+        "[கால்நடையியல்.] பெட்டைச் செம்மறியாடு",
+        "மறி"
+      ],
+      [
+        "[மருத்துவம்.] செம்மறி கிடேரி",
+        "பெண் செம்மறி ஆடு"
+      ]
+    ]
+  },
+  "ewondo": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Ewondo": {
-    "default": [
-      [
-        "இது உலக மொழிகளுள் ஒன்று ஆகும்."
-      ]
-    ]
-  },
-  "Excise_Law": {
+  "excise_law": {
     "default": [
       [
         "மதுவரிச் சட்டம்"
       ]
     ]
   },
-  "Exergy": {
+  "exergy": {
     "default": [
       [
         "கிடைப்பாற்றல்"
       ]
     ]
   },
-  "Exploratorium": {
+  "exploratorium": {
     "default": [
       [
         "ஒரு காட்சியகத்துக்கு வரும் வருகையாளர் தாங்களாகவே செய்து பார்க்கும் அறிவியல்",
@@ -1250,28 +1256,28 @@
       ]
     ]
   },
-  "Extra_Period": {
+  "extra_period": {
     "default": [
       [
         "மிகை நேரப் பருவம்"
       ]
     ]
   },
-  "Extra_Time": {
+  "extra_time": {
     "default": [
       [
         "மிகை நேரம்"
       ]
     ]
   },
-  "Extremaduran": {
+  "extremaduran": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Eyre": {
+  "eyre": {
     "default": [
       [
         "சுற்றுச் செலவு",
@@ -4324,13 +4330,6 @@
       ]
     ]
   },
-  "earth_day": {
-    "default": [
-      [
-        "நிலநாள்"
-      ]
-    ]
-  },
   "earth_electric_charge": {
     "default": [
       [
@@ -5477,10 +5476,7 @@
   },
   "east": {
     "பெயர்ச்சொல்": [
-      [
-        "கிழக்கு",
-        "கீழ்த்திசை"
-      ]
+      "news"
     ]
   },
   "east-coast_fever": {
@@ -7189,14 +7185,6 @@
       ]
     ]
   },
-  "echis_carinatus": {
-    "default": [
-      [
-        "[விலங்கியல்.] எக்கிஸ் காரினேட்டஸ்",
-        "சுருட்டைவிரியன்"
-      ]
-    ]
-  },
   "echiscardinatus": {
     "default": [
       [
@@ -8212,9 +8200,7 @@
   },
   "ecological": {
     "default": [
-      [
-        "சூழல்சார்"
-      ]
+      "SEED"
     ]
   },
   "ecological_adaptation": {
@@ -9727,14 +9713,7 @@
   },
   "economical": {
     "default": [
-      [
-        "சிக்கனமான",
-        "வீணழிவற்ற"
-      ],
-      [
-        "[பொருளியல்.] சிக்கனமான",
-        "செட்டான"
-      ]
+      "PEST"
     ]
   },
   "economical_dimensions": {
@@ -11531,14 +11510,6 @@
       ]
     ]
   },
-  "edelweiss": {
-    "default": [
-      [
-        "நமது பூமியில் காணப்படும்",
-        "தாவரங்களில் ஒன்றாகும்."
-      ]
-    ]
-  },
   "edema": {
     "default": [
       [
@@ -13115,13 +13086,6 @@
     "default": [
       [
         "[மருத்துவம்.] இனிப்பூட்டல்"
-      ]
-    ]
-  },
-  "edward": {
-    "default": [
-      [
-        "ஒரு ஆணின் பெயர்"
       ]
     ]
   },
@@ -15829,13 +15793,6 @@
       ]
     ]
   },
-  "egg_donation": {
-    "default": [
-      [
-        "(கரு) முட்டை தானம்"
-      ]
-    ]
-  },
   "egg_drop_syndrome": {
     "default": [
       [
@@ -16707,26 +16664,6 @@
         "நாணவ் நாரை",
         "கொக்கு",
         "கழி நாரை"
-      ]
-    ]
-  },
-  "egypt": {
-    "default": [
-      [
-        "மிசிர்தேசம்"
-      ]
-    ]
-  },
-  "egyptian": {
-    "default": [
-      [
-        "எகிப்தியர்"
-      ],
-      [
-        "எகிப்திய நாட்டார்"
-      ],
-      [
-        "நாடோடி"
       ]
     ]
   },
@@ -28453,13 +28390,6 @@
       ]
     ]
   },
-  "electronic_data_interchange": {
-    "default": [
-      [
-        "மின்னணுத் தகவல் பரிமாற்றம் (EDI)"
-      ]
-    ]
-  },
   "electronic_data_interchange_(edi)": {
     "default": [
       [
@@ -32760,16 +32690,6 @@
       ],
       [
         "ஆரானின் மணைவி எலிஷேபா."
-      ]
-    ]
-  },
-  "elizabethan": {
-    "default": [
-      [
-        "முதலாவது எலிசபெத் அரசியின் காலத்தவர்"
-      ],
-      [
-        "முதலாவது எலிசபெத் அரசிகாலத்து எழுத்தாளர்"
       ]
     ]
   },
@@ -39359,14 +39279,6 @@
     "default": [
       [
         "[கால்நடையியல்.] பன்றிக் கழிச்சல் மருந்து"
-      ]
-    ]
-  },
-  "emu": {
-    "default": [
-      [
-        "நமது பூமியில் காணப்படும் பறவைகளில்",
-        "இது ஒரு சிறப்பு இனமாகும்"
       ]
     ]
   },
@@ -47446,13 +47358,6 @@
     "default": [
       [
         "எங்லர் பாகுமை அளவி"
-      ]
-    ]
-  },
-  "english": {
-    "பெயர்ச்சொல்": [
-      [
-        "ஆங்கிலம்"
       ]
     ]
   },
@@ -56495,13 +56400,6 @@
       ]
     ]
   },
-  "episteme": {
-    "default": [
-      [
-        "அறிவன்"
-      ]
-    ]
-  },
   "epistemic": {
     "default": [
       [
@@ -59073,13 +58971,6 @@
       ]
     ]
   },
-  "equilibrium_phase": {
-    "default": [
-      [
-        "ஒக்கலிப்பு வாகை"
-      ]
-    ]
-  },
   "equilibrium_point": {
     "default": [
       [
@@ -60697,20 +60588,6 @@
       [
         "பேச்சில் தயக்கம்",
         "தடுமாற்றம்"
-      ]
-    ]
-  },
-  "era": {
-    "default": [
-      [
-        "நெடுங்காலத்தைக் குறிக்கும் தோராயமான ஓரளவு",
-        "வரலாற்றுக் காலப் பகுதி",
-        "யுகம்",
-        "சகாப்தம்"
-      ],
-      [
-        "[நிலவியல்.] ஊழி",
-        "கேம்"
       ]
     ]
   },
@@ -64809,13 +64686,6 @@
       ]
     ]
   },
-  "esperanto": {
-    "default": [
-      [
-        "உலகப் பொதுச் செயற்கைமொழி"
-      ]
-    ]
-  },
   "esperluette": {
     "பெயர்ச்சொல்": [
       [
@@ -67623,17 +67493,6 @@
       ]
     ]
   },
-  "ethnology": {
-    "default": [
-      [
-        "இனப்பண்பாட்டுயல்",
-        "மக்கள் இன விளக்க நூல்"
-      ],
-      [
-        "[உளவியல்.] மனிதப் பண்பாட்டுயல்"
-      ]
-    ]
-  },
   "ethnomedicine": {
     "default": [
       [
@@ -68133,13 +67992,6 @@
       ]
     ]
   },
-  "etruscan": {
-    "default": [
-      [
-        "இத்தாலியிலிருந்த பண்டை எட்ரூரியவைச் சேர்ந்தவர்"
-      ]
-    ]
-  },
   "ettingshausen-nernst_coefficient": {
     "default": [
       [
@@ -68449,16 +68301,6 @@
     "default": [
       [
         "[கணிதம்.] யூக்லிட் வடுவயியல்"
-      ]
-    ]
-  },
-  "euclidean": {
-    "default": [
-      [
-        "கிரேக்க வடிவியலறிஞர் யூக்ளிட் என்பாருக்குரிய"
-      ],
-      [
-        "யூக்ளிட் வகுத்துணர்ந்து கண்ட மூல மெய்ம்மைகளுக்கிசைவான இலக்கணமுடைய இடவெளி சார்ந்த"
       ]
     ]
   },
@@ -68788,13 +68630,6 @@
     "default": [
       [
         "மெய்க்கருவுடைமைநிலை"
-      ]
-    ]
-  },
-  "eukaryote": {
-    "default": [
-      [
-        "கருவைக் கொண்டிருக்கும் உயிரணுக்களை உடைய உயிரினம்."
       ]
     ]
   },
@@ -69314,13 +69149,6 @@
       ]
     ]
   },
-  "euphorbia": {
-    "default": [
-      [
-        "[நிலவியல்.] கள்ளிவகை"
-      ]
-    ]
-  },
   "euphorbia_antiquorum": {
     "default": [
       [
@@ -69655,13 +69483,6 @@
       ]
     ]
   },
-  "eurocentrism": {
-    "default": [
-      [
-        "ஐரோப்பியமையவாதம்"
-      ]
-    ]
-  },
   "eurocommunism": {
     "default": [
       [
@@ -69790,13 +69611,6 @@
       ]
     ]
   },
-  "european_commission": {
-    "default": [
-      [
-        "ஐரோப்பிய (அரசியல்) ஆணையம்"
-      ]
-    ]
-  },
   "european_common_market": {
     "default": [
       [
@@ -69871,13 +69685,6 @@
     "default": [
       [
         "ஐ.நா.அ. (ஐரோப்பிய நாணய அமைப்பு) (ems )"
-      ]
-    ]
-  },
-  "european_monetary_union": {
-    "default": [
-      [
-        "ஐரோப்பிய பண ஒன்றியம் (EMU)"
       ]
     ]
   },
@@ -70856,30 +70663,6 @@
       ]
     ]
   },
-  "evangelist": {
-    "default": [
-      [
-        "(கிறித்தவ வழக்கில்) நற்செய்திநூல் ஆசிரியர்",
-        "நற்செய்தியாளர்",
-        "நற்பறைஞர்"
-      ],
-      [
-        "(பழைய வழக்கு) சுவிசேஷகர்",
-        "சுவிசேடகர்"
-      ],
-      [
-        "கிறித்தவ மறைபரப்பாளர்",
-        "சமயப் போதகர்",
-        "அருள்பறைஞர்",
-        "அருள்மறை பறைஞர்"
-      ],
-      [
-        "(உருவகப் பொருளில்) ஒரு கொள்கை/கோட்பாடு/துறை/கருத்தியல் தொடர்பான ஆர்வப்பரப்புநர்",
-        "ஆர்வப் பரவுனர்",
-        "ஆர்வப் பறைஞர்"
-      ]
-    ]
-  },
   "evangelistic": {
     "default": [
       [
@@ -71330,7 +71113,7 @@
       ]
     ]
   },
-  "even_Homer_nods": {
+  "even_homer_nods": {
     "default": [
       [
         "யானைக்கும் அடி சறுக்கும்"
@@ -73221,18 +73004,6 @@
       ],
       [
         "E பணப் பை"
-      ]
-    ]
-  },
-  "ewe": {
-    "default": [
-      [
-        "[கால்நடையியல்.] பெட்டைச் செம்மறியாடு",
-        "மறி"
-      ],
-      [
-        "[மருத்துவம்.] செம்மறி கிடேரி",
-        "பெண் செம்மறி ஆடு"
       ]
     ]
   },
@@ -76816,10 +76587,10 @@
       ]
     ]
   },
-  "exclusive_OR": {
+  "exclusive_or": {
     "default": [
       [
-        "தவிர்ப்பு அல்லது"
+        "தனித்த அல்லது"
       ]
     ]
   },
@@ -76884,13 +76655,6 @@
     "default": [
       [
         "தரகுக் கட்டணம் நீங்கலாக"
-      ]
-    ]
-  },
-  "exclusive_or": {
-    "default": [
-      [
-        "தனித்த அல்லது"
       ]
     ]
   },
@@ -78540,13 +78304,6 @@
       ]
     ]
   },
-  "exergy": {
-    "default": [
-      [
-        "கிடைப்பாற்றல்"
-      ]
-    ]
-  },
   "exert": {
     "default": [
       [
@@ -79562,13 +79319,6 @@
     "default": [
       [
         "நொய்ம்மை: மென்மை"
-      ]
-    ]
-  },
-  "exim_bank": {
-    "default": [
-      [
-        "-இறக்குமதி வங்கி"
       ]
     ]
   },
@@ -84004,23 +83754,6 @@
     "default": [
       [
         "தேடல் திட்டம்"
-      ]
-    ]
-  },
-  "exploratorium": {
-    "default": [
-      [
-        "ஒரு காட்சியகத்துக்கு வரும் வருகையாளர் தாங்களாகவே செய்து பார்க்கும் அறிவியல்",
-        "விளையாட்டு செய்காட்சியகம்."
-      ],
-      [
-        "செய்காட்சியகம்"
-      ],
-      [
-        "மெய்த்தேர்வுக் காட்சியகம்"
-      ],
-      [
-        "செய்தேர்வகம்"
       ]
     ]
   },
@@ -93105,58 +92838,58 @@
       ]
     ]
   },
-  "Emergency Action Plan என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "emergency action plan என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "EAP"
     ]
   },
-  "Enhanced Bought Place Scheme என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "enhanced bought place scheme என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "EBPS"
     ]
   },
-  "Economic Commission for Africa என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "economic commission for africa என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "ECA"
     ]
   },
-  "Economic Commission for Europe என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "economic commission for europe என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "ECE"
     ]
   },
-  "Economic Committee of Latin America என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "economic committee of latin america என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "ECLA"
     ]
   },
-  "Economic and Social Council என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "economic and social council என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "ECOSCO",
       "ECOSOC"
     ]
   },
-  "Extreme Democracy என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "extreme democracy என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "ED"
     ]
   },
-  "European Development Fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "european development fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "EDF"
     ]
   },
-  "European Declaration of Human Rights என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "european declaration of human rights என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "EDHR"
     ]
   },
-  "Electronic Data Interchange என்பதன் குறுக்கம்.": {
+  "electronic data interchange என்பதன் குறுக்கம்.": {
     "default": [
       "EDI"
     ]
   },
-  "English as a Global Language என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "english as a global language என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "EGL"
     ]
@@ -93166,72 +92899,72 @@
       "EIR"
     ]
   },
-  "Electronic Journal of Vedic Studies என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
+  "electronic journal of vedic studies என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
     "default": [
       "EJVS"
     ]
   },
-  "European Medicines Agency என்பதனை குறிக்கிறது. மேலும்": {
+  "european medicines agency என்பதனை குறிக்கிறது. மேலும்": {
     "default": [
       "EMEA"
     ]
   },
-  "Eastern Mediterranean Region of Operations என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "eastern mediterranean region of operations என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "EMRO"
     ]
   },
-  "Electric Multiple Unit என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
+  "electric multiple unit என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
     "default": [
       "EMU"
     ]
   },
-  "Electronic Numerical Integrator And Computer என்பதன் அஃகுப்பெயர்.": {
+  "electronic numerical integrator and computer என்பதன் அஃகுப்பெயர்.": {
     "default": [
       "ENIAC"
     ]
   },
-  "Essential Programs And Services என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "essential programs and services என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "EPS"
     ]
   },
-  "Elite Rebel Alliance என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "elite rebel alliance என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "ERA"
     ]
   },
-  "European Rural Development Fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "european rural development fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "ERDF"
     ]
   },
-  "Economic Social And Cultural Organization என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "economic social and cultural organization என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "ESCO"
     ]
   },
-  "Economic and Social Commission for Western Asia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "economic and social commission for western asia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "ESCWA"
     ]
   },
-  "East and South East Asia என்பதன் சுருக்கமாகும்": {
+  "east and south east asia என்பதன் சுருக்கமாகும்": {
     "default": [
       "ESEA"
     ]
   },
-  "European Social Fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "european social fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "ESF"
     ]
   },
-  "Environmentally and Socially Sustainable Development என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "environmentally and socially sustainable development என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "ESSD"
     ]
   },
-  "Enroute Traffic Analysis Program என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "enroute traffic analysis program என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "ETAP"
     ]
@@ -93241,24 +92974,14 @@
       "ETD"
     ]
   },
-  "European Union Force என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "european union force என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "EUFOR"
     ]
   },
-  "European Union Special Representative என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "european union special representative என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "EUSR"
-    ]
-  },
-  "Economical": {
-    "default": [
-      "PEST"
-    ]
-  },
-  "Ecological": {
-    "default": [
-      "SEED"
     ]
   },
   "eon என்பதை எழுதும் இன்னொரு முறைமை.": {
@@ -93289,52 +93012,52 @@
       "dirt-cheap"
     ]
   },
-  "E - கொள்முதல்": {
+  "e - கொள்முதல்": {
     "default": [
       "e-purchasing"
     ]
   },
-  "E-சிறுவணிகம்": {
+  "e-சிறுவணிகம்": {
     "default": [
       "e-tailing"
     ]
   },
-  "E-பணப் பை": {
+  "e-பணப் பை": {
     "default": [
       "e-wallet"
     ]
   },
-  "E வளைவு": {
+  "e வளைவு": {
     "default": [
       "e bend"
     ]
   },
-  "E கலன்": {
+  "e கலன்": {
     "default": [
       "e cell"
     ]
   },
-  "ESA என்பதன் விரிவாக்கம்": {
+  "esa என்பதன் விரிவாக்கம்": {
     "default": [
       "ecologically sensitive area"
     ]
   },
-  "EMIS என்பதன் விரிவாக்கம்": {
+  "emis என்பதன் விரிவாக்கம்": {
     "default": [
       "educational management information system"
     ]
   },
-  "EPIC என்பதன் விரிவாக்கம்": {
+  "epic என்பதன் விரிவாக்கம்": {
     "default": [
       "elector's photo identity card"
     ]
   },
-  "ECS என்பதன் விரிவாக்கம்": {
+  "ecs என்பதன் விரிவாக்கம்": {
     "default": [
       "electronic clearing system"
     ]
   },
-  "EPOS மின்னணு விற்பனைப் புள்ளியம்": {
+  "epos மின்னணு விற்பனைப் புள்ளியம்": {
     "default": [
       "electronic point of sale"
     ]
@@ -93344,17 +93067,17 @@
       "electronics"
     ]
   },
-  "Elitism - மேட்டிமைத்தனம்": {
+  "elitism - மேட்டிமைத்தனம்": {
     "default": [
       "elite"
     ]
   },
-  "English Language Teaching என்பதன் குறுக்கம்": {
+  "english language teaching என்பதன் குறுக்கம்": {
     "default": [
       "elt"
     ]
   },
-  "ESIC என்பதன் விரிவாக்கம்": {
+  "esic என்பதன் விரிவாக்கம்": {
     "default": [
       "employees’ state insurance corporation"
     ]
@@ -93364,17 +93087,17 @@
       "end"
     ]
   },
-  "ENVIS-என்பதன் விரிவாக்கம்": {
+  "envis-என்பதன் விரிவாக்கம்": {
     "default": [
       "environmental information system"
     ]
   },
-  "ESG என்பதன் விரிவாக்கம்": {
+  "esg என்பதன் விரிவாக்கம்": {
     "default": [
       "environmental social and governance"
     ]
   },
-  "Epicurus என்பவருடைய 'அறிவின் துணை கொண்டு வாழ்கையை மகிழ்ச்சியாக அனுபவி' என்ற தத்துவம். (உண்டு உறங்கிக் களித்தல்)": {
+  "epicurus என்பவருடைய 'அறிவின் துணை கொண்டு வாழ்கையை மகிழ்ச்சியாக அனுபவி' என்ற தத்துவம். (உண்டு உறங்கிக் களித்தல்)": {
     "default": [
       "epicureanism"
     ]
@@ -93394,12 +93117,12 @@
       "etcetera"
     ]
   },
-  "EVA -- ethylene vinyl acetate என்பதன் சுருக்கம்": {
+  "eva -- ethylene vinyl acetate என்பதன் சுருக்கம்": {
     "default": [
       "eva"
     ]
   },
-  "E பணப் பை": {
+  "e பணப் பை": {
     "default": [
       "ewallet"
     ]
@@ -93444,7 +93167,7 @@
       "indian golden oriole"
     ]
   },
-  "E வைட்டமின்": {
+  "e வைட்டமின்": {
     "default": [
       "vitamin E"
     ]
@@ -93469,7 +93192,7 @@
       "show stopper"
     ]
   },
-  "Elephas maximus borneensis...விலங்கியல் பெயர்": {
+  "elephas maximus borneensis...விலங்கியல் பெயர்": {
     "default": [
       "pygmy elephant"
     ]
@@ -93482,11 +93205,6 @@
   "especially heavily": {
     "default": [
       "out for the count"
-    ]
-  },
-  "East": {
-    "பெயர்ச்சொல்": [
-      "news"
     ]
   }
 }

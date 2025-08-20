@@ -1,5 +1,5 @@
 {
-  "K": {
+  "k": {
     "பெயர்ச்சொல்": [
       [
         "இதிலுள்ள எழுத்து",
@@ -14,21 +14,21 @@
       ]
     ]
   },
-  "K-function": {
+  "k-function": {
     "default": [
       [
         "சார்பலன்"
       ]
     ]
   },
-  "K-pop": {
+  "k-pop": {
     "default": [
       [
         "கொரிய பரப்பிசை/வெகுசன இசை"
       ]
     ]
   },
-  "KDKT": {
+  "kdkt": {
     "default": [
       [
         "Korean Demokraattisen Kansan Tasavallan என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -37,7 +37,7 @@
       ]
     ]
   },
-  "KFOR": {
+  "kfor": {
     "default": [
       [
         "The Kosovo Force என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -46,7 +46,7 @@
       ]
     ]
   },
-  "KLA": {
+  "kla": {
     "default": [
       [
         "Kosovo Liberation Army என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -55,7 +55,7 @@
       ]
     ]
   },
-  "KSA": {
+  "ksa": {
     "default": [
       [
         "Kingdom of Saudi Arabia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -64,42 +64,42 @@
       ]
     ]
   },
-  "Kabuverdianu": {
+  "kabuverdianu": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kabyle": {
+  "kabyle": {
     "default": [
       [
-        "இது உலக மொழிகளுள் ஒன்று ஆகும்."
+        "பிரெஞ்சு சால்வை வகை"
       ]
     ]
   },
-  "Kadaknath": {
+  "kadaknath": {
     "default": [
       [
         "கடக்குநாத்து"
       ]
     ]
   },
-  "Kadiweu": {
+  "kadiweu": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kadiwu": {
+  "kadiwu": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kafue_pike": {
+  "kafue_pike": {
     "default": [
       [
         "நமது பூமியில் காணப்படும்",
@@ -107,224 +107,227 @@
       ]
     ]
   },
-  "Kala_Lagaw_Ya": {
+  "kala_lagaw_ya": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kalaallisut": {
+  "kalaallisut": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kalami": {
+  "kalami": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kalenjin": {
+  "kalenjin": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kalispel-Pend_d'Oreille": {
+  "kalispel-pend_d'oreille": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kalyan-Dombivali": {
+  "kalyan-dombivali": {
     "default": [
       [
         "இந்தியாவிலுள்ள முக்கிய ஊர்களுள் இதுவும் ஒன்று ஆகும்"
       ]
     ]
   },
-  "Kamas": {
+  "kamas": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kamassian": {
+  "kamassian": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kamba": {
+  "kamba": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kami": {
+  "kami": {
+    "default": [
+      [
+        "ஐப்பானிய மாகாணத்தலைவரின் விருதுப் பெயர்"
+      ],
+      [
+        "ஐப்பானிய தெய்வம்"
+      ]
+    ]
+  },
+  "kamilarai": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kamilarai": {
+  "kamilaroi": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kamilaroi": {
-    "default": [
-      [
-        "இது உலக மொழிகளுள் ஒன்று ஆகும்."
-      ]
-    ]
-  },
-  "Kanada": {
+  "kanada": {
     "default": [
       [
         "கனடா"
       ]
     ]
   },
-  "Kangayam": {
+  "kangayam": {
     "default": [
       [
         "காங்கேயம்"
       ]
     ]
   },
-  "Kanjobal": {
+  "kanjobal": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kankrej": {
+  "kankrej": {
     "default": [
       [
         "காங்கிரெச்சு"
       ]
     ]
   },
-  "Kannada": {
+  "kannada": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kanpur": {
+  "kanpur": {
     "default": [
       [
         "இந்தியாவிலுள்ள முக்கிய ஊர்களுள் இதுவும் ஒன்று ஆகும்"
       ]
     ]
   },
-  "Kansa": {
+  "kansa": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kanuri": {
+  "kanuri": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kapampangan": {
+  "kapampangan": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kapingamarangi": {
+  "kapingamarangi": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Karachay-Balkar": {
+  "karachay-balkar": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Karakalpak": {
+  "karakalpak": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Karamojong": {
+  "karamojong": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Karan_swiss": {
+  "karan_swiss": {
     "default": [
       [
         "கரன்சுவி"
       ]
     ]
   },
-  "Karelian": {
+  "karelian": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Karen": {
+  "karen": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Karnic": {
+  "karnic": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Karok": {
+  "karok": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Karuk": {
+  "karuk": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kashmiri": {
+  "kashmiri": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
@@ -335,140 +338,140 @@
       ]
     ]
   },
-  "Kashubian": {
+  "kashubian": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Katahdin": {
+  "katahdin": {
     "default": [
       [
         "இது பன்மை இல்லாத அல்லது அமையாத ஒருமைச் சொல்லாகும்."
       ]
     ]
   },
-  "Katcha": {
+  "katcha": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kathiawar": {
+  "kathiawar": {
     "default": [
       [
         "கத்தியவார்"
       ]
     ]
   },
-  "Kaurna": {
+  "kaurna": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kavaratti": {
+  "kavaratti": {
     "default": [
       [
         "இந்தியாவிலுள்ள முக்கிய ஊர்களுள் இதுவும் ஒன்று ஆகும்"
       ]
     ]
   },
-  "Kazakh": {
+  "kazakh": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kedai": {
+  "kedai": {
     "default": [
       [
         "கடை"
       ]
     ]
   },
-  "Kekulé": {
+  "kekulé": {
     "default": [
       [
         "கெக்குலே"
       ]
     ]
   },
-  "Kell_factor": {
+  "kell_factor": {
     "default": [
       [
-        "கெல்லின் காரணி"
+        "கெல் காரணி"
       ]
     ]
   },
-  "Kelvin": {
+  "kelvin": {
     "default": [
       [
-        "கெல்வின்"
+        "தனி வெப்பநிலை முறை"
       ]
     ]
   },
-  "Kelvin's_statement": {
+  "kelvin's_statement": {
     "default": [
       [
         "கெல்வினின் கூற்று"
       ]
     ]
   },
-  "Kelvin-Planck's_statement": {
+  "kelvin-planck's_statement": {
     "default": [
       [
         "கெல்வின் பிளாங்கின் கூற்று"
       ]
     ]
   },
-  "Kemi_Sami": {
+  "kemi_sami": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kennedy": {
+  "kennedy": {
     "default": [
       [
         "கென்னடி"
       ]
     ]
   },
-  "Kentucky_coffeetree": {
+  "kentucky_coffeetree": {
     "default": [
       [
         "புவியின் மர வகைகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kepler's_law_of_period": {
+  "kepler's_law_of_period": {
     "default": [
       [
         "கெப்பிளரின் கால விதி"
       ]
     ]
   },
-  "Kepler's_laws": {
+  "kepler's_laws": {
     "default": [
       [
         "கெப்பிளரின் விதிகள்"
       ]
     ]
   },
-  "Kerebe": {
+  "kerebe": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kerguelen_cabbage": {
+  "kerguelen_cabbage": {
     "default": [
       [
         "நமது பூமியில் காணப்படும்",
@@ -476,196 +479,196 @@
       ]
     ]
   },
-  "Keynesian_revolution": {
+  "keynesian_revolution": {
     "default": [
       [
         "கீனசியப் புரட்சி"
       ]
     ]
   },
-  "Keynesianism": {
+  "keynesianism": {
     "பெயர்ச்சொல்": [
       [
         "கெயினிசியம்"
       ]
     ]
   },
-  "Khakas": {
+  "khakas": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Khanty": {
+  "khanty": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Khinalug": {
+  "khinalug": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Khitan": {
+  "khitan": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Khoisan": {
+  "khoisan": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Khotanese": {
+  "khotanese": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Ki": {
+  "ki": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kibble": {
+  "kibble": {
     "default": [
       [
         "சுரங்க வாளி"
       ]
     ]
   },
-  "Kibosho": {
+  "kibosho": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kichagga": {
+  "kichagga": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kick-_off": {
+  "kick-_off": {
     "default": [
       [
         "ஆரம்ப நிலை உதை"
       ]
     ]
   },
-  "Kiha": {
+  "kiha": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kikuyu": {
+  "kikuyu": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kildin_Sami": {
+  "kildin_sami": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kilegi": {
+  "kilegi": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kimatuumbi": {
+  "kimatuumbi": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kimbu": {
+  "kimbu": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kimochi": {
+  "kimochi": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kinga": {
+  "kinga": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kinyarwanda": {
+  "kinyarwanda": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kiowa": {
+  "kiowa": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kipping": {
+  "kipping": {
     "default": [
       [
         "கிப்பிங்"
       ]
     ]
   },
-  "Kirchoff's_law": {
+  "kirchoff's_law": {
     "default": [
       [
         "கிர்ச்சாப்பின் விதி"
       ]
     ]
   },
-  "Kirghiz": {
+  "kirghiz": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kiribatese": {
+  "kiribatese": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kirtland's_warbler": {
+  "kirtland's_warbler": {
     "default": [
       [
         "நமது பூமியில் காணப்படும் பறவைகளில்",
@@ -673,56 +676,56 @@
       ]
     ]
   },
-  "Kirundi": {
+  "kirundi": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kiseri": {
+  "kiseri": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kisi": {
+  "kisi": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kiswahili": {
+  "kiswahili": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kjeldahl_method": {
+  "kjeldahl_method": {
     "default": [
       [
         "கியெல்டாலின் முறை"
       ]
     ]
   },
-  "Klinefelter's_syndrome": {
+  "klinefelter's_syndrome": {
     "default": [
       [
         "கிளைன்பெல்டரின் குறித்தொகுப்பு"
       ]
     ]
   },
-  "Klsch": {
+  "klsch": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Km": {
+  "km": {
     "பெயர்ச்சொல்": [
       [
         "இதிலுள்ள இரண்டு எழுத்துக்களில்",
@@ -735,28 +738,28 @@
       ]
     ]
   },
-  "Kneippism": {
+  "kneippism": {
     "default": [
       [
         "நீர் மருத்துவம்"
       ]
     ]
   },
-  "Knoevenagel": {
+  "knoevenagel": {
     "default": [
       [
         "குனோவினாகிலின் வினை"
       ]
     ]
   },
-  "Koch": {
+  "koch": {
     "default": [
       [
-        "இது உலக மொழிகளுள் ஒன்று ஆகும்."
+        "[விலங்கியல்.] காச்"
       ]
     ]
   },
-  "Kodiak": {
+  "kodiak": {
     "default": [
       [
         "அலாசுகாவில் உள்ள ஒரு நகரம் ஆகும்."
@@ -767,7 +770,7 @@
       ]
     ]
   },
-  "Kodiak_bear": {
+  "kodiak_bear": {
     "default": [
       [
         "அலாசுகாவில் உள்ள பழுப்பு நிற பெருங்கரடி"
@@ -778,160 +781,158 @@
       ]
     ]
   },
-  "Kohima": {
+  "kohima": {
     "default": [
       [
         "இந்தியாவிலுள்ள முக்கிய ஊர்களுள் இதுவும் ஒன்று ஆகும்"
       ]
     ]
   },
-  "Kohlrabi": {
+  "kohlrabi": {
     "default": [
       [
-        "இங்கிலாந்திற் கால்நடைகளுக்குத் தீவனமாகப் பயன்படுங் கோசுக்கீரை வகை."
-      ],
-      [
-        "Italian turnip என்று அழைப்பர்"
-      ],
-      [
-        "இது ஆசுத்திரேலியா பெயர் ஆகும்."
+        "நூல்கோல்"
       ]
     ]
   },
-  "Koine": {
+  "koine": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kokborok": {
+  "kokborok": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Koko": {
+  "koko": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kolbe's_method": {
+  "kolbe's_method": {
     "default": [
       [
         "கோல்பின் முறை"
       ]
     ]
   },
-  "Kolbe's_reaction": {
+  "kolbe's_reaction": {
     "default": [
       [
         "கோல்பின் வினை"
       ]
     ]
   },
-  "Kolbe_Schmidt_reaction": {
+  "kolbe_schmidt_reaction": {
     "default": [
       [
         "கோல்பு சுமிட்டின் வினை"
       ]
     ]
   },
-  "Kolkata": {
+  "kolkata": {
     "default": [
       [
         "இந்தியாவிலுள்ள முக்கிய ஊர்களுள் இதுவும் ஒன்று ஆகும்"
       ]
     ]
   },
-  "Kolliker": {
+  "kolliker": {
     "default": [
       [
         "காலிக்கர்"
       ]
     ]
   },
-  "Kolon": {
+  "kolon": {
     "default": [
       [
         "தாவு நடைக்கோல்"
       ]
     ]
   },
-  "Komi": {
+  "komi": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kongo": {
+  "kongo": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Konkani": {
+  "konkani": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Koplick_spots": {
+  "koplick_spots": {
     "default": [
       [
         "கோப்ளிக் புள்ளிகள்"
       ]
     ]
   },
-  "Korean": {
-    "default": [
+  "korean": {
+    "பெயர்ச்சொல்": [
       [
-        "இது உலக மொழிகளுள் ஒன்று ஆகும்."
+        "கொரிய மொழி"
+      ],
+      [
+        "கொரியர்",
+        "கொரிய நாட்டு மக்கள்"
       ]
     ]
   },
-  "Korean_haemorrhagic_fever": {
+  "korean_haemorrhagic_fever": {
     "default": [
       [
         "கொரியாக் குருதிப் போக்குக் காய்ச்சல்"
       ]
     ]
   },
-  "Kreb's_cycle": {
+  "kreb's_cycle": {
     "default": [
       [
         "கிரெப்புச் சுழற்சி"
       ]
     ]
   },
-  "Kreis": {
+  "kreis": {
     "default": [
       [
         "க்ரைச்7"
       ]
     ]
   },
-  "Kriol": {
+  "kriol": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Krisa": {
+  "krisa": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kryptopterus": {
+  "kryptopterus": {
     "default": [
       [
         "நமது பூமியில் காணப்படும்",
@@ -939,98 +940,98 @@
       ]
     ]
   },
-  "Kugelberg-Welander_disease": {
+  "kugelberg-welander_disease": {
     "default": [
       [
         "கூகல்பெர்க்-வெலாண்டர் நோய்"
       ]
     ]
   },
-  "Kumyk": {
+  "kumyk": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kuna": {
+  "kuna": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kupffer_cell": {
+  "kupffer_cell": {
     "default": [
       [
         "குப்பரின் அணு"
       ]
     ]
   },
-  "Kurdish": {
+  "kurdish": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kuria": {
+  "kuria": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kurmanji": {
+  "kurmanji": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kurukh": {
+  "kurukh": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kurusowa": {
+  "kurusowa": {
     "default": [
       [
         "குருசோவா"
       ]
     ]
   },
-  "Kutu": {
+  "kutu": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kven": {
+  "kven": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kwanyama": {
+  "kwanyama": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kwere": {
+  "kwere": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Kyrgyz": {
+  "kyrgyz": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
@@ -1316,13 +1317,6 @@
     "default": [
       [
         "காபுல் கம்பளி"
-      ]
-    ]
-  },
-  "kabyle": {
-    "default": [
-      [
-        "பிரெஞ்சு சால்வை வகை"
       ]
     ]
   },
@@ -2299,16 +2293,6 @@
       [
         "[நிலவியல்.] கேம்ஸ்",
         "பனி அரி கற்குவியல்"
-      ]
-    ]
-  },
-  "kami": {
-    "default": [
-      [
-        "ஐப்பானிய மாகாணத்தலைவரின் விருதுப் பெயர்"
-      ],
-      [
-        "ஐப்பானிய தெய்வம்"
       ]
     ]
   },
@@ -4935,13 +4919,6 @@
       ]
     ]
   },
-  "kell_factor": {
-    "default": [
-      [
-        "கெல் காரணி"
-      ]
-    ]
-  },
   "kellering": {
     "default": [
       [
@@ -5045,13 +5022,6 @@
       [
         "வெளியேறு",
         "வெளியே போ"
-      ]
-    ]
-  },
-  "kelvin": {
-    "default": [
-      [
-        "தனி வெப்பநிலை முறை"
       ]
     ]
   },
@@ -9445,16 +9415,8 @@
     ]
   },
   "kilogram": {
-    "பெயர்ச்சொல்": [
-      [
-        "கிழசீரெடை"
-      ],
-      [
-        "கிலோகிராம்"
-      ],
-      [
-        "கிலோ"
-      ]
+    "default": [
+      "MKSA"
     ]
   },
   "kilogram_-_equivalent_weight": {
@@ -14660,7 +14622,7 @@
       ]
     ]
   },
-  "koNmi": {
+  "konmi": {
     "default": [
       [
         "மின் தேக்கி"
@@ -14727,13 +14689,6 @@
     "default": [
       [
         "போர்வை"
-      ]
-    ]
-  },
-  "koch": {
-    "default": [
-      [
-        "[விலங்கியல்.] காச்"
       ]
     ]
   },
@@ -14875,13 +14830,6 @@
     "default": [
       [
         "கோலர் ஒளிர்வு"
-      ]
-    ]
-  },
-  "kohlrabi": {
-    "default": [
-      [
-        "நூல்கோல்"
       ]
     ]
   },
@@ -15524,17 +15472,6 @@
     "default": [
       [
         "இசுலாமியர் திருமறை"
-      ]
-    ]
-  },
-  "korean": {
-    "பெயர்ச்சொல்": [
-      [
-        "கொரிய மொழி"
-      ],
-      [
-        "கொரியர்",
-        "கொரிய நாட்டு மக்கள்"
       ]
     ]
   },
@@ -16580,7 +16517,7 @@
       ]
     ]
   },
-  "kuRRoor": {
+  "kurroor": {
     "default": [
       [
         "சிறு கிராமம்",
@@ -17756,29 +17693,24 @@
       ]
     ]
   },
-  "Kohlrabi என்று அழைப்பர்.": {
+  "kohlrabi என்று அழைப்பர்.": {
     "default": [
       "Italian turnip"
     ]
   },
-  "Korean Demokraattisen Kansan Tasavallan என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "korean demokraattisen kansan tasavallan என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "KDKT"
     ]
   },
-  "Kosovo Liberation Army என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "kosovo liberation army என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "KLA"
     ]
   },
-  "Kingdom of Saudi Arabia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "kingdom of saudi arabia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "KSA"
-    ]
-  },
-  "Kilogram": {
-    "default": [
-      "MKSA"
     ]
   },
   "keep working to the end": {
@@ -17791,17 +17723,17 @@
       "fregadero"
     ]
   },
-  "KYC என்பதன் விரிவாக்கம்": {
+  "kyc என்பதன் விரிவாக்கம்": {
     "default": [
       "know your customer"
     ]
   },
-  "Kangal Çoban Köpeği என்ற துருக்கிய காவல் நாய் இனத்தையும் குறிக்கும்": {
+  "kangal çoban köpeği என்ற துருக்கிய காவல் நாய் இனத்தையும் குறிக்கும்": {
     "default": [
       "kopeki"
     ]
   },
-  "K வைட்டமின்": {
+  "k வைட்டமின்": {
     "default": [
       "vitamin K"
     ]

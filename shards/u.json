@@ -1,54 +1,54 @@
 {
-  "U-band": {
+  "u-band": {
     "default": [
       [
-        "U-(உட்கவர்) பட்டை"
+        "ஹி-(உட்கவர்) பட்டை"
       ]
     ]
   },
-  "U-boat": {
+  "u-boat": {
     "default": [
       [
-        "செர்மன் நீர்முழ்கிக் கப்பல்"
+        "இரண்டாம் உலகப்போரில் பயன்படுத்தப்பட்ட ஜெர்மானிய நீர்மூழ்கிக் கப்பல்"
       ]
     ]
   },
-  "U-shaped_abutment": {
+  "u-shaped_abutment": {
     "default": [
       [
-        "U-வடிவ முட்டிடம்"
+        "ஹி-வடிவ முட்டிடம்"
       ]
     ]
   },
-  "U-shaped_distribution": {
+  "u-shaped_distribution": {
     "default": [
       [
-        "U-வடிவப் பரவல்"
+        "ஹி-வடிவப் பரவல்"
       ]
     ]
   },
-  "U-shaped_valley": {
+  "u-shaped_valley": {
     "default": [
       [
-        "U-வடிவப் பள்ளத்தாக்கு"
+        "ஹி-வடிவப் பள்ளத்தாக்கு"
       ]
     ]
   },
-  "U-tube_heat_exchanger": {
+  "u-tube_heat_exchanger": {
     "default": [
       [
-        "U-வடிவக்குழாய் வெப்பப் பரிமாற்றி"
+        "ஹி-வடிவக்குழாய் வெப்பப் பரிமாற்றி"
       ]
     ]
   },
-  "U-tube_manometer": {
+  "u-tube_manometer": {
     "default": [
       [
-        "U- வடிவக்குழாய் அழுத்தஅளவி"
+        "ஹி- வடிவக்குழாய் அழுத்தஅளவி"
       ]
     ]
   },
-  "U-turn": {
+  "u-turn": {
     "default": [
       [
         "ப-திருப்பம்"
@@ -58,21 +58,21 @@
       ]
     ]
   },
-  "U-value": {
+  "u-value": {
     "default": [
       [
-        "U-மதிப்பு"
+        "ஹி-மதிப்பு"
       ]
     ]
   },
-  "U._K.": {
+  "u._k.": {
     "default": [
       [
         "ஐ. இ."
       ]
     ]
   },
-  "U5MR": {
+  "u5mr": {
     "default": [
       [
         "Under 5 Mortality Rate என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -81,7 +81,7 @@
       ]
     ]
   },
-  "UCB": {
+  "ucb": {
     "default": [
       [
         "Union Chimique Belge என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -90,7 +90,7 @@
       ]
     ]
   },
-  "UDA": {
+  "uda": {
     "default": [
       [
         "Ulster Defence Association என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -99,7 +99,7 @@
       ]
     ]
   },
-  "UDF": {
+  "udf": {
     "default": [
       [
         "United Democratic Front in South Africa என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -108,7 +108,7 @@
       ]
     ]
   },
-  "UE": {
+  "ue": {
     "default": [
       [
         "Union Earth என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -117,7 +117,7 @@
       ]
     ]
   },
-  "UEG": {
+  "ueg": {
     "default": [
       [
         "United Earth Government என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -126,7 +126,7 @@
       ]
     ]
   },
-  "UEO": {
+  "ueo": {
     "default": [
       [
         "United Earth Organization என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -135,7 +135,7 @@
       ]
     ]
   },
-  "UFF": {
+  "uff": {
     "default": [
       [
         "Ulster Freedom Fighters என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -144,7 +144,7 @@
       ]
     ]
   },
-  "UFT": {
+  "uft": {
     "default": [
       [
         "Undersecretariat for Foreign Trade என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -153,7 +153,7 @@
       ]
     ]
   },
-  "UG": {
+  "ug": {
     "default": [
       [
         "Universal Government என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -162,7 +162,7 @@
       ]
     ]
   },
-  "UGF": {
+  "ugf": {
     "default": [
       [
         "Under- Ground Facility என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -171,14 +171,14 @@
       ]
     ]
   },
-  "UHF_(ultra_high_frequency)": {
+  "uhf_(ultra_high_frequency)": {
     "default": [
       [
         "மீஉயர் அதிர்வெண்"
       ]
     ]
   },
-  "UI": {
+  "ui": {
     "default": [
       [
         "Unofficial International என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -187,7 +187,7 @@
       ]
     ]
   },
-  "UIE": {
+  "uie": {
     "default": [
       [
         "U'[N']E'[S']C'[O'] Institute for Education என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -196,7 +196,7 @@
       ]
     ]
   },
-  "UK": {
+  "uk": {
     "default": [
       [
         "United Kingdom என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -205,7 +205,7 @@
       ]
     ]
   },
-  "UKP": {
+  "ukp": {
     "default": [
       [
         "Unesco Klub Piran என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -214,14 +214,14 @@
       ]
     ]
   },
-  "ULFA": {
+  "ulfa": {
     "default": [
       [
         "United Liberation Front of Asom என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)"
       ]
     ]
   },
-  "UMP": {
+  "ump": {
     "default": [
       [
         "Urban Management Programme என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -230,7 +230,7 @@
       ]
     ]
   },
-  "UMR": {
+  "umr": {
     "default": [
       [
         "Unaccompanied Minor Refugee என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -239,7 +239,7 @@
       ]
     ]
   },
-  "UN": {
+  "un": {
     "default": [
       [
         "United Nations என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -248,7 +248,7 @@
       ]
     ]
   },
-  "UN-HABITAT": {
+  "un-habitat": {
     "default": [
       [
         "United Nations Human Settlements Programme என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -257,7 +257,7 @@
       ]
     ]
   },
-  "UNAE": {
+  "unae": {
     "default": [
       [
         "United Nations Arms Embargoes என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -266,7 +266,7 @@
       ]
     ]
   },
-  "UNAG": {
+  "unag": {
     "default": [
       [
         "United Nations Association of Georgia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -275,7 +275,7 @@
       ]
     ]
   },
-  "UNAIDS": {
+  "unaids": {
     "default": [
       [
         "Joint United Nations Programme on HIV AIDS என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -284,7 +284,7 @@
       ]
     ]
   },
-  "UNAMID": {
+  "unamid": {
     "default": [
       [
         "United Nations African Mission In Darfur என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -293,7 +293,7 @@
       ]
     ]
   },
-  "UNAMIR": {
+  "unamir": {
     "default": [
       [
         "United Nations Assistance Mission for Rwanda என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -302,7 +302,7 @@
       ]
     ]
   },
-  "UNASG": {
+  "unasg": {
     "default": [
       [
         "United Nations Agency for Sustainable Growth என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -311,7 +311,7 @@
       ]
     ]
   },
-  "UNAVEM_II": {
+  "unavem_ii": {
     "default": [
       [
         "U'nited[Nations Angola Verification MissionI']I என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -320,7 +320,7 @@
       ]
     ]
   },
-  "UNAVEM_III": {
+  "unavem_iii": {
     "default": [
       [
         "United Nations Angola Verification Mission I'[I']I என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -329,7 +329,7 @@
       ]
     ]
   },
-  "UNBA": {
+  "unba": {
     "default": [
       [
         "United Nations Board of Auditors என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -338,7 +338,7 @@
       ]
     ]
   },
-  "UNCDF": {
+  "uncdf": {
     "default": [
       [
         "United Nations Capital Development Fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -347,7 +347,7 @@
       ]
     ]
   },
-  "UNCHR": {
+  "unchr": {
     "default": [
       [
         "United Nations Commission on Human Rights என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -356,7 +356,7 @@
       ]
     ]
   },
-  "UNCITRAL": {
+  "uncitral": {
     "default": [
       [
         "United Nations Commission on International T'[R']Ade Law என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -365,14 +365,14 @@
       ]
     ]
   },
-  "UNCLOS": {
+  "unclos": {
     "default": [
       [
         "The United Nations Convention on the Law Of the Sea என்பதன் சுருக்கமாகும்."
       ]
     ]
   },
-  "UNCT": {
+  "unct": {
     "default": [
       [
         "United Nations Country Team என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -381,7 +381,7 @@
       ]
     ]
   },
-  "UNDEF": {
+  "undef": {
     "default": [
       [
         "United Nations Democracy Fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -390,7 +390,7 @@
       ]
     ]
   },
-  "UNDESA": {
+  "undesa": {
     "default": [
       [
         "United Nations Department of Economic and Social Affairs என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -399,7 +399,7 @@
       ]
     ]
   },
-  "UNDOF": {
+  "undof": {
     "default": [
       [
         "United Nations Disengagement Observer Force என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -408,7 +408,7 @@
       ]
     ]
   },
-  "UNDP": {
+  "undp": {
     "default": [
       [
         "United Nations Development Program என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -417,7 +417,7 @@
       ]
     ]
   },
-  "UNDSS": {
+  "undss": {
     "default": [
       [
         "United Nations Department of Safety and Security என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -426,7 +426,7 @@
       ]
     ]
   },
-  "UNECA": {
+  "uneca": {
     "default": [
       [
         "United Nations Economic Commission for Africa என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -435,7 +435,7 @@
       ]
     ]
   },
-  "UNECE": {
+  "unece": {
     "default": [
       [
         "United Nations Economic Commission for Europe என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -444,7 +444,7 @@
       ]
     ]
   },
-  "UNEP": {
+  "unep": {
     "default": [
       [
         "United Nations Environment Program என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -453,18 +453,14 @@
       ]
     ]
   },
-  "UNESCO": {
+  "unesco": {
     "default": [
       [
-        "United Nations Educational",
-        "Scientific",
-        "and Cultural Organization என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
-        "அஃகுப்பெயர்களுள்ஒன்றாகும்.இவ்வகையின் பிற சொற்களை",
-        "இங்குகாணலாம். (எ. கா.)"
+        "ஐக்கிய நாடுகள் கல்வி அறிவியல் பண்பாட்டு வளர்ச்சிக் கழகம்"
       ]
     ]
   },
-  "UNF": {
+  "unf": {
     "default": [
       [
         "United Nations Foundation என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -473,7 +469,7 @@
       ]
     ]
   },
-  "UNFCCC": {
+  "unfccc": {
     "default": [
       [
         "United Nations Framework Convention on Climate Change என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -482,7 +478,7 @@
       ]
     ]
   },
-  "UNFDAC": {
+  "unfdac": {
     "default": [
       [
         "United Nations Fund for Drug Abuse Control என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -491,7 +487,7 @@
       ]
     ]
   },
-  "UNFICYP": {
+  "unficyp": {
     "default": [
       [
         "United Nations Force in Cyprus என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -500,7 +496,7 @@
       ]
     ]
   },
-  "UNFPA": {
+  "unfpa": {
     "default": [
       [
         "United Nations Population Fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -509,7 +505,7 @@
       ]
     ]
   },
-  "UNGASS": {
+  "ungass": {
     "default": [
       [
         "United Nations General Assmbly என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -518,7 +514,7 @@
       ]
     ]
   },
-  "UNGC": {
+  "ungc": {
     "default": [
       [
         "United Nations Global Compact என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -527,7 +523,7 @@
       ]
     ]
   },
-  "UNHCHR": {
+  "unhchr": {
     "default": [
       [
         "United Nations High Commissioner for Human Rights என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -536,7 +532,7 @@
       ]
     ]
   },
-  "UNHCR": {
+  "unhcr": {
     "default": [
       [
         "United Nations High Commissioner for Refugees என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -545,7 +541,7 @@
       ]
     ]
   },
-  "UNHRC": {
+  "unhrc": {
     "default": [
       [
         "United Nations Human Rights Council என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -554,7 +550,7 @@
       ]
     ]
   },
-  "UNIC": {
+  "unic": {
     "default": [
       [
         "United Nations Information Centre என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -563,19 +559,15 @@
       ]
     ]
   },
-  "UNICEF": {
+  "unicef": {
     "default": [
       [
-        "ஐக்கிய நாடுகளின் சிறுவர் நிதியம்"
-      ],
-      [
-        "United Nations International Children's Emergency Fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
-        "அஃகுப்பெயர்களுள்ஒன்றாகும்.இவ்வகையின் பிற சொற்களை",
-        "இங்குகாணலாம். (எ. கா.)"
+        "பன்னாட்டமைப்பின் குழந்தைகள்",
+        "கல்விநிதி"
       ]
     ]
   },
-  "UNIDIR": {
+  "unidir": {
     "default": [
       [
         "United Nations Institute for Disarmament Research என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -584,7 +576,7 @@
       ]
     ]
   },
-  "UNIDO": {
+  "unido": {
     "default": [
       [
         "United Nations Industrial Development Organization என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -593,7 +585,7 @@
       ]
     ]
   },
-  "UNIFEM": {
+  "unifem": {
     "default": [
       [
         "United Nations Development Fund for Women என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -602,7 +594,7 @@
       ]
     ]
   },
-  "UNIFIL": {
+  "unifil": {
     "default": [
       [
         "United Nations Interim Force in Lebanon என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -611,7 +603,7 @@
       ]
     ]
   },
-  "UNIKOM": {
+  "unikom": {
     "default": [
       [
         "United Nations Iraq Kuwait Observation Mission என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -620,7 +612,7 @@
       ]
     ]
   },
-  "UNIPTF": {
+  "uniptf": {
     "default": [
       [
         "United Nations International Police Task Force என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -629,7 +621,7 @@
       ]
     ]
   },
-  "UNIS": {
+  "unis": {
     "default": [
       [
         "United Nations International School என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -638,16 +630,14 @@
       ]
     ]
   },
-  "UNIT": {
-    "default": [
+  "unit": {
+    "பெயர்ச்சொல்": [
       [
-        "United Nations Intelligence Taskforce என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
-        "அஃகுப்பெயர்களுள்ஒன்றாகும்.இவ்வகையின் பிற சொற்களை",
-        "இங்குகாணலாம். (எ. கா.)"
+        "அனைத்து துறைகளிலும்(படைத்துறை உட்பட): அலகு"
       ]
     ]
   },
-  "UNITAR": {
+  "unitar": {
     "default": [
       [
         "United Nations Institute For Training And Research என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -656,16 +646,18 @@
       ]
     ]
   },
-  "UNITY": {
-    "default": [
+  "unity": {
+    "பெயர்ச்சொல்": [
       [
-        "United Nations In The Youth என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
-        "அஃகுப்பெயர்களுள்ஒன்றாகும்.இவ்வகையின் பிற சொற்களை",
-        "இங்குகாணலாம். (எ. கா.)"
+        "ஒற்றுமை",
+        "ஒருமைப்பாடு",
+        "ஒருமை",
+        "ஐக்கியம்",
+        "இயைபு"
       ]
     ]
   },
-  "UNMIBH": {
+  "unmibh": {
     "default": [
       [
         "United Nations Mission in Bosnia and Herzegovina என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -674,7 +666,7 @@
       ]
     ]
   },
-  "UNMIH": {
+  "unmih": {
     "default": [
       [
         "United Nations Mission in Haiti என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -683,7 +675,7 @@
       ]
     ]
   },
-  "UNMIK": {
+  "unmik": {
     "default": [
       [
         "United Nations Mission In Kosovo என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -692,7 +684,7 @@
       ]
     ]
   },
-  "UNMIL": {
+  "unmil": {
     "default": [
       [
         "United Nations Mission In Liberia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -701,7 +693,7 @@
       ]
     ]
   },
-  "UNMISET": {
+  "unmiset": {
     "default": [
       [
         "United Nations Mission of Support in East Timor என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -710,7 +702,7 @@
       ]
     ]
   },
-  "UNMIT": {
+  "unmit": {
     "default": [
       [
         "United Nations Mission In Timor-Leste என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -719,7 +711,7 @@
       ]
     ]
   },
-  "UNMOGIP": {
+  "unmogip": {
     "default": [
       [
         "United Nations Military Observer Group in India and Pakistan என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -728,7 +720,7 @@
       ]
     ]
   },
-  "UNMOVIC": {
+  "unmovic": {
     "default": [
       [
         "United Nations Monitoring and Verification Commission என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -737,7 +729,7 @@
       ]
     ]
   },
-  "UNNGLS": {
+  "unngls": {
     "default": [
       [
         "United Nations Non- Governmental Liaison Service என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -746,16 +738,17 @@
       ]
     ]
   },
-  "UNO": {
-    "default": [
+  "uno": {
+    "பெயர்ச்சொல்": [
       [
-        "United Nations Organization என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
-        "அஃகுப்பெயர்களுள்ஒன்றாகும்.இவ்வகையின் பிற சொற்களை",
-        "இங்குகாணலாம். (எ. கா.)"
+        "ஒன்று"
+      ],
+      [
+        "ஒன்று"
       ]
     ]
   },
-  "UNOB": {
+  "unob": {
     "default": [
       [
         "United Nations Operation in Burundi என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -764,7 +757,7 @@
       ]
     ]
   },
-  "UNOG": {
+  "unog": {
     "default": [
       [
         "United Nations Office at Geneva என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -773,7 +766,7 @@
       ]
     ]
   },
-  "UNOMIG": {
+  "unomig": {
     "default": [
       [
         "United Nations Observer Mission in Georgia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -782,7 +775,7 @@
       ]
     ]
   },
-  "UNOMIL": {
+  "unomil": {
     "default": [
       [
         "United Nations Observer Mission in Liberia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -791,7 +784,7 @@
       ]
     ]
   },
-  "UNOMOZ": {
+  "unomoz": {
     "default": [
       [
         "United Nations Operation in Mozambique என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -800,7 +793,7 @@
       ]
     ]
   },
-  "UNOMSIL": {
+  "unomsil": {
     "default": [
       [
         "United Nations Mission of Observers in Sierra Leone என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -809,7 +802,7 @@
       ]
     ]
   },
-  "UNOPS": {
+  "unops": {
     "default": [
       [
         "The United Nations Office for Project Services என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -818,7 +811,7 @@
       ]
     ]
   },
-  "UNOSOM": {
+  "unosom": {
     "default": [
       [
         "United Nations Operation in Somalia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -827,7 +820,7 @@
       ]
     ]
   },
-  "UNP": {
+  "unp": {
     "default": [
       [
         "United Nations Police என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -836,7 +829,7 @@
       ]
     ]
   },
-  "UNPA": {
+  "unpa": {
     "default": [
       [
         "United Nations Postal Administration என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -845,7 +838,7 @@
       ]
     ]
   },
-  "UNPAAERD": {
+  "unpaaerd": {
     "default": [
       [
         "United Nations Program of Action for African Economic Recovery and Development என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -854,7 +847,7 @@
       ]
     ]
   },
-  "UNPD": {
+  "unpd": {
     "default": [
       [
         "United Nations Population Division என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -863,7 +856,7 @@
       ]
     ]
   },
-  "UNPF": {
+  "unpf": {
     "default": [
       [
         "United Nations Peace Forces என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -872,7 +865,7 @@
       ]
     ]
   },
-  "UNPROFOR": {
+  "unprofor": {
     "default": [
       [
         "United Nations Protection Force என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -881,7 +874,7 @@
       ]
     ]
   },
-  "UNPSO": {
+  "unpso": {
     "default": [
       [
         "U'[N'] Peace Support Operations என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -890,7 +883,7 @@
       ]
     ]
   },
-  "UNRRA": {
+  "unrra": {
     "default": [
       [
         "United Nations Rehabilitation and Relief Administration என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -899,7 +892,7 @@
       ]
     ]
   },
-  "UNRRO": {
+  "unrro": {
     "default": [
       [
         "United Nations Relief and Rehabilitation Administration என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -908,7 +901,7 @@
       ]
     ]
   },
-  "UNRWA": {
+  "unrwa": {
     "default": [
       [
         "United Nations Relief and Works Agency என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -917,7 +910,7 @@
       ]
     ]
   },
-  "UNSA": {
+  "unsa": {
     "default": [
       [
         "United Nations Student Association என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -926,7 +919,7 @@
       ]
     ]
   },
-  "UNSC": {
+  "unsc": {
     "default": [
       [
         "United Nations Security Council என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -935,7 +928,7 @@
       ]
     ]
   },
-  "UNSCO": {
+  "unsco": {
     "default": [
       [
         "United Nations Special Co Ordinator என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -944,7 +937,7 @@
       ]
     ]
   },
-  "UNSF": {
+  "unsf": {
     "default": [
       [
         "United Nations Special Fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -953,7 +946,7 @@
       ]
     ]
   },
-  "UNSMIH": {
+  "unsmih": {
     "default": [
       [
         "United Nations Support Mission in Haiti என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -962,7 +955,7 @@
       ]
     ]
   },
-  "UNT": {
+  "unt": {
     "default": [
       [
         "United Nation Troops என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -971,7 +964,7 @@
       ]
     ]
   },
-  "UNTAC": {
+  "untac": {
     "default": [
       [
         "United Nations Transitional Authority in Cambodia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -980,7 +973,7 @@
       ]
     ]
   },
-  "UNTMIH": {
+  "untmih": {
     "default": [
       [
         "United Nations Transition Mission in Haiti என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -989,7 +982,7 @@
       ]
     ]
   },
-  "UNTSO": {
+  "untso": {
     "default": [
       [
         "United Nations Truce Supervision Organization என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -998,7 +991,7 @@
       ]
     ]
   },
-  "UNU": {
+  "unu": {
     "default": [
       [
         "United Nations University என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -1007,7 +1000,7 @@
       ]
     ]
   },
-  "UNWCC": {
+  "unwcc": {
     "default": [
       [
         "United Nations War Crimes Commission என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -1016,7 +1009,7 @@
       ]
     ]
   },
-  "UNWFP": {
+  "unwfp": {
     "default": [
       [
         "United Nations World Food Programme என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -1025,7 +1018,7 @@
       ]
     ]
   },
-  "UNWRA": {
+  "unwra": {
     "default": [
       [
         "United Nations Relief and Works Agency என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -1034,7 +1027,7 @@
       ]
     ]
   },
-  "UNYU": {
+  "unyu": {
     "default": [
       [
         "United Nations Youth Unit என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -1043,7 +1036,7 @@
       ]
     ]
   },
-  "UN_WSIS": {
+  "un_wsis": {
     "default": [
       [
         "United Nations World Summit on the Information Society என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -1052,7 +1045,7 @@
       ]
     ]
   },
-  "UOTC": {
+  "uotc": {
     "default": [
       [
         "University Officers Training Corps என்பதன் அஃகுப்பெயர் ஆகும்"
@@ -1062,14 +1055,15 @@
       ]
     ]
   },
-  "UP": {
+  "up": {
     "default": [
       [
-        "Uttar Pradesh என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)"
+        "மேல்",
+        "மேலே"
       ]
     ]
   },
-  "UPC": {
+  "upc": {
     "default": [
       [
         "Uganda People's Congress என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -1078,7 +1072,7 @@
       ]
     ]
   },
-  "UPD": {
+  "upd": {
     "default": [
       [
         "Unit for the Promotion of Democracy (Organization of American States) என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -1087,42 +1081,42 @@
       ]
     ]
   },
-  "UPI": {
+  "upi": {
     "default": [
       [
         "Unified Payments Interface என்பதன் சுருக்கம்"
       ]
     ]
   },
-  "UPS": {
+  "ups": {
     "default": [
       [
-        "தடையிலா மின் வழங்கி"
+        "தடையிலா மின் வழங்கி (த.மி.வ.)"
       ]
     ]
   },
-  "UPX": {
+  "upx": {
     "default": [
       [
         "United Parcel Express என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)"
       ]
     ]
   },
-  "URL": {
+  "url": {
     "பெயர்ச்சொல்": [
       [
         "[கணினி.] Unique Resource Locator என்பதின் சுருக்கம்."
       ]
     ]
   },
-  "US": {
+  "us": {
     "default": [
       [
-        "இந்தி - अमरीका"
+        "எங்களுக்கு"
       ]
     ]
   },
-  "USA": {
+  "usa": {
     "default": [
       [
         "United States of America என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -1131,7 +1125,7 @@
       ]
     ]
   },
-  "USAID": {
+  "usaid": {
     "default": [
       [
         "United States Agency for International Development என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -1140,7 +1134,7 @@
       ]
     ]
   },
-  "USCIS": {
+  "uscis": {
     "default": [
       [
         "United States Citizen And Immigration Service என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -1149,14 +1143,14 @@
       ]
     ]
   },
-  "USDA": {
+  "usda": {
     "default": [
       [
         "United States Department of Agriculture என்பதன் அஃகுப்பெயர் ஆகும்"
       ]
     ]
   },
-  "USFU": {
+  "usfu": {
     "default": [
       [
         "U'nited[States Fund forU']N'[I']C'[E']F என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -1165,7 +1159,7 @@
       ]
     ]
   },
-  "USFV": {
+  "usfv": {
     "default": [
       [
         "United States Forces",
@@ -1175,7 +1169,7 @@
       ]
     ]
   },
-  "USN": {
+  "usn": {
     "default": [
       [
         "United States Navy என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -1184,14 +1178,14 @@
       ]
     ]
   },
-  "USP": {
+  "usp": {
     "default": [
       [
         "Unique Selling Proposition என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)"
       ]
     ]
   },
-  "UTC": {
+  "utc": {
     "default": [
       [
         "Universal Time Codeஎன்பதன் அஃகுப்பெயர் ஆகும்."
@@ -1201,7 +1195,7 @@
       ]
     ]
   },
-  "UU-UNO": {
+  "uu-uno": {
     "default": [
       [
         "Unitarian Universalist United Nations Office என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -1210,7 +1204,7 @@
       ]
     ]
   },
-  "UUI": {
+  "uui": {
     "default": [
       [
         "Union of the Unemployed in Iraq என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -1219,42 +1213,42 @@
       ]
     ]
   },
-  "UVA": {
+  "uva": {
     "default": [
       [
-        "முதல் புறவூதா"
+        "திராட்சை = grape"
       ]
     ]
   },
-  "UVB": {
+  "uvb": {
     "default": [
       [
         "இரண்டாம் புறவூதா"
       ]
     ]
   },
-  "UVC": {
+  "uvc": {
     "default": [
       [
         "மூன்றாம் புறவூதா"
       ]
     ]
   },
-  "UV_absorption": {
+  "uv_absorption": {
     "default": [
       [
         "புறவூதா உட்கவர்தல்"
       ]
     ]
   },
-  "UV_absorption_spectrophotometry": {
+  "uv_absorption_spectrophotometry": {
     "default": [
       [
         "புறவூதா உட்கவர் நிறமாலையளவியல்"
       ]
     ]
   },
-  "UW": {
+  "uw": {
     "default": [
       [
         "Under Water என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -1263,7 +1257,7 @@
       ]
     ]
   },
-  "UZN": {
+  "uzn": {
     "default": [
       [
         "Universal Zulu Nation என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -1272,98 +1266,101 @@
       ]
     ]
   },
-  "U_constant": {
+  "u_constant": {
     "default": [
       [
         "U மாறிலி"
       ]
     ]
   },
-  "Udi": {
+  "udi": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Udmurt": {
+  "udmurt": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Udupi": {
+  "udupi": {
     "default": [
       [
         "இந்தியாவிலுள்ள முக்கிய ஊர்களுள் இதுவும் ஒன்று ஆகும்"
       ]
     ]
   },
-  "Udupi_district": {
+  "udupi_district": {
     "default": [
       [
         "இந்தியாவிலுள்ள முக்கிய ஊர்களுள் இதுவும் ஒன்று ஆகும்"
       ]
     ]
   },
-  "Ugaritic": {
+  "ugaritic": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Ugric": {
+  "ugric": {
+    "default": [
+      [
+        "உக்ரிய"
+      ],
+      [
+        "பின்லாந்துநாட்டுமக்களினவகைசார்ந்த"
+      ]
+    ]
+  },
+  "ukrainian": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Ukrainian": {
+  "ulwa": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Ulwa": {
-    "default": [
-      [
-        "இது உலக மொழிகளுள் ஒன்று ஆகும்."
-      ]
-    ]
-  },
-  "Ulysses_spacemission": {
+  "ulysses_spacemission": {
     "default": [
       [
         "உலிசசு வானவெளி ஆய்பயணம்"
       ]
     ]
   },
-  "Umblachery": {
+  "umblachery": {
     "default": [
       [
         "உம்பளச்சேரி"
       ]
     ]
   },
-  "Umbundu": {
+  "umbundu": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Ume_Sami": {
+  "ume_sami": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Uncommitted": {
+  "uncommitted": {
     "default": [
       [
         "பொறுப்பேற்காத"
@@ -1373,126 +1370,142 @@
       ]
     ]
   },
-  "Unilever_Limited": {
+  "unilever_limited": {
     "default": [
       [
         "யூனிலீவர் வரம்பம்"
       ]
     ]
   },
-  "Union_Carbide": {
+  "union_carbide": {
     "default": [
       [
         "யூனியன் கார்பைடு"
       ]
     ]
   },
-  "Union_Ministry_of_Environment_and_Forests": {
+  "union_ministry_of_environment_and_forests": {
     "default": [
       [
         "மத்திய சுற்றுச்சூழல் மற்றும் வனங்கள் அமைச்சகம்"
       ]
     ]
   },
-  "Unitarian": {
+  "unitarian": {
     "default": [
       [
-        "தனியொருமைக்கோட்பாட்டாளர்"
+        "தனியொருமைவாதி"
       ],
       [
-        "கிறித்தவ சமயத்துறையில் இறை மூவொருமை",
-        "மறுத்துத் தனியொருமையை வலியுறுத்தும் தனித் திருச்சபை உறுப்பினர்"
-      ]
-    ]
-  },
-  "Unitarianism": {
-    "default": [
-      [
-        "இறை வகையில் தனி ஒருமைக் கோட்பாடு"
-      ]
-    ]
-  },
-  "United_Nations": {
-    "default": [
-      [
-        "ஒன்றிய நாடுகள்"
+        "அரசியல்துறையில் ஒரு தனிமை அரசுக்கோட்பாட்டை ஆதரிப்பவர்"
       ],
       [
-        "ஐக்கிய நாடுகள் சபை"
+        "மைய வலிமைக்கோட்பாட்டாளர்"
+      ],
+      [
+        "கூட்டரசில் மைய ஆட்சி வலிமையினை ஆதரிப்பவர்"
       ]
     ]
   },
-  "United_Nations_Environment_Programme": {
+  "unitarianism": {
+    "default": [
+      [
+        "இறையொருமை வாதம்"
+      ],
+      [
+        "புரோட்டஸ்தாந்திய கிருத்தவ திருச்சபைகளுள் ஒன்று"
+      ]
+    ]
+  },
+  "united_nations": {
+    "default": [
+      [
+        "ஐக்கிய நாடுகள்"
+      ],
+      [
+        "உலக நாடுகள் ஒன்றியம்"
+      ]
+    ]
+  },
+  "united_nations_environment_programme": {
     "default": [
       [
         "ஒன்றிய நாடுகளின் சுற்றுச்சூழல் பணித்திட்டம்"
       ]
     ]
   },
-  "United_Nations_High_Commissioner_for_Refugees": {
+  "united_nations_high_commissioner_for_refugees": {
     "default": [
       [
         "ஐக்கிய நாடுகள் அகதிகள் ஆணையாளர்"
       ]
     ]
   },
-  "United_Nations_Organization": {
+  "united_nations_organization": {
     "default": [
       [
-        "ஐக்கிய நாடுகள் அமைப்பு UNO"
+        "ஒன்றிய நாடுகள் அமைப்பகம்",
+        "நாட்டுக்கூட்டம்"
+      ],
+      [
+        "ஐக்கிய நாட்டு நிறுவனம்"
+      ],
+      [
+        "ஐக்கியநாடுகள்சபை"
       ]
     ]
   },
-  "Universal_Law": {
+  "universal_law": {
     "default": [
       [
-        "உலகளாவிய சட்டம்"
+        "[கணிதம்.] பொதுநிலை விதி",
+        "பொதுவானவிதி"
       ]
     ]
   },
-  "Universology": {
+  "universology": {
     "பெயர்ச்சொல்": [
       [
         "அண்டவியல்"
       ]
     ]
   },
-  "Unix_operating_system": {
+  "unix_operating_system": {
     "default": [
       [
         "யூனிசு செயற்பாடமைப்பு"
       ]
     ]
   },
-  "Unlicense": {
+  "unlicense": {
     "default": [
       [
         "உரிமமில்லாதவை"
       ]
     ]
   },
-  "Unschooling": {
+  "unschooling": {
     "default": [
       [
         "பட்டறிவுக் கல்வி"
       ]
     ]
   },
-  "Unserdeutsch": {
+  "unserdeutsch": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Upanishad": {
+  "upanishad": {
     "default": [
       [
         "உபநிடதம்"
       ]
     ]
   },
-  "Updater": {
+  "updater": {
     "பெயர்ச்சொல்": [
       [
         "இற்றையம்",
@@ -1500,98 +1513,101 @@
       ]
     ]
   },
-  "Updating": {
+  "updating": {
     "வினைச்சொல்": [
       [
         "இற்றையில் (இற்றைப்படுத்துகிறது)"
       ]
     ]
   },
-  "Upper_Sorbian": {
+  "upper_sorbian": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "UralAltaic": {
+  "uralaltaic": {
     "default": [
       [
-        "யூரஸ்ஆல்ட்டாய் மலைப்பகுதி சார்ந்த யூரல்ஆல்ட்டாய் மலைப்பகுதி மக்களுக்குரிய (மொழி) வட ஐரோப்பியஆசிய பரப்புக்குரிய ஒட்டியல் மொழிக் குழு சார்ந்த பின்னிக்மங்கோலிய இன ஒட்டியல் மொழிக் குழுவினுக்குரிய"
+        "யூரஸ்-ஆல்ட்டாய் மலைப்பகுதி சார்ந்த"
       ]
     ]
   },
-  "Uran": {
+  "uran": {
     "default": [
       [
         "உரேனசு"
       ]
     ]
   },
-  "Uranus": {
-    "default": [
+  "uranus": {
+    "பெயர்ச்சொல்": [
       [
-        "யுரேனசு"
+        "யுரேனஸ்"
       ]
     ]
   },
-  "Urdu": {
-    "default": [
+  "urdu": {
+    "பெயர்ச்சொல்": [
       [
-        "இது உலக மொழிகளுள் ஒன்று ஆகும்."
+        "உருது"
       ]
     ]
   },
-  "Urey-Miller_hypothesis": {
+  "urey-miller_hypothesis": {
     "default": [
       [
         "யூரிமில்லரின் கருதுகோள்"
       ]
     ]
   },
-  "Ursa_Major": {
+  "ursa_major": {
     "default": [
       [
-        "பெருங்கரடி (விண்மீன்குழு)"
+        "வானியல் உர்சா மேசர் நட்சத்திரக் கூட்டம்"
+      ],
+      [
+        "[வானியல் .] பெருங்கரடி மண்டலம்"
       ]
     ]
   },
-  "Ursa_Minor": {
+  "ursa_minor": {
     "default": [
       [
-        "சிறுகரடி (விண்மீன்குழு)"
+        "சிறுகரடி விண்மீன் மண்டலம்"
       ]
     ]
   },
-  "Ursprache": {
+  "ursprache": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Urugwaj": {
+  "urugwaj": {
     "default": [
       [
         "உருகுவே"
       ]
     ]
   },
-  "Ute": {
+  "ute": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Uyghur": {
+  "uyghur": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Uzbek": {
+  "uzbek": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
@@ -1852,13 +1868,6 @@
     "default": [
       [
         "[நிலவியல்.] சுண்ணக்கல் பெருங்குடைவு"
-      ]
-    ]
-  },
-  "uva": {
-    "default": [
-      [
-        "திராட்சை = grape"
       ]
     ]
   },
@@ -3739,13 +3748,6 @@
       ]
     ]
   },
-  "us": {
-    "default": [
-      [
-        "எங்களுக்கு"
-      ]
-    ]
-  },
   "urólogo": {
     "default": [
       [
@@ -3891,27 +3893,10 @@
       ]
     ]
   },
-  "ursa_minor": {
-    "default": [
-      [
-        "சிறுகரடி விண்மீன் மண்டலம்"
-      ]
-    ]
-  },
   "ursa_major_cluster": {
     "default": [
       [
         "பெருங்கரடி விண்மீன் குழு"
-      ]
-    ]
-  },
-  "ursa_major": {
-    "default": [
-      [
-        "வானியல் உர்சா மேசர் நட்சத்திரக் கூட்டம்"
-      ],
-      [
-        "[வானியல் .] பெருங்கரடி மண்டலம்"
       ]
     ]
   },
@@ -5923,13 +5908,6 @@
       ]
     ]
   },
-  "urdu": {
-    "பெயர்ச்சொல்": [
-      [
-        "உருது"
-      ]
-    ]
-  },
   "urdiga": {
     "default": [
       [
@@ -6408,13 +6386,6 @@
       ]
     ]
   },
-  "uranus": {
-    "பெயர்ச்சொல்": [
-      [
-        "யுரேனஸ்"
-      ]
-    ]
-  },
   "uranous": {
     "default": [
       [
@@ -6802,13 +6773,6 @@
     "default": [
       [
         "கவுண்டன்"
-      ]
-    ]
-  },
-  "uralaltaic": {
-    "default": [
-      [
-        "யூரஸ்-ஆல்ட்டாய் மலைப்பகுதி சார்ந்த"
       ]
     ]
   },
@@ -7536,13 +7500,6 @@
     "default": [
       [
         "எடுப்புச்சாய்ப்பு: மேடும்பள்ளமும்"
-      ]
-    ]
-  },
-  "ups": {
-    "default": [
-      [
-        "தடையிலா மின் வழங்கி (த.மி.வ.)"
       ]
     ]
   },
@@ -9309,14 +9266,6 @@
       ],
       [
         "மேல் நோக்கி"
-      ]
-    ]
-  },
-  "up": {
-    "default": [
-      [
-        "மேல்",
-        "மேலே"
       ]
     ]
   },
@@ -15372,16 +15321,6 @@
       ]
     ]
   },
-  "uno": {
-    "பெயர்ச்சொல்": [
-      [
-        "ஒன்று"
-      ],
-      [
-        "ஒன்று"
-      ]
-    ]
-  },
   "unnumbered": {
     "default": [
       [
@@ -17355,14 +17294,6 @@
       ]
     ]
   },
-  "universal_law": {
-    "default": [
-      [
-        "[கணிதம்.] பொதுநிலை விதி",
-        "பொதுவானவிதி"
-      ]
-    ]
-  },
   "universal_language": {
     "default": [
       [
@@ -17838,17 +17769,6 @@
       ]
     ]
   },
-  "unity": {
-    "பெயர்ச்சொல்": [
-      [
-        "ஒற்றுமை",
-        "ஒருமைப்பாடு",
-        "ஒருமை",
-        "ஐக்கியம்",
-        "இயைபு"
-      ]
-    ]
-  },
   "units_place": {
     "default": [
       [
@@ -18039,20 +17959,6 @@
       ]
     ]
   },
-  "united_nations_organization": {
-    "default": [
-      [
-        "ஒன்றிய நாடுகள் அமைப்பகம்",
-        "நாட்டுக்கூட்டம்"
-      ],
-      [
-        "ஐக்கிய நாட்டு நிறுவனம்"
-      ],
-      [
-        "ஐக்கியநாடுகள்சபை"
-      ]
-    ]
-  },
   "united_nations_organisation": {
     "default": [
       [
@@ -18078,16 +17984,6 @@
     "default": [
       [
         "ஆசியாவுக்கான பன்னாட்டுப் பொருளாதாரச் சமூக ஆணையம்"
-      ]
-    ]
-  },
-  "united_nations": {
-    "default": [
-      [
-        "ஐக்கிய நாடுகள்"
-      ],
-      [
-        "உலக நாடுகள் ஒன்றியம்"
       ]
     ]
   },
@@ -18328,32 +18224,6 @@
     "default": [
       [
         "ஒருமக் கொள்கையர்"
-      ]
-    ]
-  },
-  "unitarianism": {
-    "default": [
-      [
-        "இறையொருமை வாதம்"
-      ],
-      [
-        "புரோட்டஸ்தாந்திய கிருத்தவ திருச்சபைகளுள் ஒன்று"
-      ]
-    ]
-  },
-  "unitarian": {
-    "default": [
-      [
-        "தனியொருமைவாதி"
-      ],
-      [
-        "அரசியல்துறையில் ஒரு தனிமை அரசுக்கோட்பாட்டை ஆதரிப்பவர்"
-      ],
-      [
-        "மைய வலிமைக்கோட்பாட்டாளர்"
-      ],
-      [
-        "கூட்டரசில் மைய ஆட்சி வலிமையினை ஆதரிப்பவர்"
       ]
     ]
   },
@@ -19253,13 +19123,6 @@
     "default": [
       [
         "காட்சித் திரையகம்"
-      ]
-    ]
-  },
-  "unit": {
-    "பெயர்ச்சொல்": [
-      [
-        "அனைத்து துறைகளிலும்(படைத்துறை உட்பட): அலகு"
       ]
     ]
   },
@@ -21942,14 +21805,6 @@
       ]
     ]
   },
-  "unicef": {
-    "default": [
-      [
-        "பன்னாட்டமைப்பின் குழந்தைகள்",
-        "கல்விநிதி"
-      ]
-    ]
-  },
   "unicapsular": {
     "default": [
       [
@@ -23912,13 +23767,6 @@
     "default": [
       [
         "தேர்ந்து காணப்படாத"
-      ]
-    ]
-  },
-  "unesco": {
-    "default": [
-      [
-        "ஐக்கிய நாடுகள் கல்வி அறிவியல் பண்பாட்டு வளர்ச்சிக் கழகம்"
       ]
     ]
   },
@@ -37736,16 +37584,6 @@
       ]
     ]
   },
-  "ugric": {
-    "default": [
-      [
-        "உக்ரிய"
-      ],
-      [
-        "பின்லாந்துநாட்டுமக்களினவகைசார்ந்த"
-      ]
-    ]
-  },
   "ugrian": {
     "default": [
       [
@@ -38300,48 +38138,6 @@
       ]
     ]
   },
-  "u-value": {
-    "default": [
-      [
-        "ஹி-மதிப்பு"
-      ]
-    ]
-  },
-  "u-tube_manometer": {
-    "default": [
-      [
-        "ஹி- வடிவக்குழாய் அழுத்தஅளவி"
-      ]
-    ]
-  },
-  "u-tube_heat_exchanger": {
-    "default": [
-      [
-        "ஹி-வடிவக்குழாய் வெப்பப் பரிமாற்றி"
-      ]
-    ]
-  },
-  "u-shaped_valley": {
-    "default": [
-      [
-        "ஹி-வடிவப் பள்ளத்தாக்கு"
-      ]
-    ]
-  },
-  "u-shaped_distribution": {
-    "default": [
-      [
-        "ஹி-வடிவப் பரவல்"
-      ]
-    ]
-  },
-  "u-shaped_abutment": {
-    "default": [
-      [
-        "ஹி-வடிவ முட்டிடம்"
-      ]
-    ]
-  },
   "u-clamp": {
     "default": [
       [
@@ -38359,13 +38155,6 @@
       ]
     ]
   },
-  "u-boat": {
-    "default": [
-      [
-        "இரண்டாம் உலகப்போரில் பயன்படுத்தப்பட்ட ஜெர்மானிய நீர்மூழ்கிக் கப்பல்"
-      ]
-    ]
-  },
   "u-bend_die": {
     "default": [
       [
@@ -38373,716 +38162,709 @@
       ]
     ]
   },
-  "u-band": {
-    "default": [
-      [
-        "ஹி-(உட்கவர்) பட்டை"
-      ]
-    ]
-  },
-  "United Nations Development Programme Asia-Pacific 2000 conference என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations development programme asia-pacific 2000 conference என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "AP 2000"
     ]
   },
-  "United Nations Headquarters": {
+  "united nations headquarters": {
     "default": [
       "HQ"
     ]
   },
-  "U'A'D Maya Resource Management Project என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "u'a'd maya resource management project என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "MAYAREMA"
     ]
   },
-  "United Nations Observer Mission in Angola என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations observer mission in angola என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "MONUA"
     ]
   },
-  "U'E'C' Regional Observatory of the Information Society in Asia Pacific என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "u'e'c' regional observatory of the information society in asia pacific என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "ROISAP"
     ]
   },
-  "U'A'D Sustainable Use of Biological Resources Program என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "u'a'd sustainable use of biological resources program என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "SUBIR"
     ]
   },
-  "U-(உட்கவர்) பட்டை": {
+  "u-(உட்கவர்) பட்டை": {
     "default": [
       "U-band"
     ]
   },
-  "U-வடிவ முட்டிடம்": {
+  "u-வடிவ முட்டிடம்": {
     "default": [
       "U-shaped abutment"
     ]
   },
-  "U-வடிவப் பரவல்": {
+  "u-வடிவப் பரவல்": {
     "default": [
       "U-shaped distribution"
     ]
   },
-  "U-வடிவப் பள்ளத்தாக்கு": {
+  "u-வடிவப் பள்ளத்தாக்கு": {
     "default": [
       "U-shaped valley"
     ]
   },
-  "U-வடிவக்குழாய் வெப்பப் பரிமாற்றி": {
+  "u-வடிவக்குழாய் வெப்பப் பரிமாற்றி": {
     "default": [
       "U-tube heat exchanger"
     ]
   },
-  "U- வடிவக்குழாய் அழுத்தஅளவி": {
+  "u- வடிவக்குழாய் அழுத்தஅளவி": {
     "default": [
       "U-tube manometer"
     ]
   },
-  "U-மதிப்பு": {
+  "u-மதிப்பு": {
     "default": [
       "U-value"
     ]
   },
-  "Under 5 Mortality Rate என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "under 5 mortality rate என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "U5MR"
     ]
   },
-  "Union Chimique Belge என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "union chimique belge என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UCB"
     ]
   },
-  "Ulster Defence Association என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "ulster defence association என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UDA"
     ]
   },
-  "United Democratic Front in South Africa என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united democratic front in south africa என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UDF"
     ]
   },
-  "Union Earth என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "union earth என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UE"
     ]
   },
-  "United Earth Government என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united earth government என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UEG"
     ]
   },
-  "United Earth Organization என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united earth organization என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UEO"
     ]
   },
-  "Ulster Freedom Fighters என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "ulster freedom fighters என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UFF"
     ]
   },
-  "Undersecretariat for Foreign Trade என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "undersecretariat for foreign trade என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UFT"
     ]
   },
-  "Universal Government என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "universal government என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UG"
     ]
   },
-  "Under- Ground Facility என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "under- ground facility என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UGF"
     ]
   },
-  "Unofficial International என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "unofficial international என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UI"
     ]
   },
-  "U'E'C' Institute for Education என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "u'e'c' institute for education என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UIE"
     ]
   },
-  "United Kingdom என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united kingdom என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UK"
     ]
   },
-  "Unesco Klub Piran என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "unesco klub piran என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UKP"
     ]
   },
-  "United Liberation Front of Asom என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
+  "united liberation front of asom என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
     "default": [
       "ULFA"
     ]
   },
-  "Urban Management Programme என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "urban management programme என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UMP"
     ]
   },
-  "Unaccompanied Minor Refugee என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "unaccompanied minor refugee என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UMR"
     ]
   },
-  "United Nations என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UN"
     ]
   },
-  "United Nations Human Settlements Programme என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations human settlements programme என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UN-HABITAT"
     ]
   },
-  "United Nations Arms Embargoes என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations arms embargoes என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNAE"
     ]
   },
-  "United Nations Association of Georgia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations association of georgia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNAG"
     ]
   },
-  "United Nations African Mission In Darfur என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations african mission in darfur என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNAMID"
     ]
   },
-  "United Nations Assistance Mission for Rwanda என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations assistance mission for rwanda என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNAMIR"
     ]
   },
-  "United Nations Agency for Sustainable Growth என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations agency for sustainable growth என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNASG"
     ]
   },
-  "U'nitedI என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "u'nitedi என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNAVEM II"
     ]
   },
-  "United Nations Angola Verification Mission I'I என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations angola verification mission i'i என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNAVEM III"
     ]
   },
-  "United Nations Board of Auditors என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations board of auditors என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNBA"
     ]
   },
-  "United Nations Capital Development Fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations capital development fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNCDF"
     ]
   },
-  "United Nations Commission on Human Rights என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations commission on human rights என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNCHR"
     ]
   },
-  "United Nations Commission on International T'Ade Law என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations commission on international t'ade law என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNCITRAL"
     ]
   },
-  "United Nations Country Team என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations country team என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNCT"
     ]
   },
-  "United Nations Democracy Fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations democracy fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNDEF"
     ]
   },
-  "United Nations Department of Economic and Social Affairs என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations department of economic and social affairs என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNDESA"
     ]
   },
-  "United Nations Disengagement Observer Force என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations disengagement observer force என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNDOF"
     ]
   },
-  "United Nations Development Program என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations development program என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNDP"
     ]
   },
-  "United Nations Department of Safety and Security என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations department of safety and security என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNDSS"
     ]
   },
-  "United Nations Economic Commission for Africa என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations economic commission for africa என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNECA"
     ]
   },
-  "United Nations Economic Commission for Europe என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations economic commission for europe என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNECE"
     ]
   },
-  "United Nations Environment Program என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations environment program என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNEP"
     ]
   },
-  "United Nations Educational": {
+  "united nations educational": {
     "default": [
       "UNESCO"
     ]
   },
-  "United Nations Foundation என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations foundation என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNF"
     ]
   },
-  "United Nations Framework Convention on Climate Change என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations framework convention on climate change என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNFCCC"
     ]
   },
-  "United Nations Fund for Drug Abuse Control என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations fund for drug abuse control என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNFDAC"
     ]
   },
-  "United Nations Force in Cyprus என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations force in cyprus என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNFICYP"
     ]
   },
-  "United Nations Population Fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations population fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNFPA"
     ]
   },
-  "United Nations General Assmbly என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations general assmbly என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNGASS"
     ]
   },
-  "United Nations Global Compact என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations global compact என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNGC"
     ]
   },
-  "United Nations High Commissioner for Human Rights என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations high commissioner for human rights என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNHCHR"
     ]
   },
-  "United Nations High Commissioner for Refugees என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations high commissioner for refugees என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNHCR"
     ]
   },
-  "United Nations Human Rights Council என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations human rights council என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNHRC"
     ]
   },
-  "United Nations Information Centre என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations information centre என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNIC"
     ]
   },
-  "United Nations International Children's Emergency Fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations international children's emergency fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNICEF"
     ]
   },
-  "United Nations Institute for Disarmament Research என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations institute for disarmament research என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNIDIR"
     ]
   },
-  "United Nations Industrial Development Organization என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations industrial development organization என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNIDO"
     ]
   },
-  "United Nations Development Fund for Women என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations development fund for women என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNIFEM"
     ]
   },
-  "United Nations Interim Force in Lebanon என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations interim force in lebanon என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNIFIL"
     ]
   },
-  "United Nations Iraq Kuwait Observation Mission என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations iraq kuwait observation mission என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNIKOM"
     ]
   },
-  "United Nations International Police Task Force என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations international police task force என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNIPTF"
     ]
   },
-  "United Nations International School என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations international school என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNIS"
     ]
   },
-  "United Nations Intelligence Taskforce என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations intelligence taskforce என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNIT"
     ]
   },
-  "United Nations Institute For Training And Research என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations institute for training and research என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNITAR"
     ]
   },
-  "United Nations In The Youth என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations in the youth என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNITY"
     ]
   },
-  "United Nations Mission in Bosnia and Herzegovina என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations mission in bosnia and herzegovina என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNMIBH"
     ]
   },
-  "United Nations Mission in Haiti என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations mission in haiti என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNMIH"
     ]
   },
-  "United Nations Mission In Kosovo என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations mission in kosovo என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNMIK"
     ]
   },
-  "United Nations Mission In Liberia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations mission in liberia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNMIL"
     ]
   },
-  "United Nations Mission of Support in East Timor என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations mission of support in east timor என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNMISET"
     ]
   },
-  "United Nations Mission In Timor-Leste என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations mission in timor-leste என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNMIT"
     ]
   },
-  "United Nations Military Observer Group in India and Pakistan என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations military observer group in india and pakistan என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNMOGIP"
     ]
   },
-  "United Nations Monitoring and Verification Commission என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations monitoring and verification commission என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNMOVIC"
     ]
   },
-  "United Nations Non- Governmental Liaison Service என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations non- governmental liaison service என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNNGLS"
     ]
   },
-  "United Nations Organization என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations organization என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNO"
     ]
   },
-  "United Nations Operation in Burundi என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations operation in burundi என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNOB"
     ]
   },
-  "United Nations Office at Geneva என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations office at geneva என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNOG"
     ]
   },
-  "United Nations Observer Mission in Georgia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations observer mission in georgia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNOMIG"
     ]
   },
-  "United Nations Observer Mission in Liberia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations observer mission in liberia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNOMIL"
     ]
   },
-  "United Nations Operation in Mozambique என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations operation in mozambique என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNOMOZ"
     ]
   },
-  "United Nations Mission of Observers in Sierra Leone என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations mission of observers in sierra leone என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNOMSIL"
     ]
   },
-  "United Nations Operation in Somalia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations operation in somalia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNOSOM"
     ]
   },
-  "United Nations Police என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations police என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNP"
     ]
   },
-  "United Nations Postal Administration என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations postal administration என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNPA"
     ]
   },
-  "United Nations Program of Action for African Economic Recovery and Development என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations program of action for african economic recovery and development என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNPAAERD"
     ]
   },
-  "United Nations Population Division என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations population division என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNPD"
     ]
   },
-  "United Nations Peace Forces என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations peace forces என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNPF"
     ]
   },
-  "United Nations Protection Force என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations protection force என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNPROFOR"
     ]
   },
-  "U' Peace Support Operations என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "u' peace support operations என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNPSO"
     ]
   },
-  "United Nations Rehabilitation and Relief Administration என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations rehabilitation and relief administration என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNRRA"
     ]
   },
-  "United Nations Relief and Rehabilitation Administration என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations relief and rehabilitation administration என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNRRO"
     ]
   },
-  "United Nations Relief and Works Agency என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations relief and works agency என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNRWA",
       "UNWRA"
     ]
   },
-  "United Nations Student Association என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations student association என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNSA"
     ]
   },
-  "United Nations Security Council என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations security council என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNSC"
     ]
   },
-  "United Nations Special Co Ordinator என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations special co ordinator என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNSCO"
     ]
   },
-  "United Nations Special Fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations special fund என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNSF"
     ]
   },
-  "United Nations Support Mission in Haiti என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations support mission in haiti என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNSMIH"
     ]
   },
-  "United Nation Troops என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nation troops என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNT"
     ]
   },
-  "United Nations Transitional Authority in Cambodia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations transitional authority in cambodia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNTAC"
     ]
   },
-  "United Nations Transition Mission in Haiti என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations transition mission in haiti என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNTMIH"
     ]
   },
-  "United Nations Truce Supervision Organization என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations truce supervision organization என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNTSO"
     ]
   },
-  "United Nations University என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations university என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNU"
     ]
   },
-  "United Nations War Crimes Commission என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations war crimes commission என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNWCC"
     ]
   },
-  "United Nations World Food Programme என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations world food programme என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNWFP",
       "WFP"
     ]
   },
-  "United Nations Youth Unit என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations youth unit என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UNYU"
     ]
   },
-  "United Nations World Summit on the Information Society என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations world summit on the information society என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UN WSIS"
     ]
   },
-  "University Officers Training Corps என்பதன் அஃகுப்பெயர் ஆகும்": {
+  "university officers training corps என்பதன் அஃகுப்பெயர் ஆகும்": {
     "default": [
       "UOTC"
     ]
   },
-  "Uttar Pradesh என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
+  "uttar pradesh என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
     "default": [
       "UP"
     ]
   },
-  "Uganda People's Congress என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "uganda people's congress என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UPC"
     ]
   },
-  "Unit for the Promotion of Democracy (Organization of American States) என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "unit for the promotion of democracy (organization of american states) என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UPD"
     ]
   },
-  "Unified Payments Interface என்பதன் சுருக்கம்": {
+  "unified payments interface என்பதன் சுருக்கம்": {
     "default": [
       "UPI"
     ]
   },
-  "United Parcel Express என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
+  "united parcel express என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
     "default": [
       "UPX"
     ]
   },
-  "Unique Resource Locator என்பதின் சுருக்கம்.": {
+  "unique resource locator என்பதின் சுருக்கம்.": {
     "பெயர்ச்சொல்": [
       "URL"
     ]
   },
-  "United States of America என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united states of america என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "USA"
     ]
   },
-  "United States Agency for International Development என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united states agency for international development என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "USAID"
     ]
   },
-  "United States Citizen And Immigration Service என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united states citizen and immigration service என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "USCIS"
     ]
   },
-  "United States Department of Agriculture என்பதன் அஃகுப்பெயர் ஆகும்": {
+  "united states department of agriculture என்பதன் அஃகுப்பெயர் ஆகும்": {
     "default": [
       "USDA"
     ]
   },
-  "U'nitedN'C'F என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "u'nitedn'c'f என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "USFU"
     ]
   },
-  "United States Forces": {
+  "united states forces": {
     "default": [
       "USFV"
     ]
   },
-  "United States Navy என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united states navy என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "USN"
     ]
   },
-  "Unique Selling Proposition என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
+  "unique selling proposition என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
     "default": [
       "USP"
     ]
   },
-  "Universal Time Codeஎன்பதன் அஃகுப்பெயர் ஆகும்.": {
+  "universal time codeஎன்பதன் அஃகுப்பெயர் ஆகும்.": {
     "default": [
       "UTC"
     ]
   },
-  "Unitarian Universalist United Nations Office என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "unitarian universalist united nations office என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UU-UNO"
     ]
   },
-  "Union of the Unemployed in Iraq என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "union of the unemployed in iraq என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UUI"
     ]
   },
-  "Under Water என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "under water என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UW"
     ]
   },
-  "Universal Zulu Nation என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "universal zulu nation என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "UZN"
     ]
   },
-  "U மாறிலி": {
+  "u மாறிலி": {
     "default": [
       "U constant"
     ]
   },
-  "U'C'A' World Investment Report என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "u'c'a' world investment report என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "WIR"
     ]
   },
-  "United Nations World Water Assessment Programme என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations world water assessment programme என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "WWAP"
     ]
   },
-  "United Nations World Water Development Report என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "united nations world water development report என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "WWDR"
     ]
@@ -39107,7 +38889,7 @@
       "uterine contraction"
     ]
   },
-  "UAM என்பதன் விரிவாக்கம்": {
+  "uam என்பதன் விரிவாக்கம்": {
     "default": [
       "urban air mobility"
     ]
@@ -39117,17 +38899,17 @@
       "up to"
     ]
   },
-  "UGC": {
+  "ugc": {
     "default": [
       "university grants commission"
     ]
   },
-  "UPI என்பதன் விரிவாக்கம்": {
+  "upi என்பதன் விரிவாக்கம்": {
     "default": [
       "unified payments interface"
     ]
   },
-  "UDISE என்பதன் விரிவாக்கம்": {
+  "udise என்பதன் விரிவாக்கம்": {
     "default": [
       "unified district information system for education"
     ]
@@ -39137,7 +38919,7 @@
       "u-clamp"
     ]
   },
-  "US: the frosting on the cake": {
+  "us: the frosting on the cake": {
     "default": [
       "the icing on the cake"
     ]

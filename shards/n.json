@@ -1,40 +1,40 @@
 {
-  "N-acetyl_glucosamine": {
+  "n-acetyl_glucosamine": {
     "default": [
       [
         "N-அசிற்றைல் குளுக்கோசமீன்"
       ]
     ]
   },
-  "N-gram": {
+  "n-gram": {
     "default": [
       [
         "பலசொற்றுகள்"
       ]
     ]
   },
-  "N-terminus": {
+  "n-terminus": {
     "default": [
       [
         "உப்பிய நுனி"
       ]
     ]
   },
-  "NAD+": {
+  "nad+": {
     "default": [
       [
         "ஏநிடியீ"
       ]
     ]
   },
-  "NADH": {
+  "nadh": {
     "default": [
       [
         "இநிடியீ"
       ]
     ]
   },
-  "NAIMUN": {
+  "naimun": {
     "default": [
       [
         "North American Invitational Model United Nations Conference என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -43,44 +43,42 @@
       ]
     ]
   },
-  "NAND": {
+  "nand": {
     "default": [
       [
-        "இல்லும்மை"
+        "[பொறியியல்.] எதிர் நிரப்புத் தொடரிணை சோ"
       ]
     ]
   },
-  "NAS": {
+  "nas": {
     "default": [
       [
-        "Newly Associated States என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
-        "அஃகுப்பெயர்களுள்ஒன்றாகும்.இவ்வகையின் பிற சொற்களை",
-        "இங்குகாணலாம். (எ. கா.)"
+        "பற்று"
       ]
     ]
   },
-  "NASA": {
+  "nasa": {
     "default": [
       [
         "National Aeronautics and Space Administration என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)"
       ]
     ]
   },
-  "NASCAR": {
+  "nascar": {
     "default": [
       [
         "National Association for Stock Car Auto Racing. என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)"
       ]
     ]
   },
-  "NCC": {
+  "ncc": {
     "default": [
       [
         "national cadet corps என்பதன் ஆங்கில அஃகுப்பெயர் ஆகும்."
       ]
     ]
   },
-  "NCRE": {
+  "ncre": {
     "default": [
       [
         "National Competitive Recruitment Examination என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -89,7 +87,7 @@
       ]
     ]
   },
-  "NCSD": {
+  "ncsd": {
     "default": [
       [
         "National Commission for Sustainable Development என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -98,7 +96,7 @@
       ]
     ]
   },
-  "NCSS": {
+  "ncss": {
     "default": [
       [
         "National Cholera Surveillance System [Haiti] என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -107,7 +105,7 @@
       ]
     ]
   },
-  "NCZ": {
+  "ncz": {
     "default": [
       [
         "Nanshui Chemical Industry Zone என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -116,7 +114,7 @@
       ]
     ]
   },
-  "NDA": {
+  "nda": {
     "default": [
       [
         "National Democratic Alliance என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும்."
@@ -126,14 +124,14 @@
       ]
     ]
   },
-  "NEET": {
+  "neet": {
     "default": [
       [
         "[காண்க]. national eligibility cum entrance test என்பதன் சுருக்கம்"
       ]
     ]
   },
-  "NFP": {
+  "nfp": {
     "default": [
       [
         "New Found Power என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -142,7 +140,7 @@
       ]
     ]
   },
-  "NGO": {
+  "ngo": {
     "default": [
       [
         "Non Governmental Organization என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -151,7 +149,7 @@
       ]
     ]
   },
-  "NHS": {
+  "nhs": {
     "default": [
       [
         "National Health Service என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -160,21 +158,24 @@
       ]
     ]
   },
-  "NIB": {
+  "nib": {
     "default": [
       [
-        "போதைப் பொருள் தடுப்புப் பிரிவு."
+        "எழுதுமுனை",
+        "கூர்முனை",
+        "மைக்கோலின் எழுதுமுனை",
+        "மைக்கோலின் கூர்முனை"
       ]
     ]
   },
-  "NIC": {
+  "nic": {
     "default": [
       [
-        "National Informatics Centre என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)"
+        "தே செ ந"
       ]
     ]
   },
-  "NIE": {
+  "nie": {
     "default": [
       [
         "Newly Industrializing Country என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -183,7 +184,7 @@
       ]
     ]
   },
-  "NKZ": {
+  "nkz": {
     "default": [
       [
         "North Korean Zombies என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -192,7 +193,7 @@
       ]
     ]
   },
-  "NLP": {
+  "nlp": {
     "default": [
       [
         "natural language processing என்பதன் சுருக்கம்"
@@ -202,7 +203,7 @@
       ]
     ]
   },
-  "NMA": {
+  "nma": {
     "default": [
       [
         "National Mutual Aid என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -211,7 +212,7 @@
       ]
     ]
   },
-  "NMR": {
+  "nmr": {
     "default": [
       [
         "Not My Responsibility என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -220,7 +221,7 @@
       ]
     ]
   },
-  "NMS": {
+  "nms": {
     "default": [
       [
         "New Member States என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -229,7 +230,7 @@
       ]
     ]
   },
-  "NMUN": {
+  "nmun": {
     "default": [
       [
         "National Model United Nations என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -238,7 +239,7 @@
       ]
     ]
   },
-  "NMUN-DC": {
+  "nmun-dc": {
     "default": [
       [
         "National Model United Nations - District of Columbia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -247,7 +248,7 @@
       ]
     ]
   },
-  "NMUN-NY": {
+  "nmun-ny": {
     "default": [
       [
         "National Model United Nations - New York என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -256,7 +257,7 @@
       ]
     ]
   },
-  "NOA": {
+  "noa": {
     "default": [
       [
         "Notice Of Application என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -265,54 +266,55 @@
       ]
     ]
   },
-  "NOB": {
+  "nob": {
     "default": [
       [
-        "National Officer",
-        "level B என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
-        "அஃகுப்பெயர்களுள்ஒன்றாகும்.இவ்வகையின் பிற சொற்களை",
-        "இங்குகாணலாம். (எ. கா.)"
+        "(ஐக்கிய இராச்சியப் பேச்சு வழக்கு) பணக்காரன்",
+        "பிரபு",
+        "ஆளும் வர்க்கத்தைச் சேர்ந்தவன்",
+        "உயர் குடியினன்"
+      ],
+      [
+        "தலை"
       ]
     ]
   },
-  "NOHIC": {
+  "nohic": {
     "default": [
       [
         "Nizamiah J'[A']P'[A']L Rangapur Observatories Hyderabad India Contributions என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)"
       ]
     ]
   },
-  "NOS": {
-    "default": [
+  "nos": {
+    "பெயர்ச்சொல்": [
       [
-        "Not Otherwise Specified என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
-        "அஃகுப்பெயர்களுள்ஒன்றாகும்.இவ்வகையின் பிற சொற்களை",
-        "இங்குகாணலாம். (எ. கா.)"
+        "இரவு"
       ]
     ]
   },
-  "NOT_gate": {
+  "not_gate": {
     "default": [
       [
-        "இல்லை வாயில்"
+        "[பொறியியல்.] எதிர் மறை வருமுறைக் கதவு"
       ]
     ]
   },
-  "NPCI": {
+  "npci": {
     "default": [
       [
         "National Payments Corporation of India என்பதன் சுருக்கம்."
       ]
     ]
   },
-  "NPR": {
+  "npr": {
     "default": [
       [
         "Nation Progress Report என்பதன் சொற்சுருக்கம் ஆகும்."
       ]
     ]
   },
-  "NRA": {
+  "nra": {
     "default": [
       [
         "Not Responsible for Anything என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -321,7 +323,7 @@
       ]
     ]
   },
-  "NRI": {
+  "nri": {
     "default": [
       [
         "Non Resident Indian என்பதன் அஃகுப்பெயர் ஆகும்."
@@ -334,7 +336,7 @@
       ]
     ]
   },
-  "NSA": {
+  "nsa": {
     "default": [
       [
         "N'[A']T'[O'] Standardization Agency என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -343,21 +345,21 @@
       ]
     ]
   },
-  "NSAID": {
+  "nsaid": {
     "default": [
       [
         "steroid என்னும் ஊக்கிகளின் கலப்பற்ற வலி நீக்கும் மருந்து."
       ]
     ]
   },
-  "NSC": {
+  "nsc": {
     "default": [
       [
         "National Savings Certificate என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)"
       ]
     ]
   },
-  "NTR": {
+  "ntr": {
     "default": [
       [
         "Normal Trade Relations என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -366,7 +368,7 @@
       ]
     ]
   },
-  "NVA": {
+  "nva": {
     "default": [
       [
         "North Vietnamese Army என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -375,7 +377,7 @@
       ]
     ]
   },
-  "NVB": {
+  "nvb": {
     "default": [
       [
         "Night Vision Binoculars என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -384,7 +386,7 @@
       ]
     ]
   },
-  "NVD": {
+  "nvd": {
     "default": [
       [
         "Night Vision Device என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -393,7 +395,7 @@
       ]
     ]
   },
-  "NVN": {
+  "nvn": {
     "default": [
       [
         "North Viet Nam என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -402,14 +404,14 @@
       ]
     ]
   },
-  "NV_center": {
+  "nv_center": {
     "default": [
       [
         "nitrogen-vacancy center என்பதன் சுருக்கம்"
       ]
     ]
   },
-  "NWG": {
+  "nwg": {
     "default": [
       [
         "National Working Group என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்",
@@ -418,84 +420,84 @@
       ]
     ]
   },
-  "Naga": {
+  "naga": {
     "default": [
       [
         "நாகம்"
       ]
     ]
   },
-  "Nagpur": {
+  "nagpur": {
     "default": [
       [
         "இந்தியாவிலுள்ள முக்கிய ஊர்களுள் இதுவும் ஒன்று ஆகும்"
       ]
     ]
   },
-  "Nagpur_plan": {
+  "nagpur_plan": {
     "default": [
       [
         "நாகபுரி திட்டம்"
       ]
     ]
   },
-  "Nahuatl": {
+  "nahuatl": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nama": {
+  "nama": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nana": {
+  "nana": {
     "default": [
       [
         "மடவன்"
       ]
     ]
   },
-  "Napier": {
+  "napier": {
     "default": [
       [
-        "நேப்பியர்"
+        "இருமுகப்பு மேலாடை"
       ]
     ]
   },
-  "Napier's_bones": {
-    "default": [
-      [
-        "நேப்பியரின் குச்சிகள்"
-      ]
-    ]
-  },
-  "Napier's_rods": {
+  "napier's_bones": {
     "default": [
       [
         "நேப்பியரின் குச்சிகள்"
       ]
     ]
   },
-  "Nashik": {
+  "napier's_rods": {
+    "default": [
+      [
+        "நேப்பியரின் குச்சிகள்"
+      ]
+    ]
+  },
+  "nashik": {
     "default": [
       [
         "இந்தியாவிலுள்ள முக்கிய ஊர்களுள் இதுவும் ஒன்று ஆகும்"
       ]
     ]
   },
-  "Nata": {
+  "nata": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "National_AIDS_Control_Organization": {
+  "national_aids_control_organization": {
     "default": [
       [
         "தேசிய எயிட்சு கட்டுப்பாட்டு அமைப்பு."
@@ -505,35 +507,35 @@
       ]
     ]
   },
-  "National_Bank": {
+  "national_bank": {
     "default": [
       [
         "தேசிய வங்கி"
       ]
     ]
   },
-  "National_Bureau_of_Animal_Genetic_Resources": {
+  "national_bureau_of_animal_genetic_resources": {
     "default": [
       [
         "தேசிய விலங்கு மரபியல் வளங்கள் பேழையகம்"
       ]
     ]
   },
-  "National_Bureau_of_Fish_Genetic_Resources": {
+  "national_bureau_of_fish_genetic_resources": {
     "default": [
       [
         "தேசிய மீன் மரபியல் வளங்கள் பேழையகம்"
       ]
     ]
   },
-  "National_Bureau_of_Plant_Genetic_Resources": {
+  "national_bureau_of_plant_genetic_resources": {
     "default": [
       [
-        "தேசிய தாவர மரபியல் வளங்கள் பேழையகம்"
+        "தேசியப் பயிர் மரபியல் வளஅமைப்பு"
       ]
     ]
   },
-  "National_Health_Mission": {
+  "national_health_mission": {
     "default": [
       [
         "தேசிய சுகாதார இயக்கம்",
@@ -541,14 +543,14 @@
       ]
     ]
   },
-  "National_Planning_Commission": {
+  "national_planning_commission": {
     "default": [
       [
         "தேசியத் திட்டமிடு ஆணையம்"
       ]
     ]
   },
-  "National_Resources_Centre_for_Free_and_Open_Source_Software": {
+  "national_resources_centre_for_free_and_open_source_software": {
     "default": [
       [
         "இந்தியாவின் நடுவண் அரசின் தொடர்பியல் தகவல் நுட்பவியல் அமைச்சகத்தின் கீழ் தகவல் நுட்பவியல் பிரிவில் ஏப்ரல் 2005 இல் உருவாக்கப்பட்ட மையம். இது தமிழில் [கட்டற்ற திறவூற்று மென்பொருள் வள மையம்] என்று அழைக்க்ப்படுகின்றது. இந்நிறுவனம்",
@@ -556,154 +558,154 @@
       ]
     ]
   },
-  "Natural_Resources_Defense_Council": {
+  "natural_resources_defense_council": {
     "default": [
       [
         "இயற்கை வளக் காப்பு மன்றம்"
       ]
     ]
   },
-  "Nauruan": {
+  "nauruan": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Navajo": {
+  "navajo": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Navi_Mumbai": {
+  "navi_mumbai": {
     "default": [
       [
         "இந்தியாவிலுள்ள முக்கிய ஊர்களுள் இதுவும் ஒன்று ஆகும்"
       ]
     ]
   },
-  "Nazareth": {
+  "nazareth": {
     "பெயர்ச்சொல்": [
       [
         "இசுரேலில் அமைந்துள்ள பண்டைய நகரமாகும்."
       ]
     ]
   },
-  "Naziism": {
+  "naziism": {
     "default": [
       [
         "நாட்டினவுடைமையாட்சி"
       ]
     ]
   },
-  "Nazism": {
+  "nazism": {
     "default": [
       [
         "கொடும்பேரினவாதம் நாசிசம்"
       ]
     ]
   },
-  "Ndali": {
+  "ndali": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Ndamba": {
+  "ndamba": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Ndari": {
+  "ndari": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Ndebele": {
+  "ndebele": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Ndengeleko": {
+  "ndengeleko": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Ndonga": {
+  "ndonga": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Ndrumbea": {
+  "ndrumbea": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Neapolitan": {
+  "neapolitan": {
     "default": [
       [
-        "இது உலக மொழிகளுள் ஒன்று ஆகும்."
+        "இத்தாலிநாட்டு நேப்பிள்ஸ் நகரத்தவர்"
       ]
     ]
   },
-  "Necessarian": {
+  "necessarian": {
     "default": [
       [
         "கட்டாயப்பாட்டுக் கொள்கையர்"
       ]
     ]
   },
-  "Neddy": {
+  "neddy": {
     "default": [
       [
         "கழுதை"
       ]
     ]
   },
-  "Neginoth": {
+  "neginoth": {
     "default": [
       [
         "இது ஒருமை இல்லாத அல்லது அமையாத பன்மைச் சொல்லாகும்."
       ]
     ]
   },
-  "Negrophobia": {
+  "negrophobia": {
     "default": [
       [
         "நீகிரவர் வெருளி"
       ]
     ]
   },
-  "Neighborhood_Window": {
+  "neighborhood_window": {
     "default": [
       [
         "அணிமை சாளரம்"
       ]
     ]
   },
-  "Neighbourhood_Window": {
+  "neighbourhood_window": {
     "default": [
       [
         "அணிமை சாளரம்"
       ]
     ]
   },
-  "Nels.": {
+  "nels.": {
     "default": [
       [
         "நூலாசிரியர்: Nelson"
@@ -718,112 +720,113 @@
       ]
     ]
   },
-  "Nematology": {
-    "பெயர்ச்சொல்": [
+  "nematology": {
+    "default": [
       [
-        "உருள்புழுவியல்"
+        "[மருத்துவம்.] உருளைப் புழு இயல்",
+        "குடற்புழு இயல்"
       ]
     ]
   },
-  "Nenets": {
+  "nenets": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Neogene_period": {
+  "neogene_period": {
     "default": [
       [
         "புதுவெழு காலம்"
       ]
     ]
   },
-  "Nepalese": {
+  "nepalese": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nepali": {
+  "nepali": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nephilim": {
+  "nephilim": {
     "default": [
       [
         "இது ஒருமை இல்லாத அல்லது அமையாத பன்மைச் சொல்லாகும்."
       ]
     ]
   },
-  "Nephrolepis": {
+  "nephrolepis": {
     "default": [
       [
         "வெப்பமண்டலப்பெரணிகள்"
       ]
     ]
   },
-  "Neptun": {
+  "neptun": {
     "default": [
       [
         "நெப்டியூன்"
       ]
     ]
   },
-  "Neptune": {
-    "default": [
+  "neptune": {
+    "பெயர்ச்சொல்": [
       [
-        "நெட்டியூன்"
+        "நெப்டியூன்"
       ]
     ]
   },
-  "Nereis": {
+  "nereis": {
     "default": [
       [
-        "நீரிசு"
+        "[விலங்கியல்.] நீரிஸ்"
       ]
     ]
   },
-  "Nernst": {
+  "nernst": {
     "default": [
       [
         "னெர்ன்ஸ்ட்"
       ]
     ]
   },
-  "Nernst_equation": {
+  "nernst_equation": {
     "default": [
       [
-        "நெரினசரின் சமன்பாடு"
+        "நெர்ன்ஸ்ட் சமன்பாடு"
       ]
     ]
   },
-  "Ness": {
+  "ness": {
     "default": [
       [
         "நிலக்கூம்பு"
       ]
     ]
   },
-  "Neutrodyne": {
+  "neutrodyne": {
     "default": [
       [
         "நடுநிலை விசையழுத்தம்"
       ]
     ]
   },
-  "New_Delhi": {
+  "new_delhi": {
     "default": [
       [
         "இந்தியாவிலுள்ள முக்கிய ஊர்களுள் இதுவும் ஒன்று ஆகும்"
       ]
     ]
   },
-  "New_Guinea_flightless_rail": {
+  "new_guinea_flightless_rail": {
     "default": [
       [
         "நமது பூமியில் காணப்படும் பறவைகளில்",
@@ -831,21 +834,21 @@
       ]
     ]
   },
-  "New_High_German": {
+  "new_high_german": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "New_Testament": {
+  "new_testament": {
     "default": [
       [
         "புதிய ஏற்பாடு"
       ]
     ]
   },
-  "New_World_rivuline": {
+  "new_world_rivuline": {
     "default": [
       [
         "நமது பூமியில் காணப்படும்",
@@ -853,7 +856,7 @@
       ]
     ]
   },
-  "New_Zealand_smelt": {
+  "new_zealand_smelt": {
     "default": [
       [
         "நமது பூமியில் காணப்படும்",
@@ -861,168 +864,175 @@
       ]
     ]
   },
-  "Newari": {
+  "newari": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Newspeak": {
+  "newspeak": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Newton's_first_law_of_motion": {
+  "newton's_first_law_of_motion": {
     "default": [
       [
         "நியூட்டனின் இயக்க முதல் விதி"
       ]
     ]
   },
-  "Newton's_law_of_cooling": {
+  "newton's_law_of_cooling": {
     "default": [
       [
         "நியூட்டனின் குளிர்வு விதி"
       ]
     ]
   },
-  "Newton's_rings": {
+  "newton's_rings": {
     "default": [
       [
         "நியூட்டனின் வளையங்கள்"
       ]
     ]
   },
-  "Ngan'gityemerri": {
+  "ngan'gityemerri": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nganasan": {
+  "nganasan": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Ngindo": {
+  "ngindo": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Ngoni": {
+  "ngoni": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Ngoreme": {
+  "ngoreme": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nheengatu": {
+  "nheengatu": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nicholson": {
+  "nicholson": {
     "default": [
       [
         "நிக்கல்சன்"
       ]
     ]
   },
-  "Nicks": {
+  "nicks": {
     "default": [
       [
         "முனை கத்தரிப்பு"
       ]
     ]
   },
-  "Nicol_prism": {
+  "nicol_prism": {
     "default": [
       [
+        "[இயற்பியல்.] நிக்கலரியம்",
         "நைக்கல் பட்டகம்"
+      ],
+      [
+        "[பொறியியல்.] நைக்கல் முப்பட்டகம்"
       ]
     ]
   },
-  "Nide": {
+  "nide": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Niels_Bohr": {
+  "niels_bohr": {
     "default": [
       [
         "நீல்ஸ் போர்"
       ]
     ]
   },
-  "Niemcy": {
+  "niemcy": {
     "default": [
       [
         "ஜெர்மனி"
       ]
     ]
   },
-  "Niemiec": {
+  "niemiec": {
     "default": [
       [
         "ஜெர்மானியன்"
       ]
     ]
   },
-  "Niemka": {
+  "niemka": {
     "default": [
       [
         "ஜெர்மானிய பெண்"
       ]
     ]
   },
-  "Nigerian_Pidgin": {
+  "nigerian_pidgin": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nihongo": {
+  "nihongo": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nimby": {
+  "nimby": {
     "default": [
       [
-        "எ.பு.வே. (என் புறக்கடையில் வேண்டாம்)"
+        "எ.பு.வே."
+      ],
+      [
+        "எ.பு.க.வே."
       ]
     ]
   },
-  "Nintendinitis": {
+  "nintendinitis": {
     "default": [
       [
         "காணொலி ஆட்டத்தசைப்பிடிப்பு"
       ]
     ]
   },
-  "Nipponophobia": {
+  "nipponophobia": {
     "default": [
       [
         "நிப்பான் வெருளி",
@@ -1030,21 +1040,21 @@
       ]
     ]
   },
-  "Nirodh": {
+  "nirodh": {
     "default": [
       [
         "நிரோது"
       ]
     ]
   },
-  "Niuean": {
+  "niuean": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nkulengu_rail": {
+  "nkulengu_rail": {
     "default": [
       [
         "நமது பூமியில் காணப்படும் பறவைகளில்",
@@ -1052,7 +1062,7 @@
       ]
     ]
   },
-  "Noah's_ark": {
+  "noah's_ark": {
     "default": [
       [
         "நோவாவின் பேழை"
@@ -1062,7 +1072,7 @@
       ]
     ]
   },
-  "Nocturnal_penile_tumescence": {
+  "nocturnal_penile_tumescence": {
     "default": [
       [
         "உறக்க விறைப்பு",
@@ -1070,70 +1080,70 @@
       ]
     ]
   },
-  "Nogai": {
+  "nogai": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nomex": {
+  "nomex": {
     "default": [
       [
-        "நோமச்சு"
+        "வெப்பக்காப்பு நார் (வணிகப்பெயர்)"
       ]
     ]
   },
-  "Non_Aligned_Movement": {
+  "non_aligned_movement": {
     "default": [
       [
         "அணிசேரா இயக்கம்"
       ]
     ]
   },
-  "Nonresident_Indian": {
+  "nonresident_indian": {
     "default": [
       [
         "வெளிநாட்டுறை இந்தியன்"
       ]
     ]
   },
-  "Noongar": {
+  "noongar": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Norfolk": {
+  "norfolk": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Norfuk": {
+  "norfuk": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Norman_French": {
+  "norman_french": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Norn": {
+  "norn": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "North_American_darter": {
+  "north_american_darter": {
     "default": [
       [
         "நமது பூமியில் காணப்படும்",
@@ -1141,7 +1151,7 @@
       ]
     ]
   },
-  "North_American_freshwater_catfish": {
+  "north_american_freshwater_catfish": {
     "default": [
       [
         "நமது பூமியில் காணப்படும்",
@@ -1149,14 +1159,14 @@
       ]
     ]
   },
-  "North_Frisian": {
+  "north_frisian": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "North_Island_brown_kiwi": {
+  "north_island_brown_kiwi": {
     "default": [
       [
         "நமது பூமியில் காணப்படும் பறவைகளில்",
@@ -1164,28 +1174,28 @@
       ]
     ]
   },
-  "North_Sami": {
+  "north_sami": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Northern_Africa": {
+  "northern_africa": {
     "default": [
       [
         "வடக்கு ஆப்பிரிக்கா"
       ]
     ]
   },
-  "Northern_Sami": {
+  "northern_sami": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Northern_Snakehead": {
+  "northern_snakehead": {
     "default": [
       [
         "நமது பூமியில் காணப்படும்",
@@ -1193,21 +1203,27 @@
       ]
     ]
   },
-  "Norway_spruce": {
+  "norway_spruce": {
     "default": [
       [
         "புவியின் மர வகைகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Norwegian": {
+  "norwegian": {
     "default": [
       [
-        "இது உலக மொழிகளுள் ஒன்று ஆகும்."
+        "நார்வே நாட்டுக் குடிமகன்"
+      ],
+      [
+        "நார்வே நாட்டு மொழி"
+      ],
+      [
+        "நார்வேயிய"
       ]
     ]
   },
-  "Norwegian_Atlantic_salmon": {
+  "norwegian_atlantic_salmon": {
     "default": [
       [
         "நமது பூமியில் காணப்படும்",
@@ -1215,119 +1231,119 @@
       ]
     ]
   },
-  "Nostratic": {
+  "nostratic": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Novial": {
+  "novial": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nowa_Zelandia": {
+  "nowa_zelandia": {
     "default": [
       [
         "நியூசிலாந்து"
       ]
     ]
   },
-  "Ntuzu": {
+  "ntuzu": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nuclear_Magnetic_Resonance_Imaging": {
+  "nuclear_magnetic_resonance_imaging": {
     "default": [
       [
         "அணுக்கருக் காந்த ஒத்ததிர்வு வரைவு"
       ]
     ]
   },
-  "Numinsmatics": {
+  "numinsmatics": {
     "default": [
       [
         "நாணய ஆராய்ச்சியாளர்"
       ]
     ]
   },
-  "Nutrition_Expert_Committee": {
+  "nutrition_expert_committee": {
     "default": [
       [
         "உணவூட்ட நிபுணர் செயற்குழு"
       ]
     ]
   },
-  "Nuu-chah-nulth": {
+  "nuu-chah-nulth": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nyakyusa": {
+  "nyakyusa": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nyamwezi": {
+  "nyamwezi": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nyaturucha": {
+  "nyaturucha": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nyaturuwil": {
+  "nyaturuwil": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nyiha": {
+  "nyiha": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nyiramba": {
+  "nyiramba": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nynorsk": {
+  "nynorsk": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nyunga": {
+  "nyunga": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Nyungar": {
+  "nyungar": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
@@ -6894,13 +6910,6 @@
       ]
     ]
   },
-  "nuclear_magnetic_resonance_imaging": {
-    "default": [
-      [
-        "அணுக்கருக் காந்த ஒத்ததிர்வு வரைவு"
-      ]
-    ]
-  },
   "nuclear_magnetic_resonance": {
     "default": [
       [
@@ -10393,13 +10402,6 @@
       ]
     ]
   },
-  "not_gate": {
-    "default": [
-      [
-        "[பொறியியல்.] எதிர் மறை வருமுறைக் கதவு"
-      ]
-    ]
-  },
   "not_function": {
     "default": [
       [
@@ -10982,13 +10984,6 @@
       ]
     ]
   },
-  "nos": {
-    "பெயர்ச்சொல்": [
-      [
-        "இரவு"
-      ]
-    ]
-  },
   "norwich_shawl": {
     "default": [
       [
@@ -11007,19 +11002,6 @@
     "default": [
       [
         "நார்வே நூல்"
-      ]
-    ]
-  },
-  "norwegian": {
-    "default": [
-      [
-        "நார்வே நாட்டுக் குடிமகன்"
-      ],
-      [
-        "நார்வே நாட்டு மொழி"
-      ],
-      [
-        "நார்வேயிய"
       ]
     ]
   },
@@ -11368,7 +11350,7 @@
       ]
     ]
   },
-  "northern_Stargazer": {
+  "northern_stargazer": {
     "default": [
       [
         "நமது பூமியில் காணப்படும்",
@@ -11695,13 +11677,6 @@
   "north_america": {
     "default": [
       [
-        "வடஅமெரிக்கா"
-      ]
-    ]
-  },
-  "north_America": {
-    "default": [
-      [
         "வட அமெரிக்கா"
       ]
     ]
@@ -11760,9 +11735,7 @@
   },
   "north": {
     "பெயர்ச்சொல்": [
-      [
-        "வடக்கு"
-      ]
+      "news"
     ]
   },
   "norsk": {
@@ -12213,7 +12186,7 @@
   "normalized_q": {
     "default": [
       [
-        "இயலுறு னி"
+        "இயலுறு Q"
       ]
     ]
   },
@@ -12271,13 +12244,6 @@
     "default": [
       [
         "இயலுறு மாறுமின் ஏற்பு"
-      ]
-    ]
-  },
-  "normalized_Q": {
-    "default": [
-      [
-        "இயலுறு Q"
       ]
     ]
   },
@@ -22726,13 +22692,6 @@
       ]
     ]
   },
-  "nomex": {
-    "default": [
-      [
-        "வெப்பக்காப்பு நார் (வணிகப்பெயர்)"
-      ]
-    ]
-  },
   "nomeus": {
     "default": [
       [
@@ -24073,14 +24032,6 @@
       ]
     ]
   },
-  "nocturnal_penile_tumescence": {
-    "default": [
-      [
-        "உறக்க விறைப்பு",
-        "தூக்க விறைப்பு - தூங்கும் வேளையில் ஆண்களுக்கு இயல்பாகவே ஏற்படும் ஆண்குறி விறைப்பு"
-      ]
-    ]
-  },
   "nocturnal_orgasm": {
     "default": [
       [
@@ -24527,19 +24478,6 @@
     "default": [
       [
         "தலையிடி"
-      ]
-    ]
-  },
-  "nob": {
-    "default": [
-      [
-        "(ஐக்கிய இராச்சியப் பேச்சு வழக்கு) பணக்காரன்",
-        "பிரபு",
-        "ஆளும் வர்க்கத்தைச் சேர்ந்தவன்",
-        "உயர் குடியினன்"
-      ],
-      [
-        "தலை"
       ]
     ]
   },
@@ -26779,16 +26717,6 @@
       ]
     ]
   },
-  "nimby": {
-    "default": [
-      [
-        "எ.பு.வே."
-      ],
-      [
-        "எ.பு.க.வே."
-      ]
-    ]
-  },
   "nimbus_(nimbo_stratus)": {
     "default": [
       [
@@ -28457,17 +28385,6 @@
       ]
     ]
   },
-  "nicol_prism": {
-    "default": [
-      [
-        "[இயற்பியல்.] நிக்கலரியம்",
-        "நைக்கல் பட்டகம்"
-      ],
-      [
-        "[பொறியியல்.] நைக்கல் முப்பட்டகம்"
-      ]
-    ]
-  },
   "nicobar_islands": {
     "default": [
       [
@@ -28942,13 +28859,6 @@
       ]
     ]
   },
-  "nic": {
-    "default": [
-      [
-        "தே செ ந"
-      ]
-    ]
-  },
   "niblick": {
     "default": [
       [
@@ -28985,16 +28895,6 @@
     "default": [
       [
         "[கட்டுமானவியல்.] ஓடு தடுமுனை"
-      ]
-    ]
-  },
-  "nib": {
-    "default": [
-      [
-        "எழுதுமுனை",
-        "கூர்முனை",
-        "மைக்கோலின் எழுதுமுனை",
-        "மைக்கோலின் கூர்முனை"
       ]
     ]
   },
@@ -30381,13 +30281,6 @@
     "default": [
       [
         "புதிய ஏற்பாடு ஆடை"
-      ]
-    ]
-  },
-  "new_testament": {
-    "default": [
-      [
-        "புதிய ஏற்பாடு"
       ]
     ]
   },
@@ -37373,13 +37266,6 @@
       ]
     ]
   },
-  "nernst_equation": {
-    "default": [
-      [
-        "நெர்ன்ஸ்ட் சமன்பாடு"
-      ]
-    ]
-  },
   "nernst_emf_equation": {
     "default": [
       [
@@ -37506,13 +37392,6 @@
       ]
     ]
   },
-  "nereis": {
-    "default": [
-      [
-        "[விலங்கியல்.] நீரிஸ்"
-      ]
-    ]
-  },
   "nereid": {
     "default": [
       [
@@ -37588,13 +37467,6 @@
     "default": [
       [
         "வெடிமருந்து"
-      ]
-    ]
-  },
-  "neptune": {
-    "பெயர்ச்சொல்": [
-      [
-        "நெப்டியூன்"
       ]
     ]
   },
@@ -39731,7 +39603,7 @@
       ]
     ]
   },
-  "neo-Lamarckism": {
+  "neo-lamarckism": {
     "default": [
       [
         "புதுவிலமார்க்கிசம்"
@@ -39947,14 +39819,6 @@
     "default": [
       [
         "நூற்புழுஉண்ணும்"
-      ]
-    ]
-  },
-  "nematology": {
-    "default": [
-      [
-        "[மருத்துவம்.] உருளைப் புழு இயல்",
-        "குடற்புழு இயல்"
       ]
     ]
   },
@@ -45631,13 +45495,6 @@
       ]
     ]
   },
-  "neapolitan": {
-    "default": [
-      [
-        "இத்தாலிநாட்டு நேப்பிள்ஸ் நகரத்தவர்"
-      ]
-    ]
-  },
   "neap_tide": {
     "default": [
       [
@@ -45793,13 +45650,6 @@
     "default": [
       [
         "யூத நோன்பி"
-      ]
-    ]
-  },
-  "nazareth": {
-    "பெயர்ச்சொல்": [
-      [
-        "இசுரேலில் அமைந்துள்ள பண்டைய நகரமாகும்."
       ]
     ]
   },
@@ -49918,14 +49768,6 @@
       ]
     ]
   },
-  "national_resources_Centre_for_Free_and_Open_Source_Software": {
-    "default": [
-      [
-        "இந்தியாவின் நடுவண் அரசின் தொடர்பியல் தகவல் நுட்பவியல் அமைச்சகத்தின் கீழ் தகவல் நுட்பவியல் பிரிவில் ஏப்ரல் 2005 இல் உருவாக்கப்பட்ட மையம். இது தமிழில் [கட்டற்ற திறவூற்று மென்பொருள் வள மையம்] என்று அழைக்க்ப்படுகின்றது. இந்நிறுவனம்",
-        "[முன்னணி கணினி வளர்ச்சி] மையத்தின் (C-DAC, சென்னைப் பிரிவின் துணையுடனும் அண்ணா பல்கலைக்கழத்தின் கே.பி. சந்திரசேகர ஆய்வுமையத்துடனும் சேர்ந்து செயலாற்றுகின்றது."
-      ]
-    ]
-  },
   "national_resources": {
     "default": [
       [
@@ -51072,13 +50914,6 @@
       ]
     ]
   },
-  "national_bureau_of_plant_genetic_resources": {
-    "default": [
-      [
-        "தேசியப் பயிர் மரபியல் வளஅமைப்பு"
-      ]
-    ]
-  },
   "national_building_organisation": {
     "default": [
       [
@@ -51118,13 +50953,6 @@
       [
         "தேசிய வேளாண்மை",
         "ஊரக முன்னேற்ற வங்கி"
-      ]
-    ]
-  },
-  "national_bank": {
-    "default": [
-      [
-        "தேசிய வங்கி"
       ]
     ]
   },
@@ -52542,13 +52370,6 @@
       ]
     ]
   },
-  "nas": {
-    "default": [
-      [
-        "பற்று"
-      ]
-    ]
-  },
   "narzędzie": {
     "default": [
       [
@@ -53797,13 +53618,6 @@
       ]
     ]
   },
-  "napier": {
-    "default": [
-      [
-        "இருமுகப்பு மேலாடை"
-      ]
-    ]
-  },
   "naphthylamine": {
     "default": [
       [
@@ -54559,13 +54373,6 @@
     "default": [
       [
         "இலும் சுற்று"
-      ]
-    ]
-  },
-  "nand": {
-    "default": [
-      [
-        "[பொறியியல்.] எதிர் நிரப்புத் தொடரிணை சோ"
       ]
     ]
   },
@@ -56497,37 +56304,37 @@
       ]
     ]
   },
-  "n. < செம்-மை +. Longan": {
+  "n. < செம்-மை +. longan": {
     "default": [
       "longan"
     ]
   },
-  "New York என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "new york என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "HQ"
     ]
   },
-  "N-அசிற்றைல் குளுக்கோசமீன்": {
+  "n-அசிற்றைல் குளுக்கோசமீன்": {
     "default": [
       "N-acetyl glucosamine"
     ]
   },
-  "North American Invitational Model United Nations Conference என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "north american invitational model united nations conference என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NAIMUN"
     ]
   },
-  "Newly Associated States என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "newly associated states என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NAS"
     ]
   },
-  "National Aeronautics and Space Administration என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
+  "national aeronautics and space administration என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
     "default": [
       "NASA"
     ]
   },
-  "National Association for Stock Car Auto Racing. என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
+  "national association for stock car auto racing. என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
     "default": [
       "NASCAR"
     ]
@@ -56537,62 +56344,62 @@
       "NCC"
     ]
   },
-  "National Competitive Recruitment Examination என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "national competitive recruitment examination என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NCRE"
     ]
   },
-  "National Commission for Sustainable Development என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "national commission for sustainable development என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NCSD"
     ]
   },
-  "National Cholera Surveillance System  என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "national cholera surveillance system  என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NCSS"
     ]
   },
-  "Nanshui Chemical Industry Zone என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "nanshui chemical industry zone என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NCZ"
     ]
   },
-  "National Democratic Alliance என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும்.": {
+  "national democratic alliance என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும்.": {
     "default": [
       "NDA"
     ]
   },
-  "National Defence Academy என்பதன் சுருக்கம்": {
+  "national defence academy என்பதன் சுருக்கம்": {
     "default": [
       "NDA"
     ]
   },
-  "New Found Power என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "new found power என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NFP"
     ]
   },
-  "Non Governmental Organization என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "non governmental organization என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NGO"
     ]
   },
-  "National Health Service என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "national health service என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NHS"
     ]
   },
-  "National Informatics Centre என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
+  "national informatics centre என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
     "default": [
       "NIC"
     ]
   },
-  "Newly Industrializing Country என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "newly industrializing country என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NIE"
     ]
   },
-  "North Korean Zombies என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "north korean zombies என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NKZ"
     ]
@@ -56607,107 +56414,107 @@
       "NLP"
     ]
   },
-  "National Mutual Aid என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "national mutual aid என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NMA"
     ]
   },
-  "Not My Responsibility என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "not my responsibility என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NMR"
     ]
   },
-  "New Member States என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "new member states என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NMS"
     ]
   },
-  "National Model United Nations என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "national model united nations என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NMUN"
     ]
   },
-  "National Model United Nations - District of Columbia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "national model united nations - district of columbia என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NMUN-DC"
     ]
   },
-  "National Model United Nations - New York என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "national model united nations - new york என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NMUN-NY"
     ]
   },
-  "Notice Of Application என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "notice of application என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NOA"
     ]
   },
-  "National Officer": {
+  "national officer": {
     "default": [
       "NOB"
     ]
   },
-  "Nizamiah J'P'L Rangapur Observatories Hyderabad India Contributions என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
+  "nizamiah j'p'l rangapur observatories hyderabad india contributions என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
     "default": [
       "NOHIC"
     ]
   },
-  "Not Otherwise Specified என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "not otherwise specified என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NOS"
     ]
   },
-  "National Payments Corporation of India என்பதன் சுருக்கம்.": {
+  "national payments corporation of india என்பதன் சுருக்கம்.": {
     "default": [
       "NPCI"
     ]
   },
-  "Nation Progress Report என்பதன் சொற்சுருக்கம் ஆகும்.": {
+  "nation progress report என்பதன் சொற்சுருக்கம் ஆகும்.": {
     "default": [
       "NPR"
     ]
   },
-  "Not Responsible for Anything என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "not responsible for anything என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NRA"
     ]
   },
-  "Non Resident Indian என்பதன் அஃகுப்பெயர் ஆகும்.": {
+  "non resident indian என்பதன் அஃகுப்பெயர் ஆகும்.": {
     "default": [
       "NRI"
     ]
   },
-  "N'T' Standardization Agency என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "n't' standardization agency என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NSA"
     ]
   },
-  "National Savings Certificate என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
+  "national savings certificate என்பதைக் குறிக்கும் சொற்சுருக்கம் ஆகும். இது இந்தியநாட்டில் அதிகமாகப் பயன்படுத்தப்படும் சொற்களில் ஒன்றாகும்.பிறவற்றைஇங்குகாணலாம். (எ. கா.)": {
     "default": [
       "NSC"
     ]
   },
-  "Normal Trade Relations என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "normal trade relations என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NTR"
     ]
   },
-  "North Vietnamese Army என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "north vietnamese army என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NVA"
     ]
   },
-  "Night Vision Binoculars என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "night vision binoculars என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NVB"
     ]
   },
-  "Night Vision Device என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "night vision device என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NVD"
     ]
   },
-  "North Viet Nam என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "north viet nam என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NVN"
     ]
@@ -56717,12 +56524,12 @@
       "NV center"
     ]
   },
-  "National Working Group என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
+  "national working group என்பதன் சொற்சுருக்கம் ஆகும். இது ஐக்கிய நாட்டு சபையால்(ஐநா)பயன்படுத்தப்படும்": {
     "default": [
       "NWG"
     ]
   },
-  "Niachie = என்னைப் போகவிடு!": {
+  "niachie = என்னைப் போகவிடு!": {
     "default": [
       "achia"
     ]
@@ -56747,7 +56554,7 @@
       "expedient"
     ]
   },
-  "nickel silver / Cu-Zn-Sn alloys என்றும் அழைப்பர்.": {
+  "nickel silver / cu-zn-sn alloys என்றும் அழைப்பர்.": {
     "default": [
       "white brass"
     ]
@@ -56807,7 +56614,7 @@
       "notes verbales"
     ]
   },
-  "NBFC என்பதன் விரிவாக்கம்": {
+  "nbfc என்பதன் விரிவாக்கம்": {
     "default": [
       "non-banking financial company"
     ]
@@ -56822,88 +56629,83 @@
       "noble gases"
     ]
   },
-  "North": {
-    "பெயர்ச்சொல்": [
-      "news"
-    ]
-  },
-  "NBC என்பதன் விரிவாக்கம்": {
+  "nbc என்பதன் விரிவாக்கம்": {
     "default": [
       "net borrowing ceiling"
     ]
   },
-  "Neisseria என்பது விலங்கியல் வகைப்பாட்டின் பேரினப் பெயராகும்.": {
+  "neisseria என்பது விலங்கியல் வகைப்பாட்டின் பேரினப் பெயராகும்.": {
     "default": [
       "neisseria"
     ]
   },
-  "NLP என்று சுருக்கமாக அழைப்பர்.": {
+  "nlp என்று சுருக்கமாக அழைப்பர்.": {
     "default": [
       "natural language processing"
     ]
   },
-  "NTA என்பதன் விரிவாக்கம்": {
+  "nta என்பதன் விரிவாக்கம்": {
     "default": [
       "national testing agency"
     ]
   },
-  "NRSC என்பதன் விரிவாக்கம்": {
+  "nrsc என்பதன் விரிவாக்கம்": {
     "default": [
       "national remote sensing centre"
     ]
   },
-  "NPR என்பதன் விரிவாக்கம்": {
+  "npr என்பதன் விரிவாக்கம்": {
     "default": [
       "national population register"
     ]
   },
-  "NMC என்பதன் விரிவாக்கம்": {
+  "nmc என்பதன் விரிவாக்கம்": {
     "default": [
       "national medical commission"
     ]
   },
-  "NMMS என்பதன் விரிவாக்கம்": {
+  "nmms என்பதன் விரிவாக்கம்": {
     "default": [
       "national means-cum-merit scholarship scheme"
     ]
   },
-  "NIOT என்பதன் விரிவாக்கம்": {
+  "niot என்பதன் விரிவாக்கம்": {
     "default": [
       "national institute of ocean technology"
     ]
   },
-  "NIFTEM என்பதன் விரிவாக்கம்": {
+  "niftem என்பதன் விரிவாக்கம்": {
     "default": [
       "national institute of food technology entrepreneurship and management"
     ]
   },
-  "NEET என்பதன் விரிவாக்கம்": {
+  "neet என்பதன் விரிவாக்கம்": {
     "default": [
       "national eligibility cum entrance test"
     ]
   },
-  "NEFT என்பதன் விரிவாக்கம்": {
+  "neft என்பதன் விரிவாக்கம்": {
     "default": [
       "national electronic fund transfer",
       "national electronic funds transfer"
     ]
   },
-  "NDMA என்பதன் விரிவாக்கம்": {
+  "ndma என்பதன் விரிவாக்கம்": {
     "default": [
       "national disaster management authority"
     ]
   },
-  "N CrF என்பதன் விரிவாக்கம்": {
+  "n crf என்பதன் விரிவாக்கம்": {
     "default": [
       "national credit framework"
     ]
   },
-  "NCC என்பதன் விரிவாக்கம்": {
+  "ncc என்பதன் விரிவாக்கம்": {
     "default": [
       "national cadet corps(ncc)"
     ]
   },
-  "NBE என்பதன் விரிவாக்கம்": {
+  "nbe என்பதன் விரிவாக்கம்": {
     "default": [
       "national board of examinations"
     ]
@@ -56913,12 +56715,12 @@
       "naivety"
     ]
   },
-  "N வகை விண்மீன்": {
+  "n வகை விண்மீன்": {
     "default": [
       "n star"
     ]
   },
-  "N வகைப் பால்வெளி மண்டலம்": {
+  "n வகைப் பால்வெளி மண்டலம்": {
     "default": [
       "n galaxy"
     ]

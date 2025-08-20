@@ -1,482 +1,497 @@
 {
-  "X's_and_O's": {
+  "x's_and_o's": {
     "default": [
       [
         "இது ஒருமை இல்லாத அல்லது அமையாத பன்மைச் சொல்லாகும்."
       ]
     ]
   },
-  "X,Y_chromaticity_diagram": {
+  "x,y_chromaticity_diagram": {
     "default": [
       [
-        "X",
-        "Y நிறவியல் வரைபடம்"
+        "ஙீ",
+        "ஹ் நிறவியல் வரைபடம்"
       ]
     ]
   },
-  "X-linked": {
+  "x-linked": {
     "default": [
       [
         "எக்சு தொடர்பு கொண்ட"
       ]
     ]
   },
-  "X-linked_inheritance": {
+  "x-linked_inheritance": {
     "default": [
       [
         "பெண்ணொட்டு மரபுபெறல்"
       ]
     ]
   },
-  "X-ray_absorption": {
+  "x-ray_absorption": {
     "default": [
       [
-        "X கதிர் உட்கவர்ச்சி"
+        "ஙீ கதிர் உட்கவர்ச்சி"
       ]
     ]
   },
-  "X-ray_analysis": {
+  "x-ray_analysis": {
     "default": [
       [
-        "X கதிர் பகுப்பாய்வு"
+        "[பொறியியல்.] எக்ஸ் கதிர் பகுத்தாய்வு"
       ]
     ]
   },
-  "X-ray_astronomy": {
+  "x-ray_astronomy": {
     "default": [
       [
-        "X கதிர் வானியல்"
+        "ஙீ கதிர் வானியல்"
+      ],
+      [
+        "எக்சு கதிர் வானியல்"
       ]
     ]
   },
-  "X-ray_background": {
+  "x-ray_background": {
     "default": [
       [
-        "X கதிர்ப் பின்னணி"
+        "ஙீ கதிர்ப் பின்னணி"
       ]
     ]
   },
-  "X-ray_binary": {
+  "x-ray_binary": {
     "default": [
       [
-        "X கதிர் இரட்டை"
+        "ஙீ கதிர் இரட்டை"
       ]
     ]
   },
-  "X-ray_burster": {
+  "x-ray_burster": {
     "default": [
       [
-        "X கதிர் வெடித்தல்"
+        "ஙீ கதிர் வெடித்தல்"
       ]
     ]
   },
-  "X-ray_cluster": {
+  "x-ray_cluster": {
     "default": [
       [
-        "X கதிர்க் கொத்து"
+        "ஙீ கதிர்க் கொத்து"
       ]
     ]
   },
-  "X-ray_crystal_spectrometer": {
+  "x-ray_crystal_spectrometer": {
     "default": [
       [
-        "X கதிர் படிக அலைமாலை அளவி"
+        "ஙீ கதிர் படிக அலைமாலை அளவி"
       ]
     ]
   },
-  "X-ray_crystallography": {
+  "x-ray_crystallography": {
     "default": [
       [
-        "X கதிர் படிகவியல்"
+        "[பொறியியல்.] எக்சு கதிர் படிகவியல்"
       ]
     ]
   },
-  "X-ray_diffraction": {
+  "x-ray_diffraction": {
     "default": [
       [
-        "X கதிர் விளிம்புவிலகல்"
+        "[இயற்பியல்.] எக்ஸ் கதிர் விளிம்பு விளைவு"
+      ],
+      [
+        "[தாவரவியல்.] எக்ஸ் கதிர் விளிம்பு மாற்றம்"
       ]
     ]
   },
-  "X-ray_diffraction_analysis": {
+  "x-ray_diffraction_analysis": {
     "default": [
       [
-        "X கதிர் விளிம்புவிலகல் பகுப்பாய்வு"
+        "ஙீ கதிர் விளிம்புவிலகல் பகுப்பாய்வு"
       ]
     ]
   },
-  "X-ray_diffractometer": {
+  "x-ray_diffractometer": {
     "default": [
       [
-        "X கதிர் விளிம்புவிலகல் அளவி"
+        "ஙீ கதிர் விளிம்புவிலகல் அளவி"
       ]
     ]
   },
-  "X-ray_emission": {
+  "x-ray_emission": {
     "default": [
       [
-        "X கதிர் உமிழ்வு"
+        "ஙீ கதிர் உமிழ்வு"
       ]
     ]
   },
-  "X-ray_film": {
+  "x-ray_film": {
     "default": [
       [
-        "X கதிர் படலம்"
+        "ஙீ கதிர் படலம்"
+      ],
+      [
+        "எக்சுகதிர் படச்சுருள்"
+      ],
+      [
+        "ஊடுகதிர் படச்சுருள்"
       ]
     ]
   },
-  "X-ray_fluorescence": {
+  "x-ray_fluorescence": {
     "default": [
       [
-        "X கதிர் உடனொளிர்வு"
+        "ஙீ கதிர் உடனொளிர்வு"
       ]
     ]
   },
-  "X-ray_fluorimetry": {
+  "x-ray_fluorimetry": {
     "default": [
       [
-        "X கதிர் ஒளிர்வு அளவியல்"
+        "ஙீ கதிர் ஒளிர்வு அளவியல்"
       ]
     ]
   },
-  "X-ray_generator": {
+  "x-ray_generator": {
     "default": [
       [
-        "X கதிர் ஆக்கி"
+        "[பொறியியல்.] எக்ஸ் கதிர் மின்னாக்கி"
       ]
     ]
   },
-  "X-ray_goniometer": {
+  "x-ray_goniometer": {
     "default": [
       [
-        "X கதிர் படிகஅச்சுக் கோணஅளவி"
+        "ஙீ கதிர் படிகஅச்சுக் கோணஅளவி"
       ]
     ]
   },
-  "X-ray_hardness": {
+  "x-ray_hardness": {
     "default": [
       [
-        "X கதிர் கடினத்தன்மை"
+        "ஙீ கதிர் கடினத்தன்மை"
       ]
     ]
   },
-  "X-ray_holography": {
+  "x-ray_holography": {
     "default": [
       [
-        "X கதிர் முப்பரிமாண ஒளிப்படவியல்"
+        "ஙீ கதிர் முப்பரிமாண ஒளிப்படவியல்"
       ]
     ]
   },
-  "X-ray_image_spectrography": {
+  "x-ray_image_spectrography": {
     "default": [
       [
-        "X கதிர் தோற்றுரு அலைமாலை வரைவியல்"
+        "ஙீ கதிர் தோற்றுரு அலைமாலை வரைவியல்"
       ]
     ]
   },
-  "X-ray_irradiation": {
+  "x-ray_irradiation": {
     "default": [
       [
-        "X கதிர் வீச்சொளிர்வு"
+        "ஙீ கதிர் வீச்சொளிர்வு"
       ]
     ]
   },
-  "X-ray_laser": {
+  "x-ray_laser": {
     "default": [
       [
-        "X கதிர் லேசர்"
+        "ஙீ கதிர் லேசர்"
       ]
     ]
   },
-  "X-ray_lithography": {
+  "x-ray_lithography": {
     "default": [
       [
-        "X கதிர் பதிவச்சுக் கலை"
+        "ஙீ கதிர் பதிவச்சுக் கலை"
       ]
     ]
   },
-  "X-ray_machine": {
+  "x-ray_machine": {
     "default": [
       [
-        "X கதிர் எந்திரம்"
+        "ஙீ கதிர் எந்திரம்"
       ]
     ]
   },
-  "X-ray_micro_diffraction": {
+  "x-ray_micro_diffraction": {
     "default": [
       [
-        "X கதிர் நுண் விளிம்புவிலகல்"
+        "ஙீ கதிர் நுண் விளிம்புவிலகல்"
       ]
     ]
   },
-  "X-ray_microprobe": {
+  "x-ray_microprobe": {
     "default": [
       [
-        "X கதிர் நுண் சலாகை"
+        "ஙீ கதிர் நுண் சலாகை"
       ]
     ]
   },
-  "X-ray_microscope": {
+  "x-ray_microscope": {
     "default": [
       [
-        "X கதிர் நுண்ணோக்கி"
+        "ஙீ கதிர் நுண்ணோக்கி"
       ]
     ]
   },
-  "X-ray_monochromator": {
+  "x-ray_monochromator": {
     "default": [
       [
-        "X கதிர் ஒற்றை நிறமாக்கி"
+        "ஙீ கதிர் ஒற்றை நிறமாக்கி"
       ]
     ]
   },
-  "X-ray_nebulae": {
+  "x-ray_nebulae": {
     "default": [
       [
-        "X கதிர் விண்முகில்"
+        "ஙீ கதிர் விண்முகில்"
       ]
     ]
   },
-  "X-ray_optics": {
+  "x-ray_optics": {
     "default": [
       [
-        "X கதிர் ஒளியியல்"
+        "ஙீ கதிர் ஒளியியல்"
       ]
     ]
   },
-  "X-ray_powder_method": {
+  "x-ray_powder_method": {
     "default": [
       [
-        "X கதிர் படிகத்துகள் முறை"
+        "ஙீ கதிர் படிகத்துகள் முறை"
       ]
     ]
   },
-  "X-ray_projection_microscopy": {
+  "x-ray_projection_microscopy": {
     "default": [
       [
-        "X கதிர் வீழல் நுண்ணோக்கியியல்"
+        "ஙீ கதிர் வீழல் நுண்ணோக்கியியல்"
       ]
     ]
   },
-  "X-ray_spectrograph": {
+  "x-ray_spectrograph": {
     "default": [
       [
-        "X கதிர் அலைமாலை வரை"
+        "ஙீ கதிர் அலைமாலை வரை"
       ]
     ]
   },
-  "X-ray_spectrometer": {
+  "x-ray_spectrometer": {
     "default": [
       [
-        "X கதிர் அலைமாலை அளவி"
+        "[இயற்பியல்.] எக்ஸ் கதிர் நிறமாலை அளவி"
       ]
     ]
   },
-  "X-ray_spectrometry": {
+  "x-ray_spectrometry": {
     "default": [
       [
-        "X கதிர் அலைமாலை அளவியல்"
+        "ஙீ கதிர் அலைமாலை அளவியல்"
       ]
     ]
   },
-  "X-ray_spectroscopy": {
+  "x-ray_spectroscopy": {
     "default": [
       [
-        "X கதிர் அலைமாலைநோக்கி"
+        "ஙீ கதிர் அலைமாலைநோக்கி"
       ]
     ]
   },
-  "X-ray_spectrum": {
+  "x-ray_spectrum": {
     "default": [
       [
-        "X கதிர் அலைமாலை"
+        "[இயற்பியல்.] எக்ஸ் கதிர் நிறமாலை"
       ]
     ]
   },
-  "X-ray_star": {
+  "x-ray_star": {
     "default": [
       [
-        "X கதிர் விண்மீன்"
+        "ஙீ கதிர் விண்மீன்"
       ]
     ]
   },
-  "X-ray_target": {
+  "x-ray_target": {
     "default": [
       [
-        "X கதிர் இலக்கு"
+        "ஙீ கதிர் இலக்கு"
       ]
     ]
   },
-  "X-ray_telescope": {
+  "x-ray_telescope": {
     "default": [
       [
-        "X கதிர் தொலைநோக்கி"
+        "ஙீ கதிர் தொலைநோக்கி"
       ]
     ]
   },
-  "X-ray_therapy": {
+  "x-ray_therapy": {
     "default": [
       [
         "புதிர்க்க திர்ப் பண்டுவம்"
       ]
     ]
   },
-  "X-ray_thickness_gage": {
+  "x-ray_thickness_gage": {
     "default": [
       [
-        "X கதிர் தடிமன் அளவி"
+        "ஙீ கதிர் தடிமன் அளவி"
       ]
     ]
   },
-  "X-ray_tube": {
+  "x-ray_tube": {
     "default": [
       [
-        "X கதிர் குழல்"
+        "[பொறியியல்.] எக்ஸ் கதிர்க் குழல்"
       ]
     ]
   },
-  "X-ray_unit": {
+  "x-ray_unit": {
     "default": [
       [
-        "X கதிர் அணி"
+        "ஙீ கதிர் அணி"
       ]
     ]
   },
-  "X-rays": {
+  "x-rays": {
     "default": [
       [
-        "X கதிர்கள்"
+        "[பொறியியல்.] எக்ஸ் கதிர்கள்"
+      ],
+      [
+        "[வேளாண்மை.] எக்ஸ் கதிர்கள்"
       ]
     ]
   },
-  "XNOR": {
+  "xnor": {
     "default": [
       [
         "குறதிலை (கணினியியல்)"
       ]
     ]
   },
-  "XOR": {
+  "xor": {
     "default": [
       [
-        "குல்லது (கணினியியல்)"
+        "விலக்கும் அல்லது வாயில்"
       ]
     ]
   },
-  "XY_coordinate_plotter": {
+  "xy_coordinate_plotter": {
     "default": [
       [
-        "XY ஆய வரைவி"
+        "ஙீசீ ஆய வரைவி"
       ]
     ]
   },
-  "X_-radiation": {
+  "x_-radiation": {
     "default": [
       [
-        "X கதிர்வீச்சு"
+        "ஙீ கதிர்வீச்சு"
       ]
     ]
   },
-  "X_axis": {
+  "x_axis": {
     "default": [
       [
-        "X அச்சு"
+        "ஙீ அச்சு"
       ]
     ]
   },
-  "X_band": {
+  "x_band": {
     "default": [
       [
-        "X -அலைப்பட்டை"
+        "ஙீ -அலைப்பட்டை"
       ]
     ]
   },
-  "X_coordinate": {
+  "x_coordinate": {
     "default": [
       [
-        "X - ஆயம்"
+        "ஙீ - ஆயம்"
       ]
     ]
   },
-  "X_frame": {
+  "x_frame": {
     "default": [
       [
-        "X சட்டம்"
+        "ஙீ சட்டம்"
       ]
     ]
   },
-  "X_wave": {
+  "x_wave": {
     "default": [
       [
-        "X - கதிர்அலை"
+        "ஙீ - கதிர்அலை"
       ]
     ]
   },
-  "Xanadu": {
+  "xanadu": {
     "default": [
       [
         "மிளிர் அழகு: மனநிறைவிடம்"
       ]
     ]
   },
-  "Xanthophyceae": {
+  "xanthophyceae": {
     "default": [
       [
         "இளம்பச்சையால்கவை"
       ]
     ]
   },
-  "Xavnte": {
+  "xavnte": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Xeroradiography": {
+  "xeroradiography": {
     "default": [
       [
-        "X-கதிர்-காமாகதிர் நகலியல்"
+        "ஙீ-கதிர்-காமாகதிர் நகலியல்"
       ]
     ]
   },
-  "Xerxes": {
+  "xerxes": {
     "default": [
       [
         "நாயகரில் நாயகன்"
       ]
     ]
   },
-  "Xhosa": {
+  "xhosa": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
       ]
     ]
   },
-  "Xi-minus_particle": {
+  "xi-minus_particle": {
     "default": [
       [
-        "Xi -எதிர்க்குறி துகள்"
+        "ஙீவீ -எதிர்க்குறி துகள்"
       ]
     ]
   },
-  "Xi_-_zero_particle": {
+  "xi_-_zero_particle": {
     "default": [
       [
-        "Xi - சுழிஆற்றல் துகள்"
+        "ஙீவீ - சுழிஆற்றல் துகள்"
       ]
     ]
   },
-  "Xi_particle": {
+  "xi_particle": {
     "default": [
       [
-        "Xi - துகள்"
+        "[இயற்பியல்.] க்சை துகள்"
       ]
     ]
   },
-  "Xrc": {
+  "xrc": {
     "default": [
       [
         "இது உலக மொழிகளுள் ஒன்று ஆகும்."
@@ -902,13 +917,6 @@
       ]
     ]
   },
-  "xy_coordinate_plotter": {
-    "default": [
-      [
-        "ஙீசீ ஆய வரைவி"
-      ]
-    ]
-  },
   "xrays": {
     "default": [
       [
@@ -920,13 +928,6 @@
     "default": [
       [
         "ஊடுகதிர்"
-      ]
-    ]
-  },
-  "xor": {
-    "default": [
-      [
-        "விலக்கும் அல்லது வாயில்"
       ]
     ]
   },
@@ -1061,27 +1062,6 @@
     "default": [
       [
         "இது பழவகைகளுள் ஒன்றாகும்."
-      ]
-    ]
-  },
-  "xi_particle": {
-    "default": [
-      [
-        "[இயற்பியல்.] க்சை துகள்"
-      ]
-    ]
-  },
-  "xi_-_zero_particle": {
-    "default": [
-      [
-        "ஙீவீ - சுழிஆற்றல் துகள்"
-      ]
-    ]
-  },
-  "xi-minus_particle": {
-    "default": [
-      [
-        "ஙீவீ -எதிர்க்குறி துகள்"
       ]
     ]
   },
@@ -1229,13 +1209,6 @@
     "default": [
       [
         "வறட்சித் தாவரத் தொடர்பு"
-      ]
-    ]
-  },
-  "xeroradiography": {
-    "default": [
-      [
-        "ஙீ-கதிர்-காமாகதிர் நகலியல்"
       ]
     ]
   },
@@ -2327,13 +2300,6 @@
       ]
     ]
   },
-  "x_wave": {
-    "default": [
-      [
-        "ஙீ - கதிர்அலை"
-      ]
-    ]
-  },
   "x_unit": {
     "default": [
       [
@@ -2488,13 +2454,6 @@
       ]
     ]
   },
-  "x_frame": {
-    "default": [
-      [
-        "ஙீ சட்டம்"
-      ]
-    ]
-  },
   "x_engine": {
     "default": [
       [
@@ -2506,13 +2465,6 @@
     "default": [
       [
         "ஙீ - வெட்டு"
-      ]
-    ]
-  },
-  "x_coordinate": {
-    "default": [
-      [
-        "ஙீ - ஆயம்"
       ]
     ]
   },
@@ -2535,27 +2487,6 @@
     "default": [
       [
         "ஙீ - போசான்"
-      ]
-    ]
-  },
-  "x_band": {
-    "default": [
-      [
-        "ஙீ -அலைப்பட்டை"
-      ]
-    ]
-  },
-  "x_axis": {
-    "default": [
-      [
-        "ஙீ அச்சு"
-      ]
-    ]
-  },
-  "x_-radiation": {
-    "default": [
-      [
-        "ஙீ கதிர்வீச்சு"
       ]
     ]
   },
@@ -2736,30 +2667,6 @@
       ]
     ]
   },
-  "x-rays": {
-    "default": [
-      [
-        "[பொறியியல்.] எக்ஸ் கதிர்கள்"
-      ],
-      [
-        "[வேளாண்மை.] எக்ஸ் கதிர்கள்"
-      ]
-    ]
-  },
-  "x-ray_unit": {
-    "default": [
-      [
-        "ஙீ கதிர் அணி"
-      ]
-    ]
-  },
-  "x-ray_tube": {
-    "default": [
-      [
-        "[பொறியியல்.] எக்ஸ் கதிர்க் குழல்"
-      ]
-    ]
-  },
   "x-ray_transformer": {
     "default": [
       [
@@ -2767,38 +2674,10 @@
       ]
     ]
   },
-  "x-ray_thickness_gage": {
-    "default": [
-      [
-        "ஙீ கதிர் தடிமன் அளவி"
-      ]
-    ]
-  },
   "x-ray_theraphy": {
     "default": [
       [
         "கதிரியல் மருத்துவம்"
-      ]
-    ]
-  },
-  "x-ray_telescope": {
-    "default": [
-      [
-        "ஙீ கதிர் தொலைநோக்கி"
-      ]
-    ]
-  },
-  "x-ray_target": {
-    "default": [
-      [
-        "ஙீ கதிர் இலக்கு"
-      ]
-    ]
-  },
-  "x-ray_star": {
-    "default": [
-      [
-        "ஙீ கதிர் விண்மீன்"
       ]
     ]
   },
@@ -2810,59 +2689,10 @@
       ]
     ]
   },
-  "x-ray_spectrum": {
-    "default": [
-      [
-        "[இயற்பியல்.] எக்ஸ் கதிர் நிறமாலை"
-      ]
-    ]
-  },
-  "x-ray_spectroscopy": {
-    "default": [
-      [
-        "ஙீ கதிர் அலைமாலைநோக்கி"
-      ]
-    ]
-  },
-  "x-ray_spectrometry": {
-    "default": [
-      [
-        "ஙீ கதிர் அலைமாலை அளவியல்"
-      ]
-    ]
-  },
-  "x-ray_spectrometer": {
-    "default": [
-      [
-        "[இயற்பியல்.] எக்ஸ் கதிர் நிறமாலை அளவி"
-      ]
-    ]
-  },
-  "x-ray_spectrograph": {
-    "default": [
-      [
-        "ஙீ கதிர் அலைமாலை வரை"
-      ]
-    ]
-  },
   "x-ray_scattering": {
     "default": [
       [
         "[இயற்பியல்.] எக்ஸ் கதிர்ச் சிதறல்"
-      ]
-    ]
-  },
-  "x-ray_projection_microscopy": {
-    "default": [
-      [
-        "ஙீ கதிர் வீழல் நுண்ணோக்கியியல்"
-      ]
-    ]
-  },
-  "x-ray_powder_method": {
-    "default": [
-      [
-        "ஙீ கதிர் படிகத்துகள் முறை"
       ]
     ]
   },
@@ -2880,31 +2710,10 @@
       ]
     ]
   },
-  "x-ray_optics": {
-    "default": [
-      [
-        "ஙீ கதிர் ஒளியியல்"
-      ]
-    ]
-  },
   "x-ray_nova": {
     "default": [
       [
         "X-கதிர் விண்மீன்வெடிப்பு"
-      ]
-    ]
-  },
-  "x-ray_nebulae": {
-    "default": [
-      [
-        "ஙீ கதிர் விண்முகில்"
-      ]
-    ]
-  },
-  "x-ray_monochromator": {
-    "default": [
-      [
-        "ஙீ கதிர் ஒற்றை நிறமாக்கி"
       ]
     ]
   },
@@ -2915,121 +2724,10 @@
       ]
     ]
   },
-  "x-ray_microscope": {
-    "default": [
-      [
-        "ஙீ கதிர் நுண்ணோக்கி"
-      ]
-    ]
-  },
-  "x-ray_microprobe": {
-    "default": [
-      [
-        "ஙீ கதிர் நுண் சலாகை"
-      ]
-    ]
-  },
-  "x-ray_micro_diffraction": {
-    "default": [
-      [
-        "ஙீ கதிர் நுண் விளிம்புவிலகல்"
-      ]
-    ]
-  },
-  "x-ray_machine": {
-    "default": [
-      [
-        "ஙீ கதிர் எந்திரம்"
-      ]
-    ]
-  },
-  "x-ray_lithography": {
-    "default": [
-      [
-        "ஙீ கதிர் பதிவச்சுக் கலை"
-      ]
-    ]
-  },
-  "x-ray_laser": {
-    "default": [
-      [
-        "ஙீ கதிர் லேசர்"
-      ]
-    ]
-  },
-  "x-ray_irradiation": {
-    "default": [
-      [
-        "ஙீ கதிர் வீச்சொளிர்வு"
-      ]
-    ]
-  },
   "x-ray_installation": {
     "default": [
       [
         "X - கதிர் நிறுவல்"
-      ]
-    ]
-  },
-  "x-ray_image_spectrography": {
-    "default": [
-      [
-        "ஙீ கதிர் தோற்றுரு அலைமாலை வரைவியல்"
-      ]
-    ]
-  },
-  "x-ray_holography": {
-    "default": [
-      [
-        "ஙீ கதிர் முப்பரிமாண ஒளிப்படவியல்"
-      ]
-    ]
-  },
-  "x-ray_hardness": {
-    "default": [
-      [
-        "ஙீ கதிர் கடினத்தன்மை"
-      ]
-    ]
-  },
-  "x-ray_goniometer": {
-    "default": [
-      [
-        "ஙீ கதிர் படிகஅச்சுக் கோணஅளவி"
-      ]
-    ]
-  },
-  "x-ray_generator": {
-    "default": [
-      [
-        "[பொறியியல்.] எக்ஸ் கதிர் மின்னாக்கி"
-      ]
-    ]
-  },
-  "x-ray_fluorimetry": {
-    "default": [
-      [
-        "ஙீ கதிர் ஒளிர்வு அளவியல்"
-      ]
-    ]
-  },
-  "x-ray_fluorescence": {
-    "default": [
-      [
-        "ஙீ கதிர் உடனொளிர்வு"
-      ]
-    ]
-  },
-  "x-ray_film": {
-    "default": [
-      [
-        "ஙீ கதிர் படலம்"
-      ],
-      [
-        "எக்சுகதிர் படச்சுருள்"
-      ],
-      [
-        "ஊடுகதிர் படச்சுருள்"
       ]
     ]
   },
@@ -3040,62 +2738,10 @@
       ]
     ]
   },
-  "x-ray_emission": {
-    "default": [
-      [
-        "ஙீ கதிர் உமிழ்வு"
-      ]
-    ]
-  },
-  "x-ray_diffractometer": {
-    "default": [
-      [
-        "ஙீ கதிர் விளிம்புவிலகல் அளவி"
-      ]
-    ]
-  },
-  "x-ray_diffraction_analysis": {
-    "default": [
-      [
-        "ஙீ கதிர் விளிம்புவிலகல் பகுப்பாய்வு"
-      ]
-    ]
-  },
-  "x-ray_diffraction": {
-    "default": [
-      [
-        "[இயற்பியல்.] எக்ஸ் கதிர் விளிம்பு விளைவு"
-      ],
-      [
-        "[தாவரவியல்.] எக்ஸ் கதிர் விளிம்பு மாற்றம்"
-      ]
-    ]
-  },
   "x-ray_dermatitis": {
     "default": [
       [
         "[மருத்துவம்.] ஊடுகதிர் ஒவ்வாமை தோலழற்சி"
-      ]
-    ]
-  },
-  "x-ray_crystallography": {
-    "default": [
-      [
-        "[பொறியியல்.] எக்சு கதிர் படிகவியல்"
-      ]
-    ]
-  },
-  "x-ray_crystal_spectrometer": {
-    "default": [
-      [
-        "ஙீ கதிர் படிக அலைமாலை அளவி"
-      ]
-    ]
-  },
-  "x-ray_cluster": {
-    "default": [
-      [
-        "ஙீ கதிர்க் கொத்து"
       ]
     ]
   },
@@ -3110,51 +2756,6 @@
     "default": [
       [
         "[இயற்பியல்.] எட்சுக்-கதிர்க்கலோரிமானி"
-      ]
-    ]
-  },
-  "x-ray_burster": {
-    "default": [
-      [
-        "ஙீ கதிர் வெடித்தல்"
-      ]
-    ]
-  },
-  "x-ray_binary": {
-    "default": [
-      [
-        "ஙீ கதிர் இரட்டை"
-      ]
-    ]
-  },
-  "x-ray_background": {
-    "default": [
-      [
-        "ஙீ கதிர்ப் பின்னணி"
-      ]
-    ]
-  },
-  "x-ray_astronomy": {
-    "default": [
-      [
-        "ஙீ கதிர் வானியல்"
-      ],
-      [
-        "எக்சு கதிர் வானியல்"
-      ]
-    ]
-  },
-  "x-ray_analysis": {
-    "default": [
-      [
-        "[பொறியியல்.] எக்ஸ் கதிர் பகுத்தாய்வு"
-      ]
-    ]
-  },
-  "x-ray_absorption": {
-    "default": [
-      [
-        "ஙீ கதிர் உட்கவர்ச்சி"
       ]
     ]
   },
@@ -3276,320 +2877,304 @@
       ]
     ]
   },
-  "x,y_chromaticity_diagram": {
-    "default": [
-      [
-        "ஙீ",
-        "ஹ் நிறவியல் வரைபடம்"
-      ]
-    ]
-  },
   "x": {
-    "default": [
-      [
-        "மரபுத்திரி எண்",
-        "பண்பக எண்"
-      ]
-    ]
-  },
-  "X": {
     "default": [
       "Y chromaticity diagram X"
     ]
   },
-  "X கதிர் உட்கவர்ச்சி": {
+  "x கதிர் உட்கவர்ச்சி": {
     "default": [
       "X-ray absorption"
     ]
   },
-  "X கதிர் பகுப்பாய்வு": {
+  "x கதிர் பகுப்பாய்வு": {
     "default": [
       "X-ray analysis"
     ]
   },
-  "X கதிர் வானியல்": {
+  "x கதிர் வானியல்": {
     "default": [
       "X-ray astronomy"
     ]
   },
-  "X கதிர்ப் பின்னணி": {
+  "x கதிர்ப் பின்னணி": {
     "default": [
       "X-ray background"
     ]
   },
-  "X கதிர் இரட்டை": {
+  "x கதிர் இரட்டை": {
     "default": [
       "X-ray binary"
     ]
   },
-  "X கதிர் வெடித்தல்": {
+  "x கதிர் வெடித்தல்": {
     "default": [
       "X-ray burster"
     ]
   },
-  "X கதிர்க் கொத்து": {
+  "x கதிர்க் கொத்து": {
     "default": [
       "X-ray cluster"
     ]
   },
-  "X கதிர் படிக அலைமாலை அளவி": {
+  "x கதிர் படிக அலைமாலை அளவி": {
     "default": [
       "X-ray crystal spectrometer"
     ]
   },
-  "X கதிர் படிகவியல்": {
+  "x கதிர் படிகவியல்": {
     "default": [
       "X-ray crystallography"
     ]
   },
-  "X கதிர் விளிம்புவிலகல்": {
+  "x கதிர் விளிம்புவிலகல்": {
     "default": [
       "X-ray diffraction",
       "x ray diffraction"
     ]
   },
-  "X கதிர் விளிம்புவிலகல் பகுப்பாய்வு": {
+  "x கதிர் விளிம்புவிலகல் பகுப்பாய்வு": {
     "default": [
       "X-ray diffraction analysis"
     ]
   },
-  "X கதிர் விளிம்புவிலகல் அளவி": {
+  "x கதிர் விளிம்புவிலகல் அளவி": {
     "default": [
       "X-ray diffractometer"
     ]
   },
-  "X கதிர் உமிழ்வு": {
+  "x கதிர் உமிழ்வு": {
     "default": [
       "X-ray emission"
     ]
   },
-  "X கதிர் படலம்": {
+  "x கதிர் படலம்": {
     "default": [
       "X-ray film"
     ]
   },
-  "X கதிர் உடனொளிர்வு": {
+  "x கதிர் உடனொளிர்வு": {
     "default": [
       "X-ray fluorescence"
     ]
   },
-  "X கதிர் ஒளிர்வு அளவியல்": {
+  "x கதிர் ஒளிர்வு அளவியல்": {
     "default": [
       "X-ray fluorimetry"
     ]
   },
-  "X கதிர் ஆக்கி": {
+  "x கதிர் ஆக்கி": {
     "default": [
       "X-ray generator"
     ]
   },
-  "X கதிர் படிகஅச்சுக் கோணஅளவி": {
+  "x கதிர் படிகஅச்சுக் கோணஅளவி": {
     "default": [
       "X-ray goniometer"
     ]
   },
-  "X கதிர் கடினத்தன்மை": {
+  "x கதிர் கடினத்தன்மை": {
     "default": [
       "X-ray hardness"
     ]
   },
-  "X கதிர் முப்பரிமாண ஒளிப்படவியல்": {
+  "x கதிர் முப்பரிமாண ஒளிப்படவியல்": {
     "default": [
       "X-ray holography"
     ]
   },
-  "X கதிர் தோற்றுரு அலைமாலை வரைவியல்": {
+  "x கதிர் தோற்றுரு அலைமாலை வரைவியல்": {
     "default": [
       "X-ray image spectrography"
     ]
   },
-  "X கதிர் வீச்சொளிர்வு": {
+  "x கதிர் வீச்சொளிர்வு": {
     "default": [
       "X-ray irradiation"
     ]
   },
-  "X கதிர் லேசர்": {
+  "x கதிர் லேசர்": {
     "default": [
       "X-ray laser"
     ]
   },
-  "X கதிர் பதிவச்சுக் கலை": {
+  "x கதிர் பதிவச்சுக் கலை": {
     "default": [
       "X-ray lithography"
     ]
   },
-  "X கதிர் எந்திரம்": {
+  "x கதிர் எந்திரம்": {
     "default": [
       "X-ray machine"
     ]
   },
-  "X கதிர் நுண் விளிம்புவிலகல்": {
+  "x கதிர் நுண் விளிம்புவிலகல்": {
     "default": [
       "X-ray micro diffraction"
     ]
   },
-  "X கதிர் நுண் சலாகை": {
+  "x கதிர் நுண் சலாகை": {
     "default": [
       "X-ray microprobe"
     ]
   },
-  "X கதிர் நுண்ணோக்கி": {
+  "x கதிர் நுண்ணோக்கி": {
     "default": [
       "X-ray microscope"
     ]
   },
-  "X கதிர் ஒற்றை நிறமாக்கி": {
+  "x கதிர் ஒற்றை நிறமாக்கி": {
     "default": [
       "X-ray monochromator"
     ]
   },
-  "X கதிர் விண்முகில்": {
+  "x கதிர் விண்முகில்": {
     "default": [
       "X-ray nebulae"
     ]
   },
-  "X கதிர் ஒளியியல்": {
+  "x கதிர் ஒளியியல்": {
     "default": [
       "X-ray optics"
     ]
   },
-  "X கதிர் படிகத்துகள் முறை": {
+  "x கதிர் படிகத்துகள் முறை": {
     "default": [
       "X-ray powder method"
     ]
   },
-  "X கதிர் வீழல் நுண்ணோக்கியியல்": {
+  "x கதிர் வீழல் நுண்ணோக்கியியல்": {
     "default": [
       "X-ray projection microscopy"
     ]
   },
-  "X கதிர் அலைமாலை வரை": {
+  "x கதிர் அலைமாலை வரை": {
     "default": [
       "X-ray spectrograph"
     ]
   },
-  "X கதிர் அலைமாலை அளவி": {
+  "x கதிர் அலைமாலை அளவி": {
     "default": [
       "X-ray spectrometer"
     ]
   },
-  "X கதிர் அலைமாலை அளவியல்": {
+  "x கதிர் அலைமாலை அளவியல்": {
     "default": [
       "X-ray spectrometry"
     ]
   },
-  "X கதிர் அலைமாலைநோக்கி": {
+  "x கதிர் அலைமாலைநோக்கி": {
     "default": [
       "X-ray spectroscopy"
     ]
   },
-  "X கதிர் அலைமாலை": {
+  "x கதிர் அலைமாலை": {
     "default": [
       "X-ray spectrum"
     ]
   },
-  "X கதிர் விண்மீன்": {
+  "x கதிர் விண்மீன்": {
     "default": [
       "X-ray star"
     ]
   },
-  "X கதிர் இலக்கு": {
+  "x கதிர் இலக்கு": {
     "default": [
       "X-ray target"
     ]
   },
-  "X கதிர் தொலைநோக்கி": {
+  "x கதிர் தொலைநோக்கி": {
     "default": [
       "X-ray telescope"
     ]
   },
-  "X கதிர் தடிமன் அளவி": {
+  "x கதிர் தடிமன் அளவி": {
     "default": [
       "X-ray thickness gage"
     ]
   },
-  "X கதிர் குழல்": {
+  "x கதிர் குழல்": {
     "default": [
       "X-ray tube"
     ]
   },
-  "X கதிர் அணி": {
+  "x கதிர் அணி": {
     "default": [
       "X-ray unit"
     ]
   },
-  "X கதிர்கள்": {
+  "x கதிர்கள்": {
     "default": [
       "X-rays",
       "x rays"
     ]
   },
-  "XY ஆய வரைவி": {
+  "xy ஆய வரைவி": {
     "default": [
       "XY coordinate plotter"
     ]
   },
-  "X கதிர்வீச்சு": {
+  "x கதிர்வீச்சு": {
     "default": [
       "X -radiation"
     ]
   },
-  "X அச்சு": {
+  "x அச்சு": {
     "default": [
       "X axis"
     ]
   },
-  "X -அலைப்பட்டை": {
+  "x -அலைப்பட்டை": {
     "default": [
       "X band"
     ]
   },
-  "X - ஆயம்": {
+  "x - ஆயம்": {
     "default": [
       "X coordinate"
     ]
   },
-  "X சட்டம்": {
+  "x சட்டம்": {
     "default": [
       "X frame"
     ]
   },
-  "X - கதிர்அலை": {
+  "x - கதிர்அலை": {
     "default": [
       "X wave"
     ]
   },
-  "X-கதிர்-காமாகதிர் நகலியல்": {
+  "x-கதிர்-காமாகதிர் நகலியல்": {
     "default": [
       "Xeroradiography"
     ]
   },
-  "Xi -எதிர்க்குறி துகள்": {
+  "xi -எதிர்க்குறி துகள்": {
     "default": [
       "Xi-minus particle"
     ]
   },
-  "Xi - சுழிஆற்றல் துகள்": {
+  "xi - சுழிஆற்றல் துகள்": {
     "default": [
       "Xi - zero particle"
     ]
   },
-  "Xi - துகள்": {
+  "xi - துகள்": {
     "default": [
       "Xi particle"
     ]
   },
-  "X-33 விண்கலச் சோதனைப்பொறி": {
+  "x-33 விண்கலச் சோதனைப்பொறி": {
     "default": [
       "aerospike"
     ]
   },
-  "X-கதிர் வாயில் தேட்டச் செயற்கைக்கோள் (அமெரிக்க ஒன்றிய நாடு)": {
+  "x-கதிர் வாயில் தேட்டச் செயற்கைக்கோள் (அமெரிக்க ஒன்றிய நாடு)": {
     "default": [
       "constellation-x"
     ]
   },
-  "X கதிர்": {
+  "x கதிர்": {
     "default": [
       "x – ray"
     ]
@@ -3599,72 +3184,72 @@
       "x ray diffraction"
     ]
   },
-  "X - துளை": {
+  "x - துளை": {
     "default": [
       "x punch"
     ]
   },
-  "X - இணைப்பு": {
+  "x - இணைப்பு": {
     "default": [
       "x link"
     ]
   },
-  "X - தொடர்": {
+  "x - தொடர்": {
     "default": [
       "x - series"
     ]
   },
-  "X - கதிர்கள்": {
+  "x - கதிர்கள்": {
     "default": [
       "x - rays"
     ]
   },
-  "X - கதிர் அலை": {
+  "x - கதிர் அலை": {
     "default": [
       "x - ray wave"
     ]
   },
-  "X - கதிர் படக்கலை": {
+  "x - கதிர் படக்கலை": {
     "default": [
       "x - ray photography"
     ]
   },
-  "X - நிலை": {
+  "x - நிலை": {
     "default": [
       "x - position"
     ]
   },
-  "X - நுண்ணுயிரி": {
+  "x - நுண்ணுயிரி": {
     "default": [
       "x - bacteria"
     ]
   },
-  "X - அச்சு": {
+  "x - அச்சு": {
     "default": [
       "x - axis"
     ]
   },
-  "X கதிர்வீச்சுற்ற முதல்": {
+  "x கதிர்வீச்சுற்ற முதல்": {
     "default": [
       "x2 x3 x1"
     ]
   },
-  "X - Y வரைவி": {
+  "x - y வரைவி": {
     "default": [
       "x-y plotter"
     ]
   },
-  "X - Y வரைபடம்": {
+  "x - y வரைபடம்": {
     "default": [
       "x-y chart"
     ]
   },
-  "X-கதிர் விண்மீன்வெடிப்பு": {
+  "x-கதிர் விண்மீன்வெடிப்பு": {
     "default": [
       "x-ray nova"
     ]
   },
-  "X - கதிர் நிறுவல்": {
+  "x - கதிர் நிறுவல்": {
     "default": [
       "x-ray installation"
     ]
@@ -3674,7 +3259,7 @@
       "x-ray"
     ]
   },
-  "X - மோடம்": {
+  "x - மோடம்": {
     "default": [
       "x-modem"
     ]
@@ -3684,12 +3269,12 @@
       "x-coordinate"
     ]
   },
-  "X-பட்டை அட்டவணை": {
+  "x-பட்டை அட்டவணை": {
     "default": [
       "x-bar chart"
     ]
   },
-  "X மரபுத்திரி (பண்பகம்)": {
+  "x மரபுத்திரி (பண்பகம்)": {
     "default": [
       "x- chromosome"
     ]
