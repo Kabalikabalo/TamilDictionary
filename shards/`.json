@@ -1,1 +1,42 @@
-{"`உறுப்பு ஒத்தியங்காமை ஆட்ட நடை":{"default":["athetoid movement"]},"` ஆண்டவன் பெயரால்":{"default":["bedad"]},"` உருக்கோட்டம்":{"default":["cacomorphi"]},"`யி’ வடிவப் பரவல்":{"default":["‘j’-shaped distribution"]},"`ஜி’ பரவல்":{"default":["‘t’ distribution"]},"`பெண்பாலார்":{"default":["womankind"]},"` கடலாய்வுத் துறையினர்":{"default":["thalassographer"]},"` (மரு) வாழ்ககை வெறுப்புணர்ச்சி":{"default":["taedium vit`ae"]}}
+{
+  "`உறுப்பு ஒத்தியங்காமை ஆட்ட நடை": {
+    "default": [
+      "athetoid movement"
+    ]
+  },
+  "` ஆண்டவன் பெயரால்": {
+    "default": [
+      "bedad"
+    ]
+  },
+  "` உருக்கோட்டம்": {
+    "default": [
+      "cacomorphi"
+    ]
+  },
+  "`யி’ வடிவப் பரவல்": {
+    "default": [
+      "‘j’-shaped distribution"
+    ]
+  },
+  "`ஜி’ பரவல்": {
+    "default": [
+      "‘t’ distribution"
+    ]
+  },
+  "`பெண்பாலார்": {
+    "default": [
+      "womankind"
+    ]
+  },
+  "` கடலாய்வுத் துறையினர்": {
+    "default": [
+      "thalassographer"
+    ]
+  },
+  "` (மரு) வாழ்ககை வெறுப்புணர்ச்சி": {
+    "default": [
+      "taedium vit`ae"
+    ]
+  }
+}

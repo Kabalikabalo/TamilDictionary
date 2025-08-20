@@ -1,1 +1,234 @@
-{"‘மார்க்காவ்’ சங்கிலி":{"default":["Markov chain"]},"‘வெக்டர்’ கூட்டல்":{"default":["addition vector"]},"‘ட’ (வடிவ) உதைசுவர்":{"default":["angle buttress"]},"‘ட’ மூலை":{"default":["angle fillet"]},"‘ட’ தண்டவாளப்பிணை":{"default":["angle fishplates"]},"‘அராப் சாட்’ (அராபியத் தொலைத்தொடர்புச் செயற்கைக்கோள்)":{"default":["arabsat"]},"‘ க்ஷி’ வடிவ கூரையோடு":{"default":["arris hip tile"]},"‘அசாசிஸ்’ பனைநார்":{"default":["assais"]},"‘ஙி ’ வகை உயிரணுக்கள்":{"default":["b-cells"]},"‘B ’ வகை உயிரணுக்கள்":{"default":["b cells"]},"‘பெட்டி’ மறுதலைத் தேற்றம்":{"default":["betti reciprocal theorem"]},"‘பெட்டி’ முறை":{"default":["betti’s method"]},"‘பெட்டி’ செயல்முறை":{"default":["betts’ process"]},"‘பெரிய அண்ணன்’ மனப்பான்மை":{"default":["big brother attitude"]},"‘சிசிலி’ வெல்வெட் போன்ற துணி":{"default":["broderie","velours"]},"‘இரட்டையர்’ விண்மீன்":{"default":["a star in the gemini constellation castor"]},"‘தி’ பரவல்":{"default":["‘f’ distribution"]},"‘ஹி’ வடிவப் பரவல்":{"default":["‘u’ shaped distribution"]},"‘விடியல் பறவை’-முதனிலை அப்பொல்லோ முதல் அமெரிக்க வணிகமுறைத் தொலைத்தொடர்புச் செயற்கைக்கோள்":{"default":["early bird ( intelsat 1)"]},"‘எஸ்கோலிபா’ செடி வெளிர்நிற நார்":{"default":["escolliba fibre"]},"‘இயல்வதெலாம் மெய்யல்ல’ கோட்பாடு":{"default":["expectabilism"]},"‘விண்ணாடை’ (ஜப்பானிய நிலாச் செயற்கைக்கோள்) (japanese: ‘robe of heaven’)":{"default":["hagoromo"]},"‘வாத்து’ (ஜப்பானிய முதல் X- கதிர் வானியற் செயற்கைக் கோள்) (japanese: ‘swan’)":{"default":["hakucho"]},"‘L’ அளவுகோல்":{"default":["l - square l - scale"]},"‘சீ’ வகை மரபுத்திரி":{"default":["y chromosome"]},"‘எக்ஸ்’ கருத்திரி மூலமான மரபமைப்பு":{"default":["x linked inheritance","x- linked inheritance"]},"‘எக்ஸ்’ கருத்திரி":{"default":["x chromosome"]},"‘விரியால்’ தேற்றப் பொருண்மை (திசைவேக இருபடி சராசரி விண்மீன் குழுப் பொருண்மை)":{"default":["virial-theorem mass"]},"‘வான் ஆலன்’ கதிர்வீச்சுப் பட்டை":{"default":["van allen radiation belts"]},"‘U’ வடிவ சமையலறை":{"default":["u shaped kitchen"]},"‘T’ வடிவ விட்டம்":{"default":["tee beam"]},"‘டாரஸ்’ ஏவுகலம்":{"default":["taurus rocket"]},"‘வால்விண்மீன்’":{"default":["suisei (japanese: ‘comet’)"]},"‘டவுன்’ வகை ஆட்டுக் கம்பளி":{"default":["southdown sheep"]},"‘Z’ முறுக்குக் கயிறு வகை":{"default":["shroud laid"]},"‘சீவிஃப்ஸ்’ (அகல்புலக் கடலாய்வு உணரி)":{"default":["seawifs"]},"‘சீசாட்’ (அமெரிக்கக் கடலாய்வுச் செயற்கைக்கோள்)":{"default":["seasat"]},"‘ரோசாட்’ (இராண்ட்ஜன் செயற்கைக்கோள்)":{"default":["rontgen satellite"]},"‘சிவப்புக்கல்’ ஏவுகலம் (இடைநெடுக்க ஏவுகணையால் செய்த ஏவுகலம்)":{"default":["redstone rocket"]},"‘பிரேகு இளவேனில்’ (அலெக்சாந்தர் துப்செக் தலைமைக் காலம்)":{"default":["prague spring"]},"‘னீ’-படி துருவம்":{"default":["pole of order m"]},"‘றி’வடிவ மின்வடிப்பி":{"default":["pi section filter"]},"‘றி’வடிவ வலைப்பின்னல்":{"default":["pi network"]},"‘றி’வடிவ வடிப்பி":{"default":["pi filter"]},"‘நம்பிக்கை’ (ஜப்பானிய செவ்வாய் வளி, மின்னணு மண்டல ஆய்கலம்) (japanese: ‘hope’)":{"default":["nozomi"]},"‘னீ’ மடங்கில் ஒருங்கிசைவு":{"default":["modulo ‘m’"]}}
+{
+  "‘மார்க்காவ்’ சங்கிலி": {
+    "default": [
+      "Markov chain"
+    ]
+  },
+  "‘வெக்டர்’ கூட்டல்": {
+    "default": [
+      "addition vector"
+    ]
+  },
+  "‘ட’ (வடிவ) உதைசுவர்": {
+    "default": [
+      "angle buttress"
+    ]
+  },
+  "‘ட’ மூலை": {
+    "default": [
+      "angle fillet"
+    ]
+  },
+  "‘ட’ தண்டவாளப்பிணை": {
+    "default": [
+      "angle fishplates"
+    ]
+  },
+  "‘அராப் சாட்’ (அராபியத் தொலைத்தொடர்புச் செயற்கைக்கோள்)": {
+    "default": [
+      "arabsat"
+    ]
+  },
+  "‘ க்ஷி’ வடிவ கூரையோடு": {
+    "default": [
+      "arris hip tile"
+    ]
+  },
+  "‘அசாசிஸ்’ பனைநார்": {
+    "default": [
+      "assais"
+    ]
+  },
+  "‘ஙி ’ வகை உயிரணுக்கள்": {
+    "default": [
+      "b-cells"
+    ]
+  },
+  "‘B ’ வகை உயிரணுக்கள்": {
+    "default": [
+      "b cells"
+    ]
+  },
+  "‘பெட்டி’ மறுதலைத் தேற்றம்": {
+    "default": [
+      "betti reciprocal theorem"
+    ]
+  },
+  "‘பெட்டி’ முறை": {
+    "default": [
+      "betti’s method"
+    ]
+  },
+  "‘பெட்டி’ செயல்முறை": {
+    "default": [
+      "betts’ process"
+    ]
+  },
+  "‘பெரிய அண்ணன்’ மனப்பான்மை": {
+    "default": [
+      "big brother attitude"
+    ]
+  },
+  "‘சிசிலி’ வெல்வெட் போன்ற துணி": {
+    "default": [
+      "broderie",
+      "velours"
+    ]
+  },
+  "‘இரட்டையர்’ விண்மீன்": {
+    "default": [
+      "a star in the gemini constellation castor"
+    ]
+  },
+  "‘தி’ பரவல்": {
+    "default": [
+      "‘f’ distribution"
+    ]
+  },
+  "‘ஹி’ வடிவப் பரவல்": {
+    "default": [
+      "‘u’ shaped distribution"
+    ]
+  },
+  "‘விடியல் பறவை’-முதனிலை அப்பொல்லோ முதல் அமெரிக்க வணிகமுறைத் தொலைத்தொடர்புச் செயற்கைக்கோள்": {
+    "default": [
+      "early bird ( intelsat 1)"
+    ]
+  },
+  "‘எஸ்கோலிபா’ செடி வெளிர்நிற நார்": {
+    "default": [
+      "escolliba fibre"
+    ]
+  },
+  "‘இயல்வதெலாம் மெய்யல்ல’ கோட்பாடு": {
+    "default": [
+      "expectabilism"
+    ]
+  },
+  "‘விண்ணாடை’ (ஜப்பானிய நிலாச் செயற்கைக்கோள்) (japanese: ‘robe of heaven’)": {
+    "default": [
+      "hagoromo"
+    ]
+  },
+  "‘வாத்து’ (ஜப்பானிய முதல் X- கதிர் வானியற் செயற்கைக் கோள்) (japanese: ‘swan’)": {
+    "default": [
+      "hakucho"
+    ]
+  },
+  "‘L’ அளவுகோல்": {
+    "default": [
+      "l - square l - scale"
+    ]
+  },
+  "‘சீ’ வகை மரபுத்திரி": {
+    "default": [
+      "y chromosome"
+    ]
+  },
+  "‘எக்ஸ்’ கருத்திரி மூலமான மரபமைப்பு": {
+    "default": [
+      "x linked inheritance",
+      "x- linked inheritance"
+    ]
+  },
+  "‘எக்ஸ்’ கருத்திரி": {
+    "default": [
+      "x chromosome"
+    ]
+  },
+  "‘விரியால்’ தேற்றப் பொருண்மை (திசைவேக இருபடி சராசரி விண்மீன் குழுப் பொருண்மை)": {
+    "default": [
+      "virial-theorem mass"
+    ]
+  },
+  "‘வான் ஆலன்’ கதிர்வீச்சுப் பட்டை": {
+    "default": [
+      "van allen radiation belts"
+    ]
+  },
+  "‘U’ வடிவ சமையலறை": {
+    "default": [
+      "u shaped kitchen"
+    ]
+  },
+  "‘T’ வடிவ விட்டம்": {
+    "default": [
+      "tee beam"
+    ]
+  },
+  "‘டாரஸ்’ ஏவுகலம்": {
+    "default": [
+      "taurus rocket"
+    ]
+  },
+  "‘வால்விண்மீன்’": {
+    "default": [
+      "suisei (japanese: ‘comet’)"
+    ]
+  },
+  "‘டவுன்’ வகை ஆட்டுக் கம்பளி": {
+    "default": [
+      "southdown sheep"
+    ]
+  },
+  "‘Z’ முறுக்குக் கயிறு வகை": {
+    "default": [
+      "shroud laid"
+    ]
+  },
+  "‘சீவிஃப்ஸ்’ (அகல்புலக் கடலாய்வு உணரி)": {
+    "default": [
+      "seawifs"
+    ]
+  },
+  "‘சீசாட்’ (அமெரிக்கக் கடலாய்வுச் செயற்கைக்கோள்)": {
+    "default": [
+      "seasat"
+    ]
+  },
+  "‘ரோசாட்’ (இராண்ட்ஜன் செயற்கைக்கோள்)": {
+    "default": [
+      "rontgen satellite"
+    ]
+  },
+  "‘சிவப்புக்கல்’ ஏவுகலம் (இடைநெடுக்க ஏவுகணையால் செய்த ஏவுகலம்)": {
+    "default": [
+      "redstone rocket"
+    ]
+  },
+  "‘பிரேகு இளவேனில்’ (அலெக்சாந்தர் துப்செக் தலைமைக் காலம்)": {
+    "default": [
+      "prague spring"
+    ]
+  },
+  "‘னீ’-படி துருவம்": {
+    "default": [
+      "pole of order m"
+    ]
+  },
+  "‘றி’வடிவ மின்வடிப்பி": {
+    "default": [
+      "pi section filter"
+    ]
+  },
+  "‘றி’வடிவ வலைப்பின்னல்": {
+    "default": [
+      "pi network"
+    ]
+  },
+  "‘றி’வடிவ வடிப்பி": {
+    "default": [
+      "pi filter"
+    ]
+  },
+  "‘நம்பிக்கை’ (ஜப்பானிய செவ்வாய் வளி, மின்னணு மண்டல ஆய்கலம்) (japanese: ‘hope’)": {
+    "default": [
+      "nozomi"
+    ]
+  },
+  "‘னீ’ மடங்கில் ஒருங்கிசைவு": {
+    "default": [
+      "modulo ‘m’"
+    ]
+  }
+}

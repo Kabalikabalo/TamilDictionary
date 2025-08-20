@@ -1,1 +1,12 @@
-{"̊# தடுக்கும் குழு":{"default":["Defending Side"]},"̊#குரல்வளைக் குருத்தெலும்பு இணைப்பு":{"default":["arytenoidopexy"]}}
+{
+  "̊# தடுக்கும் குழு": {
+    "default": [
+      "Defending Side"
+    ]
+  },
+  "̊#குரல்வளைக் குருத்தெலும்பு இணைப்பு": {
+    "default": [
+      "arytenoidopexy"
+    ]
+  }
+}

@@ -1,1 +1,115 @@
-{"று":{"default":["manipu"]},"றகேடான":{"default":["dishonourable"]},"றிழி சந்திப்பு கொண்மி":{"default":["junction capacitor"]},"றஏற்பாடுசெய்பவர்":{"default":["transferrer"]},"றிவான":{"default":["succinct"]},"றிஷிஜிழி - பொது இணைப்புத் தொலைபேசி இணையம்":{"default":["public switched telephone network (pstn)"]},"றிஷிஞிழி - பொது இணைப்புத் தரவு இணையம்":{"default":["public switched data network (psdn)"]},"றிஸிளிவி - நிரல்படு படிப்பு நினைவகம்":{"default":["prom - programmable read only memory"]},"றிலிகி- நிரலாக்கு ஏரண அணி":{"default":["pla (programmable logic array)"]},"றிணிலி - படப்புள்ளி":{"default":["pel"]},"றிஞிவி - துடிப்பு நேர பண்பேற்றம்":{"default":["pdm"]},"றிசிஸி வினையூக்கிகள்":{"default":["pcr reagents"]},"றிசிஸி பொருள்காணி":{"default":["pcr product detector"]},"றிசிஸி பொருள் உயிரிப்படியாக்கம்":{"default":["pcr product cloning"]},"றிசிவி - துடிப்புக் குறிமுறை பண்பேற்றம்":{"default":["pcm"]},"றி சுற்றுப்பாதை":{"default":["p orbital"]},"றி மட்ட மின்னணு":{"default":["p electron"]},"றி சிக்னே விண்மீன்":{"default":["p cygni star"]},"றி அலைப்பட்டை":{"default":["p band"]},"றி பண்புருவடிவம்":{"default":["p-form"]},"றி மட்டம் நிறை தனிமக்குழு":{"default":["p-block elements"]},"றி - பதிவகம்":{"default":["p- register"]},"ற்":{"default":[]}}
+{
+  "று": {
+    "default": [
+      "manipu"
+    ]
+  },
+  "றகேடான": {
+    "default": [
+      "dishonourable"
+    ]
+  },
+  "றிழி சந்திப்பு கொண்மி": {
+    "default": [
+      "junction capacitor"
+    ]
+  },
+  "றஏற்பாடுசெய்பவர்": {
+    "default": [
+      "transferrer"
+    ]
+  },
+  "றிவான": {
+    "default": [
+      "succinct"
+    ]
+  },
+  "றிஷிஜிழி - பொது இணைப்புத் தொலைபேசி இணையம்": {
+    "default": [
+      "public switched telephone network (pstn)"
+    ]
+  },
+  "றிஷிஞிழி - பொது இணைப்புத் தரவு இணையம்": {
+    "default": [
+      "public switched data network (psdn)"
+    ]
+  },
+  "றிஸிளிவி - நிரல்படு படிப்பு நினைவகம்": {
+    "default": [
+      "prom - programmable read only memory"
+    ]
+  },
+  "றிலிகி- நிரலாக்கு ஏரண அணி": {
+    "default": [
+      "pla (programmable logic array)"
+    ]
+  },
+  "றிணிலி - படப்புள்ளி": {
+    "default": [
+      "pel"
+    ]
+  },
+  "றிஞிவி - துடிப்பு நேர பண்பேற்றம்": {
+    "default": [
+      "pdm"
+    ]
+  },
+  "றிசிஸி வினையூக்கிகள்": {
+    "default": [
+      "pcr reagents"
+    ]
+  },
+  "றிசிஸி பொருள்காணி": {
+    "default": [
+      "pcr product detector"
+    ]
+  },
+  "றிசிஸி பொருள் உயிரிப்படியாக்கம்": {
+    "default": [
+      "pcr product cloning"
+    ]
+  },
+  "றிசிவி - துடிப்புக் குறிமுறை பண்பேற்றம்": {
+    "default": [
+      "pcm"
+    ]
+  },
+  "றி சுற்றுப்பாதை": {
+    "default": [
+      "p orbital"
+    ]
+  },
+  "றி மட்ட மின்னணு": {
+    "default": [
+      "p electron"
+    ]
+  },
+  "றி சிக்னே விண்மீன்": {
+    "default": [
+      "p cygni star"
+    ]
+  },
+  "றி அலைப்பட்டை": {
+    "default": [
+      "p band"
+    ]
+  },
+  "றி பண்புருவடிவம்": {
+    "default": [
+      "p-form"
+    ]
+  },
+  "றி மட்டம் நிறை தனிமக்குழு": {
+    "default": [
+      "p-block elements"
+    ]
+  },
+  "றி - பதிவகம்": {
+    "default": [
+      "p- register"
+    ]
+  },
+  "ற்": {
+    "default": []
+  }
+}

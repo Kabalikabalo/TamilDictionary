@@ -1,1 +1,7 @@
-{"יידיש or אידיש /":{"default":["yiddish"]}}
+{
+  "יידיש or אידיש /": {
+    "default": [
+      "yiddish"
+    ]
+  }
+}

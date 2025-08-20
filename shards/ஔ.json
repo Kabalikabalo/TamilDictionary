@@ -1,1 +1,191 @@
-{"ஔடதம்":{"பெயர்ச்சொல்":["medicament"],"default":["medicine"]},"ஔளிய மணச்சிகை":{"default":["alumino silicate"]},"ஔரேற்று":{"default":["aurate"]},"ஔரிக்கு":{"default":["auric"]},"ஔரிக்குக்குளோரைட்டு":{"default":["auric chloride"]},"ஔரிக்கைதரொட்சைட்டு":{"default":["auric hydroxide"]},"ஔரிக்கொட்சைட்டு":{"default":["auric oxide"]},"ஔரசுக்குளோரைட்டு":{"default":["aurous chloride"]},"ஔரசுச்சயனைட்டு":{"default":["aurous cyanide"]},"ஔரசொட்சைட்டு":{"default":["aurous oxide"]},"ஔரசுச்சல்பைட்டு":{"default":["aurous sulphide"]},"ஔத்திரேலியநார்":{"default":["australian fibre"]},"ஔனம்":{"default":[]},"ஔலியா":{"default":[]},"ஔ":{"default":["the twelfth tamil vowel ."]},"ஔகம்":{"default":["chorus","performance","Repetition by a chorus of the leader's song in a dancing performance"]},"ஔகாரம்":{"default":[]},"ஔக்குறுக்கம்":{"default":[]},"ஔசனம்":{"default":[]},"ஔசித்தியம்":{"default":[]},"ஔசீரம்":{"default":[]},"ஔடணம்":{"default":[]},"ஔடதவாதி":{"default":[]},"ஔடவம்":{"default":[]},"ஔடவராகம்":{"default":[]},"ஔதசியம்":{"default":["milk"]},"ஔதநிகன்":{"default":["cook"]},"ஔதா":{"default":[]},"ஔதாரியம்":{"default":[]},"ஔத்தமர்ணிகம்":{"default":[]},"ஔத்தாலகம்":{"default":[]},"ஔத்தாலிகம்":{"default":[]},"ஔத்திரி":{"default":[]},"ஔத்திரிதீட்சை":{"default":[]},"ஔபசாரிகம்":{"default":[]},"ஔபாசனம்":{"default":[]},"ஔபாசனை":{"default":[]},"ஔரசன்":{"default":[]},"ஔரசபுத்திரன்":{"default":[]},"ஔரதன்":{"default":[]},"ஔவித்தல்":{"default":[]},"ஔவியம்":{"default":["envy","perversity","deceit","fraud"]},"ஔவுதல்":{"default":[]},"ஔவை":{"default":["mother","matron","old woman","female ascetic","especially used of the Jaina sect"]},"ஔவை._கு.":{"default":[]},"ஔவைநோன்பு":{"default":[]},"ஔஷதம்":{"default":[]}}
+{
+  "ஔடதம்": {
+    "பெயர்ச்சொல்": [
+      "medicament"
+    ],
+    "default": [
+      "medicine"
+    ]
+  },
+  "ஔளிய மணச்சிகை": {
+    "default": [
+      "alumino silicate"
+    ]
+  },
+  "ஔரேற்று": {
+    "default": [
+      "aurate"
+    ]
+  },
+  "ஔரிக்கு": {
+    "default": [
+      "auric"
+    ]
+  },
+  "ஔரிக்குக்குளோரைட்டு": {
+    "default": [
+      "auric chloride"
+    ]
+  },
+  "ஔரிக்கைதரொட்சைட்டு": {
+    "default": [
+      "auric hydroxide"
+    ]
+  },
+  "ஔரிக்கொட்சைட்டு": {
+    "default": [
+      "auric oxide"
+    ]
+  },
+  "ஔரசுக்குளோரைட்டு": {
+    "default": [
+      "aurous chloride"
+    ]
+  },
+  "ஔரசுச்சயனைட்டு": {
+    "default": [
+      "aurous cyanide"
+    ]
+  },
+  "ஔரசொட்சைட்டு": {
+    "default": [
+      "aurous oxide"
+    ]
+  },
+  "ஔரசுச்சல்பைட்டு": {
+    "default": [
+      "aurous sulphide"
+    ]
+  },
+  "ஔத்திரேலியநார்": {
+    "default": [
+      "australian fibre"
+    ]
+  },
+  "ஔனம்": {
+    "default": []
+  },
+  "ஔலியா": {
+    "default": []
+  },
+  "ஔ": {
+    "default": [
+      "the twelfth tamil vowel ."
+    ]
+  },
+  "ஔகம்": {
+    "default": [
+      "chorus",
+      "performance",
+      "Repetition by a chorus of the leader's song in a dancing performance"
+    ]
+  },
+  "ஔகாரம்": {
+    "default": []
+  },
+  "ஔக்குறுக்கம்": {
+    "default": []
+  },
+  "ஔசனம்": {
+    "default": []
+  },
+  "ஔசித்தியம்": {
+    "default": []
+  },
+  "ஔசீரம்": {
+    "default": []
+  },
+  "ஔடணம்": {
+    "default": []
+  },
+  "ஔடதவாதி": {
+    "default": []
+  },
+  "ஔடவம்": {
+    "default": []
+  },
+  "ஔடவராகம்": {
+    "default": []
+  },
+  "ஔதசியம்": {
+    "default": [
+      "milk"
+    ]
+  },
+  "ஔதநிகன்": {
+    "default": [
+      "cook"
+    ]
+  },
+  "ஔதா": {
+    "default": []
+  },
+  "ஔதாரியம்": {
+    "default": []
+  },
+  "ஔத்தமர்ணிகம்": {
+    "default": []
+  },
+  "ஔத்தாலகம்": {
+    "default": []
+  },
+  "ஔத்தாலிகம்": {
+    "default": []
+  },
+  "ஔத்திரி": {
+    "default": []
+  },
+  "ஔத்திரிதீட்சை": {
+    "default": []
+  },
+  "ஔபசாரிகம்": {
+    "default": []
+  },
+  "ஔபாசனம்": {
+    "default": []
+  },
+  "ஔபாசனை": {
+    "default": []
+  },
+  "ஔரசன்": {
+    "default": []
+  },
+  "ஔரசபுத்திரன்": {
+    "default": []
+  },
+  "ஔரதன்": {
+    "default": []
+  },
+  "ஔவித்தல்": {
+    "default": []
+  },
+  "ஔவியம்": {
+    "default": [
+      "envy",
+      "perversity",
+      "deceit",
+      "fraud"
+    ]
+  },
+  "ஔவுதல்": {
+    "default": []
+  },
+  "ஔவை": {
+    "default": [
+      "mother",
+      "matron",
+      "old woman",
+      "female ascetic",
+      "especially used of the Jaina sect"
+    ]
+  },
+  "ஔவை._கு.": {
+    "default": []
+  },
+  "ஔவைநோன்பு": {
+    "default": []
+  },
+  "ஔஷதம்": {
+    "default": []
+  }
+}

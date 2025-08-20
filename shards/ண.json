@@ -1,1 +1,80 @@
-{"ண்டையிடும் இயல்புமிக்கதான வீட்டுப் பெடைக் கோழிவகை":{"default":["dandy-hen"]},"ணி- அளவு வீச்சு மாறும் நீளம்":{"default":["e-folding length"]},"ணி- அளவு வீச்சு மாறும் நேரம்":{"default":["e-folding time"]},"ணி-பி ஜி சந்திப்பு":{"default":["e-h t junction"]},"ணி-லீ ஒத்தியைவி":{"default":["e-h tuner"]},"ணி-அடுக்கு (கென்னலி- ஹெவிசைடு அடுக்கு)":{"default":["e-layer (formerly kennelly- heaviside layer)"]},"ணி- சீர்மை":{"default":["e-optimum"]},"ணி வடிவ உள்ளகம்":{"default":["e core"]},"ணி அடுக்கு":{"default":["e layer"]},"ணி - தொடர்பி":{"default":["e link"]},"ணிகிவி - மின்னணு கணக்குப் பொறி":{"default":["eam - electronic accounting machine"]},"ணிகிஸிளிவி- மின்னோட்டத்தால் மாறக்கூடிய படிப்பு நினைவகம்":{"default":["earom - electrically alterable read only memory"]},"ணிஞிறி - மின்னணுத் தரவுச் செயலாக்கம்":{"default":["edp - electronic data processing"]},"ணிதிஜி - மின்னணு நிதி மாற்றம்":{"default":["eft - electronic fund transfer"]},"ணிறிளிஷி - மின்னணு விற்பனைப் புள்ளியம்":{"default":["electronic point of sale (epos)"]},"ண்":{"default":[]}}
+{
+  "ண்டையிடும் இயல்புமிக்கதான வீட்டுப் பெடைக் கோழிவகை": {
+    "default": [
+      "dandy-hen"
+    ]
+  },
+  "ணி- அளவு வீச்சு மாறும் நீளம்": {
+    "default": [
+      "e-folding length"
+    ]
+  },
+  "ணி- அளவு வீச்சு மாறும் நேரம்": {
+    "default": [
+      "e-folding time"
+    ]
+  },
+  "ணி-பி ஜி சந்திப்பு": {
+    "default": [
+      "e-h t junction"
+    ]
+  },
+  "ணி-லீ ஒத்தியைவி": {
+    "default": [
+      "e-h tuner"
+    ]
+  },
+  "ணி-அடுக்கு (கென்னலி- ஹெவிசைடு அடுக்கு)": {
+    "default": [
+      "e-layer (formerly kennelly- heaviside layer)"
+    ]
+  },
+  "ணி- சீர்மை": {
+    "default": [
+      "e-optimum"
+    ]
+  },
+  "ணி வடிவ உள்ளகம்": {
+    "default": [
+      "e core"
+    ]
+  },
+  "ணி அடுக்கு": {
+    "default": [
+      "e layer"
+    ]
+  },
+  "ணி - தொடர்பி": {
+    "default": [
+      "e link"
+    ]
+  },
+  "ணிகிவி - மின்னணு கணக்குப் பொறி": {
+    "default": [
+      "eam - electronic accounting machine"
+    ]
+  },
+  "ணிகிஸிளிவி- மின்னோட்டத்தால் மாறக்கூடிய படிப்பு நினைவகம்": {
+    "default": [
+      "earom - electrically alterable read only memory"
+    ]
+  },
+  "ணிஞிறி - மின்னணுத் தரவுச் செயலாக்கம்": {
+    "default": [
+      "edp - electronic data processing"
+    ]
+  },
+  "ணிதிஜி - மின்னணு நிதி மாற்றம்": {
+    "default": [
+      "eft - electronic fund transfer"
+    ]
+  },
+  "ணிறிளிஷி - மின்னணு விற்பனைப் புள்ளியம்": {
+    "default": [
+      "electronic point of sale (epos)"
+    ]
+  },
+  "ண்": {
+    "default": []
+  }
+}

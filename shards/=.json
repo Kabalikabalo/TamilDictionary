@@ -1,1 +1,65 @@
-{"===பயன்பாடு===new education system":{"default":["Digication"]},"===விளக்கம்===# ஏரி வோஸ்டாக் போன்ற துணைப் பனிக்கட்டி ஏரிகளும்\n[[பகுப்பு:ஆங்கிலம்-வணிகவிய":{"default":["Fossil water"]},"===விளக்கம்==hi\n=":{"default":["Hi Fi"]},"==ஆங்கிலம்==":{"default":["glow","penury","release of security"]},"=== பொருள் ===":{"default":["safety-bolt","safety-lock","shut-in","soul-destroying","soul-stirring","south-bound","south-eastern","south-eastwardly","south-eastwards","splay-footed","splay-mouthed","splinter-proof","starting-gate","starting-post","starting-prices","state-room","station-bill","station-calendar","station-house","station-pointer","statute-book","statute-roll","stave-rhyme","stay-at-home","stay-bar","stay-down strike","stay-lace","stay-maker","stoll-ball","stop-key","stop-knob","storks-bill"]},"=":{"default":["put up"]}}
+{
+  "===பயன்பாடு===new education system": {
+    "default": [
+      "Digication"
+    ]
+  },
+  "===விளக்கம்===# ஏரி வோஸ்டாக் போன்ற துணைப் பனிக்கட்டி ஏரிகளும்\n[[பகுப்பு:ஆங்கிலம்-வணிகவிய": {
+    "default": [
+      "Fossil water"
+    ]
+  },
+  "===விளக்கம்==hi\n=": {
+    "default": [
+      "Hi Fi"
+    ]
+  },
+  "==ஆங்கிலம்==": {
+    "default": [
+      "glow",
+      "penury",
+      "release of security"
+    ]
+  },
+  "=== பொருள் ===": {
+    "default": [
+      "safety-bolt",
+      "safety-lock",
+      "shut-in",
+      "soul-destroying",
+      "soul-stirring",
+      "south-bound",
+      "south-eastern",
+      "south-eastwardly",
+      "south-eastwards",
+      "splay-footed",
+      "splay-mouthed",
+      "splinter-proof",
+      "starting-gate",
+      "starting-post",
+      "starting-prices",
+      "state-room",
+      "station-bill",
+      "station-calendar",
+      "station-house",
+      "station-pointer",
+      "statute-book",
+      "statute-roll",
+      "stave-rhyme",
+      "stay-at-home",
+      "stay-bar",
+      "stay-down strike",
+      "stay-lace",
+      "stay-maker",
+      "stoll-ball",
+      "stop-key",
+      "stop-knob",
+      "storks-bill"
+    ]
+  },
+  "=": {
+    "default": [
+      "put up"
+    ]
+  }
+}

@@ -1,1 +1,25 @@
-{"னெர்ன்ஸ்ட்":{"default":["Nernst"]},"னி மனிதரைச் சுட்டாத":{"default":["imjpersonal"]},"னைப்பார்வலர்":{"default":["zealot"]},"னால்வர் தொகுதி":{"default":["quaternity"]},"ன்":{"default":[]}}
+{
+  "னெர்ன்ஸ்ட்": {
+    "default": [
+      "Nernst"
+    ]
+  },
+  "னி மனிதரைச் சுட்டாத": {
+    "default": [
+      "imjpersonal"
+    ]
+  },
+  "னைப்பார்வலர்": {
+    "default": [
+      "zealot"
+    ]
+  },
+  "னால்வர் தொகுதி": {
+    "default": [
+      "quaternity"
+    ]
+  },
+  "ன்": {
+    "default": []
+  }
+}
