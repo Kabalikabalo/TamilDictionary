@@ -2,43 +2,186 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>TamilDictionary Shard Web Editor (Simple)</title>
+  <title>TamilDictionary Shard Web Editor</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <style>
-    body { font-family: sans-serif; margin: 2em; }
-    input, textarea { width: 100%; margin-bottom: 1em; }
-    button { margin-right: 1em; }
-    .shard-select { width: 200px; }
-    .entry-list { max-height: 200px; overflow: auto; }
-    .entry-list div { padding: 2px 0; border-bottom: 1px solid #eee; }
+    :root {
+      --primary-color:   #ff6b35;
+      --secondary-color: #ff8c42;
+      --accent-color:    #ffa726;
+      --glow-color-light: rgba(255, 107, 53, 0.1);
+      --bg-dark: #181818;
+      --card-bg: #232323;
+      --text-color: #fff7f0;
+      --input-bg: #292929;
+      --input-border: #ff8c42;
+      --shadow-glow: 0 0 16px 4px var(--glow-color-light);
+    }
+
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', 'Roboto', 'Helvetica', Arial, sans-serif;
+      background: var(--bg-dark);
+      color: var(--text-color);
+      min-height: 100vh;
+      position: relative;
+      overflow-x: hidden;
+    }
+
+    .bg-animation {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      z-index: -1;
+      background: radial-gradient(circle at 20% 50%, var(--glow-color-light) 0%, transparent 60%),
+                  radial-gradient(circle at 80% 20%, var(--glow-color-light) 0%, transparent 70%),
+                  radial-gradient(circle at 40% 80%, var(--glow-color-light) 0%, transparent 70%);
+      animation: bgFloat 20s ease-in-out infinite;
+      pointer-events: none;
+    }
+    @keyframes bgFloat {
+      0%, 100% { transform: translateY(0px) rotate(0deg);}
+      33% { transform: translateY(-4px) rotate(0.2deg);}
+      66% { transform: translateY(2px) rotate(-0.2deg);}
+    }
+
+    .container {
+      max-width: 520px;
+      margin: 4em auto;
+      background: var(--card-bg);
+      border-radius: 20px;
+      box-shadow: 0 4px 32px 0 var(--glow-color-light), 0 1.5px 8px 0 var(--primary-color);
+      padding: 2em 2.2em 1.5em 2.2em;
+      position: relative;
+      border: 1.5px solid var(--input-border);
+    }
+
+    h2 {
+      color: var(--primary-color);
+      margin-top: 0;
+      font-size: 2em;
+      text-shadow: 0 2px 12px var(--accent-color), 0 0 2px #fff2;
+    }
+    label, select, input, textarea {
+      font-size: 1em;
+    }
+    label {
+      color: var(--accent-color);
+      margin-bottom: .25em;
+      display: block;
+      font-weight: 500;
+      text-shadow: 0 1px 8px var(--glow-color-light);
+    }
+    input, select, textarea {
+      background: var(--input-bg);
+      border: 1.3px solid var(--input-border);
+      border-radius: 7px;
+      color: var(--text-color);
+      padding: 0.5em;
+      margin-bottom: 1.1em;
+      margin-top: 0.2em;
+      box-shadow: 0 1.5px 8px 0 var(--glow-color-light) inset;
+      transition: border 0.2s, box-shadow 0.2s;
+      outline: none;
+    }
+    input:focus, textarea:focus {
+      border-color: var(--accent-color);
+      box-shadow: 0 0 0 2px var(--accent-color), 0 2px 8px var(--glow-color-light) inset;
+    }
+    select {
+      width: 100%;
+      margin-bottom: 1.2em;
+    }
+    .entry-list {
+      max-height: 180px;
+      overflow-y: auto;
+      font-size: 0.98em;
+      margin-bottom: 1.2em;
+      border-radius: 8px;
+      background: var(--input-bg);
+      box-shadow: 0 1.5px 7px var(--glow-color-light) inset;
+      border: 1px solid var(--input-border);
+      padding: 0.7em 1em;
+      line-height: 1.7;
+    }
+    .entry-list b {
+      color: var(--secondary-color);
+      text-shadow: 0 1px 6px var(--glow-color-light);
+    }
+    .entry-list div {
+      margin-bottom: 0.35em;
+      border-bottom: 1px dashed var(--glow-color-light);
+    }
+    .entry-list div:last-child {
+      border-bottom: none;
+    }
+    .btn {
+      background: linear-gradient(90deg, var(--primary-color), var(--secondary-color) 90%);
+      color: #fff7f0;
+      border: none;
+      border-radius: 8px;
+      padding: 0.56em 1.5em;
+      font-size: 1em;
+      font-weight: 600;
+      cursor: pointer;
+      margin-top: 0.3em;
+      box-shadow: 0 2px 18px 0 var(--glow-color-light);
+      outline: none;
+      transition: background 0.2s, box-shadow 0.2s;
+      text-shadow: 0 1.5px 8px var(--glow-color-light);
+    }
+    .btn:active {
+      background: var(--accent-color);
+      box-shadow: 0 1.5px 8px 0 var(--glow-color-light);
+    }
+    .status {
+      margin-top: 1.1em;
+      font-weight: 500;
+      min-height: 1.2em;
+      text-shadow: 0 1.5px 8px var(--glow-color-light);
+    }
+    .footer {
+      margin-top: 2.5em;
+      text-align: center;
+      font-size: 0.96em;
+      color: #fffa;
+    }
+    .footer a { color: var(--primary-color); text-decoration: underline; }
+    @media (max-width: 600px) {
+      .container { margin: 0.5em 0.5em; padding: 1em 0.5em; }
+      h2 { font-size: 1.4em; }
+    }
   </style>
 </head>
 <body>
-  <h2>🧩 TamilDictionary Shard Web Editor (No React)</h2>
-  <label>
-    GitHub PAT (repo scope):<br>
-    <input id="token" type="password">
-  </label>
-  <br>
-  <label>
-    Repo (owner/name):<br>
-    <input id="repo" value="Kabalikabalo/TamilDictionary">
-  </label>
-  <br>
-  <div>
-    <b>Select Shard:</b>
-    <select id="shardSelect" class="shard-select">
+  <div class="bg-animation"></div>
+  <div class="container">
+    <h2>🧩 TamilDictionary Shard Editor</h2>
+    <label for="token">GitHub PAT (repo scope):</label>
+    <input id="token" type="password" autocomplete="off" placeholder="Paste your PAT here">
+    <label for="repo">Repository (owner/name):</label>
+    <input id="repo" value="Kabalikabalo/TamilDictionary" autocomplete="off">
+    <label for="shardSelect">Select Shard:</label>
+    <select id="shardSelect">
       <option value="">-- Select --</option>
     </select>
+    <div id="loading" class="status" style="color:#ffa726"></div>
+    <div id="entries"></div>
+    <div id="editBox" style="display:none;">
+      <hr style="border: none; border-top: 1px dashed var(--accent-color); margin:1em 0;">
+      <h4 style="color:var(--primary-color);margin:0 0 0.5em 0;">Add / Edit Entry</h4>
+      <input id="editKey" placeholder="Word (key)">
+      <textarea id="editValue" placeholder="Comma separated translations" rows="2"></textarea>
+      <button class="btn" id="saveBtn">Save Entry</button>
+    </div>
+    <div id="status" class="status"></div>
   </div>
-  <div id="loading" style="color:blue"></div>
-  <div id="entries"></div>
-  <div id="editBox" style="display:none;margin-top:2em;">
-    <h4>Add / Edit Entry</h4>
-    <input id="editKey" placeholder="Word (key)">
-    <textarea id="editValue" placeholder="Comma separated translations" rows="2"></textarea>
-    <button id="saveBtn">Save Entry</button>
+  <div class="footer">
+    <b>How to use:</b> Generate a GitHub Personal Access Token (with <code>repo</code> or fine-grained 'Contents: Read and write' for this repo), enter it above, select a shard, edit, and save.<br>
+    <a href="https://github.com/settings/tokens" target="_blank" rel="noopener">Create a PAT here</a>.
   </div>
-  <div id="status" style="color:green;margin-top:1em"></div>
   <script>
     function btoaUTF8(str) {
       return btoa(unescape(encodeURIComponent(str)));
@@ -52,13 +195,19 @@
     let shardData = {};
     let selectedShard = '';
 
-    function showStatus(msg, color='green') {
+    function showStatus(msg, color='var(--primary-color)') {
       document.getElementById('status').innerText = msg;
       document.getElementById('status').style.color = color;
     }
 
     function showLoading(msg) {
       document.getElementById('loading').innerText = msg;
+    }
+
+    function dedupe(arr) {
+      let s = new Set(), out = [];
+      for (const t of arr) if (t && !s.has(t)) { s.add(t); out.push(t); }
+      return out;
     }
 
     function loadManifest() {
@@ -81,7 +230,7 @@
             opt.textContent = bucket + ".json";
             select.appendChild(opt);
           });
-          showStatus('Manifest loaded!', 'green');
+          showStatus('Manifest loaded!', 'var(--accent-color)');
         } else {
           showStatus('Failed to load manifest', 'red');
         }
@@ -90,6 +239,7 @@
       .catch(e => { showStatus('Error loading manifest', 'red'); showLoading(''); });
     }
 
+    // Try loading a shard via Contents API; if too big, use Blob API
     function loadShard() {
       let token = document.getElementById('token').value.trim();
       let repo = document.getElementById('repo').value.trim();
@@ -105,32 +255,46 @@
       })
       .then(r => r.json())
       .then(data => {
-        if(data.content) {
+        if (data.content && data.encoding === 'base64') {
           shardData = JSON.parse(atobUTF8(data.content));
           shardSha = data.sha;
           renderEntries();
+          showLoading('');
+        } else if (data.sha) {
+          // Fallback to Blob API for large files
+          fetch(`https://api.github.com/repos/${repo}/git/blobs/${data.sha}`, {
+            headers: { Authorization: `token ${token}` }
+          })
+          .then(r2 => r2.json())
+          .then(blob => {
+            if (blob.content && blob.encoding === 'base64') {
+              shardData = JSON.parse(atobUTF8(blob.content));
+              shardSha = data.sha;
+              renderEntries();
+            } else {
+              showStatus('Failed to load large shard', 'red');
+            }
+            showLoading('');
+          })
+          .catch(e => { showStatus('Error loading blob', 'red'); showLoading('');});
         } else {
           showStatus('Failed to load shard', 'red');
+          showLoading('');
         }
-        showLoading('');
       })
       .catch(e => { showStatus('Error loading shard', 'red'); showLoading(''); });
     }
 
     function renderEntries() {
       let div = document.getElementById('entries');
-      div.innerHTML = `<h3>Entries in ${selectedShard}.json</h3><div class="entry-list"></div>`;
-      let listDiv = div.querySelector('.entry-list');
-      Object.entries(shardData).forEach(([k, v]) => {
-        let row = document.createElement('div');
-        row.innerHTML = `<b>${k}:</b> ${(v.default || []).join(', ')} <button data-key="${k}">Edit</button>`;
-        row.querySelector('button').onclick = function() {
-          document.getElementById('editKey').value = k;
-          document.getElementById('editValue').value = (v.default || []).join(', ');
-          document.getElementById('editBox').style.display = '';
-        }
-        listDiv.appendChild(row);
-      });
+      // Show only the first 20 keys/entries for performance (and UX)
+      let keys = Object.keys(shardData);
+      let list = keys.slice(0, 20).map(k => {
+        let v = shardData[k];
+        return `<div><b>${k}:</b> ${(v.default || []).join(', ')}</div>`;
+      }).join('');
+      div.innerHTML = `<div class="entry-list">${list || '<span style="color:#fff7f088">No entries yet in this shard.</span>'}</div>
+      <small style="color:var(--accent-color)">Showing first 20 of ${keys.length} entries.</small>`;
       document.getElementById('editBox').style.display = '';
       document.getElementById('editKey').value = '';
       document.getElementById('editValue').value = '';
@@ -139,8 +303,14 @@
     function saveEntry() {
       let key = document.getElementById('editKey').value.trim();
       let value = document.getElementById('editValue').value.split(',').map(s=>s.trim()).filter(Boolean);
-      if (!key) return;
-      shardData[key] = { default: value };
+      if (!key) { showStatus('Enter a word key!', 'red'); return; }
+      // Add or update entry
+      if (shardData[key] && shardData[key].default) {
+        let merged = dedupe(shardData[key].default.concat(value));
+        shardData[key].default = merged;
+      } else {
+        shardData[key] = { default: dedupe(value) };
+      }
       saveShard();
     }
 
@@ -179,7 +349,7 @@
       .then(data => {
         if (data.content && data.content.sha) {
           manifestSha = data.content.sha;
-          showStatus('Saved!', 'green');
+          showStatus('Saved!', 'var(--accent-color)');
           renderEntries();
         } else {
           throw new Error('Manifest update failed');
@@ -193,15 +363,6 @@
     document.getElementById('repo').addEventListener('change', loadManifest);
     document.getElementById('shardSelect').addEventListener('change', loadShard);
     document.getElementById('saveBtn').addEventListener('click', saveEntry);
-
-    // Optional: auto-load if token is filled in
-    // window.onload = function() { if(document.getElementById('token').value) loadManifest(); }
   </script>
-  <p>
-    <small>
-      <b>How to use:</b> Create a GitHub Personal Access Token (with <code>repo</code> scope), enter it above, select a shard, edit, and save.<br>
-      <a href="https://github.com/settings/tokens" target="_blank" rel="noopener">Create a PAT here</a>.
-    </small>
-  </p>
 </body>
 </html>
