@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>TamilDictionary Shard Web Editor</title>
+  <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+  <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+  <script crossorigin src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+  <style>
+    body { font-family: sans-serif; margin: 2em; }
+    input, textarea { width: 100%; margin-bottom: 1em; }
+    button { margin-right: 1em; }
+    .shard-select { width: 200px; }
+    .entry-list { max-height: 200px; overflow: auto; }
+  </style>
+</head>
+<body>
+  <div id="root"></div>
+  <script type="text/babel">
+
+function btoaUTF8(str) {
+  return btoa(unescape(encodeURIComponent(str)));
+}
+function atobUTF8(str) {
+  return decodeURIComponent(escape(atob(str)));
+}
+
+function App() {
+  const [token, setToken] = React.useState('');
+  const [repo, setRepo] = React.useState('Kabalikabalo/TamilDictionary');
+  const [shards, setShards] = React.useState([]);
+  const [selectedShard, setSelectedShard] = React.useState('');
+  const [shardData, setShardData] = React.useState({});
+  const [shardSha, setShardSha] = React.useState('');
+  const [loading, setLoading] = React.useState(false);
+  const [status, setStatus] = React.useState('');
+  const [editKey, setEditKey] = React.useState('');
+  const [editValue, setEditValue] = React.useState('');
+  const [manifest, setManifest] = React.useState({});
+  const [manifestSha, setManifestSha] = React.useState('');
+
+  // Fetch manifest and list shards
+  React.useEffect(() => {
+    if (!token || !repo) return;
+    setLoading(true);
+    fetch(`https://api.github.com/repos/${repo}/contents/shards/manifest.json`, {
+      headers: { Authorization: `token ${token}` }
+    })
+    .then(r => r.json())
+    .then(data => {
+      if(data.content) {
+        setManifest(JSON.parse(atobUTF8(data.content)));
+        setManifestSha(data.sha);
+        setShards(Object.keys(JSON.parse(atobUTF8(data.content))));
+      }
+      setLoading(false);
+    }).catch(e => { setStatus('Error loading manifest'); setLoading(false); });
+  }, [token, repo]);
+
+  // Fetch selected shard data
+  React.useEffect(() => {
+    if (!selectedShard || !token || !repo) return;
+    setLoading(true);
+    fetch(`https://api.github.com/repos/${repo}/contents/shards/${selectedShard}.json`, {
+      headers: { Authorization: `token ${token}` }
+    })
+    .then(r => r.json())
+    .then(data => {
+      setShardData(data.content ? JSON.parse(atobUTF8(data.content)) : {});
+      setShardSha(data.sha);
+      setLoading(false);
+    }).catch(e => { setStatus('Error loading shard'); setLoading(false); });
+  }, [selectedShard, token, repo]);
+
+  function handleSaveEntry() {
+    if (!editKey.trim()) return;
+    const newShard = { ...shardData, [editKey]: { default: editValue.split(',').map(s => s.trim()).filter(Boolean) } };
+    saveShard(newShard);
+  }
+
+  function saveShard(newShard) {
+    setLoading(true);
+    fetch(`https://api.github.com/repos/${repo}/contents/shards/${selectedShard}.json`, {
+      method: 'PUT',
+      headers: { Authorization: `token ${token}` },
+      body: JSON.stringify({
+        message: `Update shard ${selectedShard}`,
+        content: btoaUTF8(JSON.stringify(newShard, null, 2)),
+        sha: shardSha
+      })
+    }).then(r => r.json())
+    .then(data => {
+      setStatus("Shard saved!");
+      setShardSha(data.content && data.content.sha ? data.content.sha : '');
+      setShardData(newShard);
+      // update manifest count
+      const newManifest = { ...manifest, [selectedShard]: { ...manifest[selectedShard], keys: Object.keys(newShard).length } };
+      return fetch(`https://api.github.com/repos/${repo}/contents/shards/manifest.json`, {
+        method: 'PUT',
+        headers: { Authorization: `token ${token}` },
+        body: JSON.stringify({
+          message: `Update manifest for ${selectedShard}`,
+          content: btoaUTF8(JSON.stringify(newManifest, null, 2)),
+          sha: manifestSha
+        })
+      });
+    })
+    .then(r => r.json())
+    .then(data => {
+      setStatus("Shard and manifest updated!");
+      setManifestSha(data.content && data.content.sha ? data.content.sha : '');
+      setManifest({ ...manifest, [selectedShard]: { ...manifest[selectedShard], keys: Object.keys(shardData).length } });
+      setLoading(false);
+    })
+    .catch(e => { setStatus("Save error"); setLoading(false); });
+  }
+
+  return (
+    <div>
+      <h2>🧩 TamilDictionary Shard Web Editor (GitHub)</h2>
+      <label>
+        GitHub PAT (repo scope):<br/>
+        <input value={token} onChange={e=>setToken(e.target.value)} type="password"/>
+      </label>
+      <br/>
+      <label>
+        Repo (owner/name):<br/>
+        <input value={repo} onChange={e=>setRepo(e.target.value)} />
+      </label>
+      <br/>
+      <div>
+        <b>Select Shard:</b>
+        <select className="shard-select" onChange={e=>setSelectedShard(e.target.value)} value={selectedShard}>
+          <option value="">-- Select --</option>
+          {shards.map(s => <option key={s} value={s}>{s}.json</option>)}
+        </select>
+      </div>
+      {loading && <div>Loading...</div>}
+      {selectedShard && !loading &&
+        <>
+          <h3>Entries in {selectedShard}.json</h3>
+          <div className="entry-list">
+            {Object.entries(shardData).map(([k,v]) =>
+              <div key={k}><b>{k}:</b> {v.default ? v.default.join(', ') : JSON.stringify(v)}</div>
+            )}
+          </div>
+          <hr />
+          <h4>Add / Edit Entry</h4>
+          <input placeholder="Word (key)" value={editKey} onChange={e=>setEditKey(e.target.value)} />
+          <textarea placeholder="Comma separated translations" rows={2} value={editValue} onChange={e=>setEditValue(e.target.value)} />
+          <button onClick={handleSaveEntry}>Save Entry</button>
+        </>
+      }
+      <div style={{ color: 'green', marginTop: '1em' }}>{status}</div>
+      <p>
+        <small>
+          <b>How to use:</b> Create a GitHub Personal Access Token (with <code>repo</code> scope), enter it above, select a shard, edit, and save.<br/>
+          <a href="https://github.com/settings/tokens" target="_blank" rel="noopener">Create a PAT here</a>.
+        </small>
+      </p>
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById('root')).render(<App />);
+  </script>
+</body>
+</html>
