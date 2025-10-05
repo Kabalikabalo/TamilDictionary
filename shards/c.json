@@ -235415,5 +235415,10 @@
     "default": [
       "net borrowing ceiling"
     ]
+  },
+  "carrot": {
+    "default": [
+      "கேரட்"
+    ]
   }
 }
