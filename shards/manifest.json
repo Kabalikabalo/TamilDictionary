@@ -1,7 +1,27 @@
 {
+  "0": {
+    "file": "0.json",
+    "keys": 12
+  },
+  "1": {
+    "file": "1.json",
+    "keys": 131
+  },
   "2": {
     "file": "2.json",
     "keys": 31
+  },
+  "3": {
+    "file": "3.json",
+    "keys": 25
+  },
+  "4": {
+    "file": "4.json",
+    "keys": 14
+  },
+  "5": {
+    "file": "5.json",
+    "keys": 13
   },
   "6": {
     "file": "6.json",
@@ -11,9 +31,9 @@
     "file": "7.json",
     "keys": 9
   },
-  "1": {
-    "file": "1.json",
-    "keys": 131
+  "8": {
+    "file": "8.json",
+    "keys": 6
   },
   "9": {
     "file": "9.json",
@@ -25,7 +45,7 @@
   },
   "m": {
     "file": "m.json",
-    "keys": 16091
+    "keys": 16009
   },
   "!": {
     "file": "!.json",
@@ -46,14 +66,6 @@
   ".": {
     "file": "_misc.json",
     "keys": 267
-  },
-  "3": {
-    "file": "3.json",
-    "keys": 25
-  },
-  "5": {
-    "file": "5.json",
-    "keys": 13
   },
   "a": {
     "file": "a.json",
@@ -239,10 +251,6 @@
     "file": "ஐ.json",
     "keys": 811
   },
-  "4": {
-    "file": "4.json",
-    "keys": 14
-  },
   "ஞ": {
     "file": "ஞ.json",
     "keys": 443
@@ -295,10 +303,6 @@
     "file": "ஔ.json",
     "keys": 47
   },
-  "8": {
-    "file": "8.json",
-    "keys": 6
-  },
   "↑": {
     "file": "↑.json",
     "keys": 13
@@ -338,10 +342,6 @@
   "̟": {
     "file": "̟.json",
     "keys": 1
-  },
-  "0": {
-    "file": "0.json",
-    "keys": 12
   },
   "á": {
     "file": "á.json",
