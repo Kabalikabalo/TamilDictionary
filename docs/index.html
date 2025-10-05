@@ -1,368 +1,533 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <title>TamilDictionary Shard Web Editor</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <style>
-    :root {
-      --primary-color:   #ff6b35;
-      --secondary-color: #ff8c42;
-      --accent-color:    #ffa726;
-      --glow-color-light: rgba(255, 107, 53, 0.1);
-      --bg-dark: #181818;
-      --card-bg: #232323;
-      --text-color: #fff7f0;
-      --input-bg: #292929;
-      --input-border: #ff8c42;
-      --shadow-glow: 0 0 16px 4px var(--glow-color-light);
-    }
-
-    html, body {
-      height: 100%;
-      margin: 0;
-      padding: 0;
-      font-family: 'Segoe UI', 'Roboto', 'Helvetica', Arial, sans-serif;
-      background: var(--bg-dark);
-      color: var(--text-color);
-      min-height: 100vh;
-      position: relative;
-      overflow-x: hidden;
-    }
-
-    .bg-animation {
-      position: fixed;
-      top: 0; left: 0;
-      width: 100vw; height: 100vh;
-      z-index: -1;
-      background: radial-gradient(circle at 20% 50%, var(--glow-color-light) 0%, transparent 60%),
-                  radial-gradient(circle at 80% 20%, var(--glow-color-light) 0%, transparent 70%),
-                  radial-gradient(circle at 40% 80%, var(--glow-color-light) 0%, transparent 70%);
-      animation: bgFloat 20s ease-in-out infinite;
-      pointer-events: none;
-    }
-    @keyframes bgFloat {
-      0%, 100% { transform: translateY(0px) rotate(0deg);}
-      33% { transform: translateY(-4px) rotate(0.2deg);}
-      66% { transform: translateY(2px) rotate(-0.2deg);}
-    }
-
-    .container {
-      max-width: 520px;
-      margin: 4em auto;
-      background: var(--card-bg);
-      border-radius: 20px;
-      box-shadow: 0 4px 32px 0 var(--glow-color-light), 0 1.5px 8px 0 var(--primary-color);
-      padding: 2em 2.2em 1.5em 2.2em;
-      position: relative;
-      border: 1.5px solid var(--input-border);
-    }
-
-    h2 {
-      color: var(--primary-color);
-      margin-top: 0;
-      font-size: 2em;
-      text-shadow: 0 2px 12px var(--accent-color), 0 0 2px #fff2;
-    }
-    label, select, input, textarea {
-      font-size: 1em;
-    }
-    label {
-      color: var(--accent-color);
-      margin-bottom: .25em;
-      display: block;
-      font-weight: 500;
-      text-shadow: 0 1px 8px var(--glow-color-light);
-    }
-    input, select, textarea {
-      background: var(--input-bg);
-      border: 1.3px solid var(--input-border);
-      border-radius: 7px;
-      color: var(--text-color);
-      padding: 0.5em;
-      margin-bottom: 1.1em;
-      margin-top: 0.2em;
-      box-shadow: 0 1.5px 8px 0 var(--glow-color-light) inset;
-      transition: border 0.2s, box-shadow 0.2s;
-      outline: none;
-    }
-    input:focus, textarea:focus {
-      border-color: var(--accent-color);
-      box-shadow: 0 0 0 2px var(--accent-color), 0 2px 8px var(--glow-color-light) inset;
-    }
-    select {
-      width: 100%;
-      margin-bottom: 1.2em;
-    }
-    .entry-list {
-      max-height: 180px;
-      overflow-y: auto;
-      font-size: 0.98em;
-      margin-bottom: 1.2em;
-      border-radius: 8px;
-      background: var(--input-bg);
-      box-shadow: 0 1.5px 7px var(--glow-color-light) inset;
-      border: 1px solid var(--input-border);
-      padding: 0.7em 1em;
-      line-height: 1.7;
-    }
-    .entry-list b {
-      color: var(--secondary-color);
-      text-shadow: 0 1px 6px var(--glow-color-light);
-    }
-    .entry-list div {
-      margin-bottom: 0.35em;
-      border-bottom: 1px dashed var(--glow-color-light);
-    }
-    .entry-list div:last-child {
-      border-bottom: none;
-    }
-    .btn {
-      background: linear-gradient(90deg, var(--primary-color), var(--secondary-color) 90%);
-      color: #fff7f0;
-      border: none;
-      border-radius: 8px;
-      padding: 0.56em 1.5em;
-      font-size: 1em;
-      font-weight: 600;
-      cursor: pointer;
-      margin-top: 0.3em;
-      box-shadow: 0 2px 18px 0 var(--glow-color-light);
-      outline: none;
-      transition: background 0.2s, box-shadow 0.2s;
-      text-shadow: 0 1.5px 8px var(--glow-color-light);
-    }
-    .btn:active {
-      background: var(--accent-color);
-      box-shadow: 0 1.5px 8px 0 var(--glow-color-light);
-    }
-    .status {
-      margin-top: 1.1em;
-      font-weight: 500;
-      min-height: 1.2em;
-      text-shadow: 0 1.5px 8px var(--glow-color-light);
-    }
-    .footer {
-      margin-top: 2.5em;
-      text-align: center;
-      font-size: 0.96em;
-      color: #fffa;
-    }
-    .footer a { color: var(--primary-color); text-decoration: underline; }
-    @media (max-width: 600px) {
-      .container { margin: 0.5em 0.5em; padding: 1em 0.5em; }
-      h2 { font-size: 1.4em; }
-    }
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TamilDictionary Shard Editor</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Noto+Sans+Tamil:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<style>
+:root {
+    --primary-color: #ff6b35;
+    --secondary-color: #ff8c42;
+    --accent-color: #ffa726;
+    --glow-color: rgba(255, 107, 53, 0.3);
+    --glow-color-light: rgba(255, 107, 53, 0.1);
+    --particle-color: #ff6b35;
+    --dark-bg: #0a0a0a;
+    --card-bg: #1a1a1a;
+    --text-primary: #fff;
+    --text-secondary: #b0b0b0;
+    --border-color: #333;
+    --shadow-medium: 0 8px 30px var(--glow-color);
+    --border-radius: 16px;
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--dark-bg);
+    color: var(--text-primary);
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.bg-animation {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    z-index: -1;
+    background: radial-gradient(circle at 20% 50%, var(--glow-color-light) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, var(--glow-color-light) 0%, transparent 50%),
+                radial-gradient(circle at 40% 80%, var(--glow-color-light) 0%, transparent 50%);
+    animation: bgFloat 20s ease-in-out infinite;
+}
+@keyframes bgFloat {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    33% { transform: translateY(-4px) rotate(0.2deg); }
+    66% { transform: translateY(2px) rotate(-0.2deg); }
+}
+.particle {
+    position: absolute;
+    width: 3px; height: 3px;
+    background: var(--particle-color);
+    border-radius: 50%;
+    opacity: 0.6;
+    animation: float 8s ease-in-out infinite;
+    pointer-events: none;
+}
+@keyframes float {
+    0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+    25% { transform: translateY(-100px) translateX(20px); opacity: 0.8; }
+    50% { transform: translateY(-60px) translateX(-20px); opacity: 0.6; }
+    75% { transform: translateY(-120px) translateX(10px); opacity: 0.4; }
+}
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    position: relative;
+    z-index: 1;
+}
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+    animation: fadeInUp 1s ease-out;
+}
+.logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 0 30px var(--glow-color);
+    font-family: 'Noto Sans Tamil', serif;
+}
+.subtitle {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.card {
+    background: #1a1a1a30;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow-medium);
+    animation: fadeInUp 1s ease-out 0.2s both;
+    position: relative;
+    overflow: hidden;
+}
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    animation: slideIn 2s ease-out;
+}
+.input-group {
+    margin-bottom: 1.5rem;
+}
+.input-group label {
+    display: block;
+    color: var(--accent-color);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+.input-field {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    background: var(--dark-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    font-size: 1.05rem;
+    color: var(--text-primary);
+    outline: none;
+    transition: var(--transition);
+    font-family: 'Inter', 'Noto Sans Tamil', sans-serif;
+    box-sizing: border-box;
+}
+.input-field:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px var(--glow-color-light);
+    transform: translateY(-2px);
+}
+.btn {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border: none;
+    border-radius: 12px;
+    padding: 1rem 2rem;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: var(--shadow-medium);
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+.btn:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 12px 40px var(--glow-color);
+}
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.btn-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.btn-group .btn {
+    flex: 1;
+}
+.status-message {
+    padding: 1rem;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+    font-size: 0.95rem;
+    animation: fadeInUp 0.5s;
+}
+.status-info {
+    background: rgba(100, 181, 246, 0.1);
+    border: 1px solid #64b5f6;
+    color: #90caf9;
+}
+.status-success {
+    background: rgba(129, 199, 132, 0.1);
+    border: 1px solid #81c784;
+    color: #a5d6a7;
+}
+.status-error {
+    background: rgba(229, 115, 115, 0.1);
+    border: 1px solid #e57373;
+    color: #ef5350;
+}
+.status-warning {
+    background: var(--glow-color-light);
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+}
+.current-entry-display {
+    background: var(--dark-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    font-family: 'Noto Sans Tamil', 'Inter', sans-serif;
+    line-height: 1.8;
+}
+.current-entry-display .key {
+    color: var(--primary-color);
+    font-weight: 600;
+    font-size: 1.1rem;
+}
+.current-entry-display .translations {
+    color: var(--text-secondary);
+    margin-top: 0.5rem;
+}
+.step-indicator {
+    text-align: center;
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    margin-bottom: 1.5rem;
+}
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+@keyframes slideIn {
+    from { transform: scaleX(0);}
+    to { transform: scaleX(1);}
+}
+@media (max-width: 768px) {
+    .container { padding: 1rem; }
+    .logo { font-size: 2rem; }
+    .card { padding: 1.5rem; }
+    .btn-group { flex-direction: column; }
+}
+</style>
 </head>
 <body>
-  <div class="bg-animation"></div>
-  <div class="container">
-    <h2>🧩 TamilDictionary Shard Editor</h2>
-    <label for="token">GitHub PAT (repo scope):</label>
-    <input id="token" type="password" autocomplete="off" placeholder="Paste your PAT here">
-    <label for="repo">Repository (owner/name):</label>
-    <input id="repo" value="Kabalikabalo/TamilDictionary" autocomplete="off">
-    <label for="shardSelect">Select Shard:</label>
-    <select id="shardSelect">
-      <option value="">-- Select --</option>
-    </select>
-    <div id="loading" class="status" style="color:#ffa726"></div>
-    <div id="entries"></div>
-    <div id="editBox" style="display:none;">
-      <hr style="border: none; border-top: 1px dashed var(--accent-color); margin:1em 0;">
-      <h4 style="color:var(--primary-color);margin:0 0 0.5em 0;">Add / Edit Entry</h4>
-      <input id="editKey" placeholder="Word (key)">
-      <textarea id="editValue" placeholder="Comma separated translations" rows="2"></textarea>
-      <button class="btn" id="saveBtn">Save Entry</button>
+<div class="bg-animation"></div>
+<div class="container">
+    <header class="header">
+        <h1 class="logo">🧩 அகராதி திருத்தி</h1>
+        <p class="subtitle">TamilDictionary Shard Editor</p>
+    </header>
+
+    <!-- Setup Section -->
+    <div id="setupSection" class="card">
+        <div class="input-group">
+            <label for="token"><i class="fas fa-key"></i> GitHub Personal Access Token</label>
+            <input type="password" id="token" class="input-field" placeholder="Paste your PAT here">
+        </div>
+        <div class="input-group">
+            <label for="repo"><i class="fas fa-code-branch"></i> Repository (owner/name)</label>
+            <input type="text" id="repo" class="input-field" value="Kabalikabalo/TamilDictionary">
+        </div>
+        <button id="loadBtn" class="btn"><i class="fas fa-download"></i> Load Shards</button>
+        <div id="setupStatus"></div>
     </div>
-    <div id="status" class="status"></div>
-  </div>
-  <div class="footer">
-    <b>How to use:</b> Generate a GitHub Personal Access Token (with <code>repo</code> or fine-grained 'Contents: Read and write' for this repo), enter it above, select a shard, edit, and save.<br>
-    <a href="https://github.com/settings/tokens" target="_blank" rel="noopener">Create a PAT here</a>.
-  </div>
-  <script>
-    function btoaUTF8(str) {
-      return btoa(unescape(encodeURIComponent(str)));
-    }
-    function atobUTF8(str) {
-      return decodeURIComponent(escape(atob(str)));
-    }
-    let manifest = {};
-    let manifestSha = '';
-    let shardSha = '';
-    let shardData = {};
-    let selectedShard = '';
 
-    function showStatus(msg, color='var(--primary-color)') {
-      document.getElementById('status').innerText = msg;
-      document.getElementById('status').style.color = color;
-    }
+    <!-- Editor Section -->
+    <div id="editorSection" class="card" style="display:none;">
+        <div class="step-indicator" id="stepIndicator">Step 1: Enter a word</div>
+        <div id="statusDisplay"></div>
+        
+        <!-- Step 1: Enter Key -->
+        <div id="step1" style="display:none;">
+            <div class="input-group">
+                <label for="wordKey"><i class="fas fa-pen"></i> Key (Tamil or English word)</label>
+                <input type="text" id="wordKey" class="input-field" placeholder="Enter a word...">
+            </div>
+            <button id="checkKeyBtn" class="btn"><i class="fas fa-search"></i> Check Word</button>
+        </div>
 
-    function showLoading(msg) {
-      document.getElementById('loading').innerText = msg;
-    }
+        <!-- Step 2: Entry exists - choose action -->
+        <div id="step2" style="display:none;">
+            <div id="currentEntryDisplay" class="current-entry-display"></div>
+            <p style="color:var(--text-secondary);margin-bottom:1rem;">This word already exists. What would you like to do?</p>
+            <div class="btn-group">
+                <button id="appendBtn" class="btn"><i class="fas fa-plus"></i> Append</button>
+                <button id="rewriteBtn" class="btn"><i class="fas fa-sync"></i> Rewrite</button>
+                <button id="skipBtn" class="btn"><i class="fas fa-times"></i> Skip</button>
+            </div>
+        </div>
 
-    function dedupe(arr) {
-      let s = new Set(), out = [];
-      for (const t of arr) if (t && !s.has(t)) { s.add(t); out.push(t); }
-      return out;
-    }
+        <!-- Step 3: Enter translations -->
+        <div id="step3" style="display:none;">
+            <div class="input-group">
+                <label for="translations"><i class="fas fa-language"></i> Translations (comma-separated)</label>
+                <textarea id="translations" class="input-field" rows="3" placeholder="Enter translations separated by commas..."></textarea>
+            </div>
+            <div class="btn-group">
+                <button id="saveBtn" class="btn"><i class="fas fa-save"></i> Save</button>
+                <button id="cancelBtn" class="btn"><i class="fas fa-ban"></i> Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
 
-    function loadManifest() {
-      showLoading('Loading manifest...');
-      let token = document.getElementById('token').value.trim();
-      let repo = document.getElementById('repo').value.trim();
-      fetch(`https://api.github.com/repos/${repo}/contents/shards/manifest.json`, {
-        headers: { Authorization: `token ${token}` }
-      })
-      .then(r => r.json())
-      .then(data => {
-        if(data.content) {
-          manifest = JSON.parse(atobUTF8(data.content));
-          manifestSha = data.sha;
-          let select = document.getElementById('shardSelect');
-          select.innerHTML = '<option value="">-- Select --</option>';
-          Object.keys(manifest).forEach(bucket => {
-            let opt = document.createElement('option');
-            opt.value = bucket;
-            opt.textContent = bucket + ".json";
-            select.appendChild(opt);
-          });
-          showStatus('Manifest loaded!', 'var(--accent-color)');
-        } else {
-          showStatus('Failed to load manifest', 'red');
-        }
-        showLoading('');
-      })
-      .catch(e => { showStatus('Error loading manifest', 'red'); showLoading(''); });
-    }
+<script>
+function btoaUTF8(str) { return btoa(unescape(encodeURIComponent(str))); }
+function atobUTF8(str) { return decodeURIComponent(escape(atob(str))); }
 
-    // Try loading a shard via Contents API; if too big, use Blob API
-    function loadShard() {
-      let token = document.getElementById('token').value.trim();
-      let repo = document.getElementById('repo').value.trim();
-      selectedShard = document.getElementById('shardSelect').value;
-      if (!selectedShard) {
-        document.getElementById('entries').innerHTML = '';
-        document.getElementById('editBox').style.display = 'none';
+let token, repo, manifest = {}, manifestSha = '', currentShard = '', currentShardData = {}, currentShardSha = '', currentKey = '', mode = '';
+
+// Floating particles
+function createParticles() {
+    for (let i = 0; i < 30; i++) {
+        const particle = document.createElement('div');
+        particle.classList.add('particle');
+        particle.style.left = Math.random() * 100 + '%';
+        particle.style.top = Math.random() * 100 + '%';
+        particle.style.animationDelay = Math.random() * 8 + 's';
+        particle.style.animationDuration = (Math.random() * 4 + 6) + 's';
+        document.body.appendChild(particle);
+    }
+}
+document.addEventListener('DOMContentLoaded', createParticles);
+
+function showStatus(msg, type = 'info') {
+    const div = document.getElementById('statusDisplay');
+    div.innerHTML = `<div class="status-message status-${type}">${msg}</div>`;
+}
+
+function bucketOf(key) {
+    if (!key || typeof key !== 'string') return '_misc';
+    const k = key.trim();
+    if (!k) return '_misc';
+    return k[0] || '_misc';
+}
+
+function dedupe(arr) {
+    const s = new Set();
+    return arr.filter(t => t && !s.has(t) && s.add(t));
+}
+
+// Load manifest
+document.getElementById('loadBtn').addEventListener('click', async () => {
+    token = document.getElementById('token').value.trim();
+    repo = document.getElementById('repo').value.trim();
+    if (!token || !repo) {
+        document.getElementById('setupStatus').innerHTML = '<div class="status-message status-error">Please enter both token and repository.</div>';
         return;
-      }
-      showLoading('Loading shard...');
-      fetch(`https://api.github.com/repos/${repo}/contents/shards/${selectedShard}.json`, {
-        headers: { Authorization: `token ${token}` }
-      })
-      .then(r => r.json())
-      .then(data => {
-        if (data.content && data.encoding === 'base64') {
-          shardData = JSON.parse(atobUTF8(data.content));
-          shardSha = data.sha;
-          renderEntries();
-          showLoading('');
-        } else if (data.sha) {
-          // Fallback to Blob API for large files
-          fetch(`https://api.github.com/repos/${repo}/git/blobs/${data.sha}`, {
+    }
+    document.getElementById('setupStatus').innerHTML = '<div class="status-message status-info"><i class="fas fa-spinner fa-spin"></i> Loading manifest...</div>';
+    
+    try {
+        const res = await fetch(`https://api.github.com/repos/${repo}/contents/shards/manifest.json`, {
             headers: { Authorization: `token ${token}` }
-          })
-          .then(r2 => r2.json())
-          .then(blob => {
-            if (blob.content && blob.encoding === 'base64') {
-              shardData = JSON.parse(atobUTF8(blob.content));
-              shardSha = data.sha;
-              renderEntries();
-            } else {
-              showStatus('Failed to load large shard', 'red');
-            }
-            showLoading('');
-          })
-          .catch(e => { showStatus('Error loading blob', 'red'); showLoading('');});
+        });
+        const data = await res.json();
+        if (data.content) {
+            manifest = JSON.parse(atobUTF8(data.content));
+            manifestSha = data.sha;
+            document.getElementById('setupStatus').innerHTML = '<div class="status-message status-success"><i class="fas fa-check"></i> Manifest loaded! Ready to edit.</div>';
+            document.getElementById('setupSection').style.display = 'none';
+            document.getElementById('editorSection').style.display = 'block';
+            showStep1();
         } else {
-          showStatus('Failed to load shard', 'red');
-          showLoading('');
+            throw new Error('Failed to load manifest');
         }
-      })
-      .catch(e => { showStatus('Error loading shard', 'red'); showLoading(''); });
+    } catch (e) {
+        document.getElementById('setupStatus').innerHTML = '<div class="status-message status-error"><i class="fas fa-exclamation-triangle"></i> Error loading manifest. Check your token and repo.</div>';
     }
+});
 
-    function renderEntries() {
-      let div = document.getElementById('entries');
-      // Show only the first 20 keys/entries for performance (and UX)
-      let keys = Object.keys(shardData);
-      let list = keys.slice(0, 20).map(k => {
-        let v = shardData[k];
-        return `<div><b>${k}:</b> ${(v.default || []).join(', ')}</div>`;
-      }).join('');
-      div.innerHTML = `<div class="entry-list">${list || '<span style="color:#fff7f088">No entries yet in this shard.</span>'}</div>
-      <small style="color:var(--accent-color)">Showing first 20 of ${keys.length} entries.</small>`;
-      document.getElementById('editBox').style.display = '';
-      document.getElementById('editKey').value = '';
-      document.getElementById('editValue').value = '';
+function showStep1() {
+    document.getElementById('step1').style.display = 'block';
+    document.getElementById('step2').style.display = 'none';
+    document.getElementById('step3').style.display = 'none';
+    document.getElementById('stepIndicator').innerText = 'Step 1: Enter a word';
+    document.getElementById('wordKey').value = '';
+    document.getElementById('wordKey').focus();
+}
+
+// Check if key exists
+document.getElementById('checkKeyBtn').addEventListener('click', async () => {
+    currentKey = document.getElementById('wordKey').value.trim();
+    if (!currentKey) {
+        showStatus('Please enter a word.', 'error');
+        return;
     }
-
-    function saveEntry() {
-      let key = document.getElementById('editKey').value.trim();
-      let value = document.getElementById('editValue').value.split(',').map(s=>s.trim()).filter(Boolean);
-      if (!key) { showStatus('Enter a word key!', 'red'); return; }
-      // Add or update entry
-      if (shardData[key] && shardData[key].default) {
-        let merged = dedupe(shardData[key].default.concat(value));
-        shardData[key].default = merged;
-      } else {
-        shardData[key] = { default: dedupe(value) };
-      }
-      saveShard();
+    
+    const bucket = bucketOf(currentKey);
+    currentShard = bucket;
+    showStatus(`<i class="fas fa-spinner fa-spin"></i> Checking shard ${bucket}.json...`, 'info');
+    
+    try {
+        const res = await fetch(`https://api.github.com/repos/${repo}/contents/shards/${bucket}.json`, {
+            headers: { Authorization: `token ${token}` }
+        });
+        const data = await res.json();
+        
+        // Load shard content (handle large files)
+        if (data.content && data.encoding === 'base64') {
+            currentShardData = JSON.parse(atobUTF8(data.content));
+            currentShardSha = data.sha;
+        } else if (data.sha) {
+            // Use blob API for large files
+            const blobRes = await fetch(`https://api.github.com/repos/${repo}/git/blobs/${data.sha}`, {
+                headers: { Authorization: `token ${token}` }
+            });
+            const blob = await blobRes.json();
+            currentShardData = JSON.parse(atobUTF8(blob.content));
+            currentShardSha = data.sha;
+        } else {
+            throw new Error('Failed to load shard');
+        }
+        
+        // Check if key exists
+        if (currentShardData[currentKey]) {
+            showStep2();
+        } else {
+            showStep3New();
+        }
+    } catch (e) {
+        showStatus(`<i class="fas fa-exclamation-triangle"></i> Error loading shard: ${e.message}`, 'error');
     }
+});
 
-    function saveShard() {
-      showLoading('Saving...');
-      let token = document.getElementById('token').value.trim();
-      let repo = document.getElementById('repo').value.trim();
-      fetch(`https://api.github.com/repos/${repo}/contents/shards/${selectedShard}.json`, {
-        method: 'PUT',
-        headers: { Authorization: `token ${token}` },
-        body: JSON.stringify({
-          message: `Update shard ${selectedShard}`,
-          content: btoaUTF8(JSON.stringify(shardData, null, 2)),
-          sha: shardSha
-        })
-      })
-      .then(r => r.json())
-      .then(data => {
-        if (data.content && data.content.sha) {
-          shardSha = data.content.sha;
-          // Update manifest key count
-          manifest[selectedShard].keys = Object.keys(shardData).length;
-          return fetch(`https://api.github.com/repos/${repo}/contents/shards/manifest.json`, {
+function showStep2() {
+    document.getElementById('step1').style.display = 'none';
+    document.getElementById('step2').style.display = 'block';
+    document.getElementById('step3').style.display = 'none';
+    document.getElementById('stepIndicator').innerText = 'Step 2: Entry exists - choose action';
+    
+    const entry = currentShardData[currentKey];
+    const translations = entry.default || [];
+    document.getElementById('currentEntryDisplay').innerHTML = `
+        <div class="key">${currentKey}</div>
+        <div class="translations">Translations: ${translations.join(', ')}</div>
+    `;
+    showStatus('', 'info');
+}
+
+document.getElementById('appendBtn').addEventListener('click', () => {
+    mode = 'append';
+    showStep3();
+});
+
+document.getElementById('rewriteBtn').addEventListener('click', () => {
+    mode = 'rewrite';
+    showStep3();
+});
+
+document.getElementById('skipBtn').addEventListener('click', () => {
+    showStatus('<i class="fas fa-info-circle"></i> Skipped.', 'warning');
+    setTimeout(showStep1, 1500);
+});
+
+function showStep3New() {
+    mode = 'new';
+    showStep3();
+    showStatus('<i class="fas fa-plus-circle"></i> No entry found. Creating new entry.', 'info');
+}
+
+function showStep3() {
+    document.getElementById('step1').style.display = 'none';
+    document.getElementById('step2').style.display = 'none';
+    document.getElementById('step3').style.display = 'block';
+    document.getElementById('stepIndicator').innerText = 'Step 3: Enter translations';
+    document.getElementById('translations').value = '';
+    document.getElementById('translations').focus();
+}
+
+document.getElementById('cancelBtn').addEventListener('click', () => {
+    showStatus('<i class="fas fa-ban"></i> Cancelled.', 'warning');
+    setTimeout(showStep1, 1500);
+});
+
+document.getElementById('saveBtn').addEventListener('click', async () => {
+    const translationsInput = document.getElementById('translations').value;
+    const translations = translationsInput.split(',').map(s => s.trim()).filter(Boolean);
+    
+    if (!translations.length) {
+        showStatus('Please enter at least one translation.', 'error');
+        return;
+    }
+    
+    showStatus('<i class="fas fa-spinner fa-spin"></i> Saving...', 'info');
+    
+    // Update shard data
+    if (mode === 'new' || mode === 'rewrite') {
+        currentShardData[currentKey] = { default: dedupe(translations) };
+    } else if (mode === 'append') {
+        const existing = currentShardData[currentKey].default || [];
+        currentShardData[currentKey].default = dedupe([...existing, ...translations]);
+    }
+    
+    try {
+        // Save shard
+        const saveRes = await fetch(`https://api.github.com/repos/${repo}/contents/shards/${currentShard}.json`, {
             method: 'PUT',
             headers: { Authorization: `token ${token}` },
             body: JSON.stringify({
-              message: `Update manifest for ${selectedShard}`,
-              content: btoaUTF8(JSON.stringify(manifest, null, 2)),
-              sha: manifestSha
+                message: `Update shard ${currentShard}`,
+                content: btoaUTF8(JSON.stringify(currentShardData, null, 2)),
+                sha: currentShardSha
             })
-          });
-        }
-        throw new Error('Save failed');
-      })
-      .then(r => r.json())
-      .then(data => {
-        if (data.content && data.content.sha) {
-          manifestSha = data.content.sha;
-          showStatus('Saved!', 'var(--accent-color)');
-          renderEntries();
+        });
+        const saveData = await saveRes.json();
+        
+        if (saveData.content && saveData.content.sha) {
+            currentShardSha = saveData.content.sha;
+            
+            // Update manifest
+            manifest[currentShard] = manifest[currentShard] || {};
+            manifest[currentShard].keys = Object.keys(currentShardData).length;
+            manifest[currentShard].file = `${currentShard}.json`;
+            
+            await fetch(`https://api.github.com/repos/${repo}/contents/shards/manifest.json`, {
+                method: 'PUT',
+                headers: { Authorization: `token ${token}` },
+                body: JSON.stringify({
+                    message: `Update manifest for ${currentShard}`,
+                    content: btoaUTF8(JSON.stringify(manifest, null, 2)),
+                    sha: manifestSha
+                })
+            }).then(r => r.json()).then(d => {
+                if (d.content && d.content.sha) manifestSha = d.content.sha;
+            });
+            
+            showStatus(`<i class="fas fa-check-circle"></i> ✅ ${mode === 'new' ? 'Added' : mode === 'append' ? 'Appended' : 'Rewrote'} '${currentKey}' in shard '${currentShard}.json'.`, 'success');
+            setTimeout(showStep1, 2000);
         } else {
-          throw new Error('Manifest update failed');
+            throw new Error('Save failed');
         }
-        showLoading('');
-      })
-      .catch(e => { showStatus('Error saving', 'red'); showLoading(''); });
+    } catch (e) {
+        showStatus(`<i class="fas fa-exclamation-triangle"></i> Error saving: ${e.message}`, 'error');
     }
-
-    document.getElementById('token').addEventListener('change', loadManifest);
-    document.getElementById('repo').addEventListener('change', loadManifest);
-    document.getElementById('shardSelect').addEventListener('change', loadShard);
-    document.getElementById('saveBtn').addEventListener('click', saveEntry);
-  </script>
+});
+</script>
 </body>
 </html>
