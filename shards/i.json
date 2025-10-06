@@ -89503,5 +89503,11 @@
     "default": [
       "motion in limine"
     ]
+  },
+  "in": {
+    "default": [
+      "-இல்",
+      "-உள்"
+    ]
   }
 }
