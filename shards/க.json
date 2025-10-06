@@ -136226,21 +136226,9 @@
   },
   "கொலை": {
     "default": [
-      "foul-ay",
-      "gore",
-      "homicide",
-      "killing",
-      "slaying",
-      "Kill ing",
-      "slay ing",
       "murder",
-      "assassination",
-      "Vexation",
-      "teasing",
-      "torment ing"
-    ],
-    "பெயர்ச்சொல்": [
-      "murder"
+      "killing",
+      "assisination"
     ]
   },
   "கப்பல் இடிபடு நிலையிடம்": {
