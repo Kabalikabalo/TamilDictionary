@@ -307,6 +307,7 @@ function btoaUTF8(str) { return btoa(unescape(encodeURIComponent(str))); }
 function atobUTF8(str) { return decodeURIComponent(escape(atob(str))); }
 
 let token, repo, manifest = {}, manifestSha = '', currentShard = '', currentShardData = {}, currentShardSha = '', currentKey = '', mode = '';
+let repoDefaultBranch = 'main'; // Store the default branch
 
 // Floating particles
 function createParticles() {
@@ -339,6 +340,83 @@ function dedupe(arr) {
     return arr.filter(t => t && !s.has(t) && s.add(t));
 }
 
+// NEW: Atomic commit function using GitHub Tree API
+async function commitMultipleFiles(files, commitMessage) {
+    try {
+        // 1. Get the current commit SHA
+        const refRes = await fetch(`https://api.github.com/repos/${repo}/git/ref/heads/${repoDefaultBranch}`, {
+            headers: { Authorization: `token ${token}` }
+        });
+        const refData = await refRes.json();
+        const currentCommitSha = refData.object.sha;
+        
+        // 2. Get the current tree
+        const commitRes = await fetch(`https://api.github.com/repos/${repo}/git/commits/${currentCommitSha}`, {
+            headers: { Authorization: `token ${token}` }
+        });
+        const commitData = await commitRes.json();
+        const baseTreeSha = commitData.tree.sha;
+        
+        // 3. Create blobs for each file
+        const treeItems = [];
+        for (const file of files) {
+            const blobRes = await fetch(`https://api.github.com/repos/${repo}/git/blobs`, {
+                method: 'POST',
+                headers: { Authorization: `token ${token}` },
+                body: JSON.stringify({
+                    content: btoaUTF8(file.content),
+                    encoding: 'base64'
+                })
+            });
+            const blobData = await blobRes.json();
+            
+            treeItems.push({
+                path: file.path,
+                mode: '100644',
+                type: 'blob',
+                sha: blobData.sha
+            });
+        }
+        
+        // 4. Create a new tree
+        const treeRes = await fetch(`https://api.github.com/repos/${repo}/git/trees`, {
+            method: 'POST',
+            headers: { Authorization: `token ${token}` },
+            body: JSON.stringify({
+                base_tree: baseTreeSha,
+                tree: treeItems
+            })
+        });
+        const treeData = await treeRes.json();
+        
+        // 5. Create a new commit
+        const newCommitRes = await fetch(`https://api.github.com/repos/${repo}/git/commits`, {
+            method: 'POST',
+            headers: { Authorization: `token ${token}` },
+            body: JSON.stringify({
+                message: commitMessage,
+                tree: treeData.sha,
+                parents: [currentCommitSha]
+            })
+        });
+        const newCommitData = await newCommitRes.json();
+        
+        // 6. Update the reference
+        await fetch(`https://api.github.com/repos/${repo}/git/refs/heads/${repoDefaultBranch}`, {
+            method: 'PATCH',
+            headers: { Authorization: `token ${token}` },
+            body: JSON.stringify({
+                sha: newCommitData.sha
+            })
+        });
+        
+        return { success: true, commitSha: newCommitData.sha };
+    } catch (e) {
+        console.error('Atomic commit error:', e);
+        return { success: false, error: e.message };
+    }
+}
+
 // Load manifest
 document.getElementById('loadBtn').addEventListener('click', async () => {
     token = document.getElementById('token').value.trim();
@@ -350,6 +428,13 @@ document.getElementById('loadBtn').addEventListener('click', async () => {
     document.getElementById('setupStatus').innerHTML = '<div class="status-message status-info"><i class="fas fa-spinner fa-spin"></i> Loading manifest...</div>';
     
     try {
+        // Get repository info to determine default branch
+        const repoRes = await fetch(`https://api.github.com/repos/${repo}`, {
+            headers: { Authorization: `token ${token}` }
+        });
+        const repoData = await repoRes.json();
+        repoDefaultBranch = repoData.default_branch || 'main';
+        
         const res = await fetch(`https://api.github.com/repos/${repo}/contents/shards/manifest.json`, {
             headers: { Authorization: `token ${token}` }
         });
@@ -479,6 +564,7 @@ document.getElementById('cancelBtn').addEventListener('click', () => {
     setTimeout(showStep1, 1500);
 });
 
+// UPDATED: Save with atomic commit
 document.getElementById('saveBtn').addEventListener('click', async () => {
     const translationsInput = document.getElementById('translations').value;
     const translations = translationsInput.split(',').map(s => s.trim()).filter(Boolean);
@@ -488,25 +574,21 @@ document.getElementById('saveBtn').addEventListener('click', async () => {
         return;
     }
     
-    showStatus('<i class="fas fa-spinner fa-spin"></i> Saving...', 'info');
+    showStatus('<i class="fas fa-spinner fa-spin"></i> Saving (atomic commit)...', 'info');
     
     // Update shard data based on mode
     if (mode === 'new' || mode === 'rewrite') {
-        // Rewrite: always set default
         currentShardData[currentKey] = { default: dedupe(translations) };
     } else if (mode === 'append') {
-        // Append: find target list (replicate Python logic)
         let entry = currentShardData[currentKey];
         if (!entry || typeof entry !== 'object') {
             entry = { default: [] };
         }
         
-        // Choose target field (same as Python's choose_target_list)
         let targetField = 'default';
         if (Array.isArray(entry.default)) {
             targetField = 'default';
         } else {
-            // Find first list-valued field
             for (const [k, v] of Object.entries(entry)) {
                 if (Array.isArray(v)) {
                     targetField = k;
@@ -515,66 +597,71 @@ document.getElementById('saveBtn').addEventListener('click', async () => {
             }
         }
         
-        // Ensure field exists
         if (!entry[targetField] || !Array.isArray(entry[targetField])) {
             entry[targetField] = [];
         }
         
-        // Check if it's a nested list (like your Python script does)
         const current = entry[targetField];
         if (current.length > 0 && Array.isArray(current[0])) {
-            // Append to inner list
             current[0] = dedupe([...current[0], ...translations]);
         } else {
-            // Append to outer list
             entry[targetField] = dedupe([...current, ...translations]);
         }
         
         currentShardData[currentKey] = entry;
     }
     
+    // Update manifest
+    manifest[currentShard] = manifest[currentShard] || {};
+    manifest[currentShard].keys = Object.keys(currentShardData).length;
+    manifest[currentShard].file = `${currentShard}.json`;
+    
     try {
-        // Save shard
-        const saveRes = await fetch(`https://api.github.com/repos/${repo}/contents/shards/${currentShard}.json`, {
-            method: 'PUT',
-            headers: { Authorization: `token ${token}` },
-            body: JSON.stringify({
-                message: `Update shard ${currentShard}`,
-                content: btoaUTF8(JSON.stringify(currentShardData, null, 2)),
-                sha: currentShardSha
-            })
-        });
-        const saveData = await saveRes.json();
+        // Commit both files atomically
+        const result = await commitMultipleFiles([
+            {
+                path: `shards/${currentShard}.json`,
+                content: JSON.stringify(currentShardData, null, 2)
+            },
+            {
+                path: 'shards/manifest.json',
+                content: JSON.stringify(manifest, null, 2)
+            }
+        ], `${mode === 'new' ? 'Add' : mode === 'append' ? 'Append' : 'Rewrite'} '${currentKey}' in ${currentShard}.json`);
         
-        if (saveData.content && saveData.content.sha) {
-            currentShardSha = saveData.content.sha;
+        if (result.success) {
+            showStatus(`<i class="fas fa-check-circle"></i> ✅ ${mode === 'new' ? 'Added' : mode === 'append' ? 'Appended' : 'Rewrote'} '${currentKey}' in shard '${currentShard}.json' (single commit).`, 'success');
             
-            // Update manifest
-            manifest[currentShard] = manifest[currentShard] || {};
-            manifest[currentShard].keys = Object.keys(currentShardData).length;
-            manifest[currentShard].file = `${currentShard}.json`;
+            // Refresh SHAs for next operation
+            await refreshFileShas();
             
-            await fetch(`https://api.github.com/repos/${repo}/contents/shards/manifest.json`, {
-                method: 'PUT',
-                headers: { Authorization: `token ${token}` },
-                body: JSON.stringify({
-                    message: `Update manifest for ${currentShard}`,
-                    content: btoaUTF8(JSON.stringify(manifest, null, 2)),
-                    sha: manifestSha
-                })
-            }).then(r => r.json()).then(d => {
-                if (d.content && d.content.sha) manifestSha = d.content.sha;
-            });
-            
-            showStatus(`<i class="fas fa-check-circle"></i> ✅ ${mode === 'new' ? 'Added' : mode === 'append' ? 'Appended' : 'Rewrote'} '${currentKey}' in shard '${currentShard}.json'.`, 'success');
             setTimeout(showStep1, 2000);
         } else {
-            throw new Error('Save failed');
+            throw new Error(result.error || 'Atomic commit failed');
         }
     } catch (e) {
         showStatus(`<i class="fas fa-exclamation-triangle"></i> Error saving: ${e.message}`, 'error');
     }
 });
+
+// Helper to refresh file SHAs after commit
+async function refreshFileShas() {
+    try {
+        const manifestRes = await fetch(`https://api.github.com/repos/${repo}/contents/shards/manifest.json`, {
+            headers: { Authorization: `token ${token}` }
+        });
+        const manifestData = await manifestRes.json();
+        manifestSha = manifestData.sha;
+        
+        const shardRes = await fetch(`https://api.github.com/repos/${repo}/contents/shards/${currentShard}.json`, {
+            headers: { Authorization: `token ${token}` }
+        });
+        const shardData = await shardRes.json();
+        currentShardSha = shardData.sha;
+    } catch (e) {
+        console.warn('Failed to refresh SHAs:', e);
+    }
+}
 
 // Allow Enter key to submit in input fields
 document.getElementById('wordKey').addEventListener('keypress', (e) => {
