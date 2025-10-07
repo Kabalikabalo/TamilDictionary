@@ -19100,29 +19100,10 @@
     ]
   },
   "துணி": {
-    "வினைச்சொல்": [
-      "agree"
-    ],
     "default": [
-      "ascertainment",
-      "caiana",
-      "dare",
-      "decorations",
-      "draperie",
-      "kain",
-      "osare",
-      "patch pocket",
-      "pendants",
-      "sukno",
-      "tape selvedge",
-      "tkanina",
-      "tocut",
-      "turn back",
-      "cloth"
-    ],
-    "பெயர்ச்சொல்": [
       "cloth",
-      "fabric"
+      "fabric",
+      "clothes"
     ]
   },
   "திருமணத் தடை உடன்பாடு": {
