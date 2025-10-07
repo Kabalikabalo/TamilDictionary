@@ -567,4 +567,107 @@ document.getElementById('cancelBtn').addEventListener('click', () => {
 
 // UPDATED: Save with atomic commit
 document.getElementById('saveBtn').addEventListener('click', async () => {
-    const translationsInput =
+    const translationsInput = document.getElementById('translations').value;
+    const translations = translationsInput.split(',').map(s => s.trim()).filter(Boolean);
+    
+    if (!translations.length) {
+        showStatus('Please enter at least one translation.', 'error');
+        return;
+    }
+    
+    showStatus('<i class="fas fa-spinner fa-spin"></i> Saving (atomic commit)...', 'info');
+    
+    // Update shard data based on mode
+    if (mode === 'new' || mode === 'rewrite') {
+        currentShardData[currentKey] = { default: dedupe(translations) };
+    } else if (mode === 'append') {
+        let entry = currentShardData[currentKey];
+        if (!entry || typeof entry !== 'object') {
+            entry = { default: [] };
+        }
+        
+        let targetField = 'default';
+        if (Array.isArray(entry.default)) {
+            targetField = 'default';
+        } else {
+            for (const [k, v] of Object.entries(entry)) {
+                if (Array.isArray(v)) {
+                    targetField = k;
+                    break;
+                }
+            }
+        }
+        
+        if (!entry[targetField] || !Array.isArray(entry[targetField])) {
+            entry[targetField] = [];
+        }
+        
+        const current = entry[targetField];
+        if (current.length > 0 && Array.isArray(current[0])) {
+            current[0] = dedupe([...current[0], ...translations]);
+        } else {
+            entry[targetField] = dedupe([...current, ...translations]);
+        }
+        
+        currentShardData[currentKey] = entry;
+    }
+    
+    // Update manifest
+    manifest[currentShard] = manifest[currentShard] || {};
+    manifest[currentShard].keys = Object.keys(currentShardData).length;
+    manifest[currentShard].file = `${currentShard}.json`;
+    
+    try {
+        // Commit both files atomically
+        const result = await commitMultipleFiles([
+            {
+                path: `shards/${currentShard}.json`,
+                content: JSON.stringify(currentShardData, null, 2)
+            },
+            {
+                path: 'shards/manifest.json',
+                content: JSON.stringify(manifest, null, 2)
+            }
+        ], `${mode === 'new' ? 'Add' : mode === 'append' ? 'Append' : 'Rewrite'} '${currentKey}' in ${currentShard}.json`);
+        
+        if (result.success) {
+            showStatus(`<i class="fas fa-check-circle"></i> ✅ ${mode === 'new' ? 'Added' : mode === 'append' ? 'Appended' : 'Rewrote'} '${currentKey}' in shard '${currentShard}.json' (single commit).`, 'success');
+            
+            // Refresh SHAs for next operation
+            await refreshFileShas();
+            
+            setTimeout(showStep1, 2000);
+        } else {
+            throw new Error(result.error || 'Atomic commit failed');
+        }
+    } catch (e) {
+        showStatus(`<i class="fas fa-exclamation-triangle"></i> Error saving: ${e.message}`, 'error');
+    }
+});
+
+// Helper to refresh file SHAs after commit
+async function refreshFileShas() {
+    try {
+        const manifestRes = await fetch(`https://api.github.com/repos/${repo}/contents/shards/manifest.json`, {
+            headers: { Authorization: `token ${token}` }
+        });
+        const manifestData = await manifestRes.json();
+        manifestSha = manifestData.sha;
+        
+        const shardRes = await fetch(`https://api.github.com/repos/${repo}/contents/shards/${currentShard}.json`, {
+            headers: { Authorization: `token ${token}` }
+        });
+        const shardData = await shardRes.json();
+        currentShardSha = shardData.sha;
+    } catch (e) {
+        console.warn('Failed to refresh SHAs:', e);
+    }
+}
+
+// Allow Enter key to submit in input fields
+document.getElementById('wordKey').addEventListener('keypress', (e) => {
+    if (e.key === 'Enter') document.getElementById('checkKeyBtn').click();
+});
+</script>
+</body>
+</html>
