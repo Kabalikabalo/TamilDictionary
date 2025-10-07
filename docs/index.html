@@ -7,6 +7,7 @@
 <link rel="icon" type="image/png" href="file_000000005110620a83c21f1993021090.png">
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Noto+Sans+Tamil:wght@400;700&display=swap" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<link rel="manifest" href="/TamilDictionary/manifest.webmanifest">
 <style>
 :root {
     --primary-color: #ff6b35;
@@ -668,6 +669,14 @@ async function refreshFileShas() {
 document.getElementById('wordKey').addEventListener('keypress', (e) => {
     if (e.key === 'Enter') document.getElementById('checkKeyBtn').click();
 });
+    
+if ('serviceWorker' in navigator) {
+    window.addEventListener('load', function () {
+        navigator.serviceWorker.register('/TamilDictionary/sw.js')
+        .then(reg => console.log('Service Worker registered!', reg))
+        .catch(err => console.warn('Service Worker registration failed:', err));
+    });
+}
 </script>
 </body>
 </html>
