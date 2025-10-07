@@ -1,0 +1,23 @@
+{
+  "name": "TamilDictionary Shard Editor",
+  "short_name": "TamilDictionary",
+  "description": "Edit shards for TamilDictionary",
+  "icons": [
+    {
+      "src": "https://kabalikabalo.github.io/TamilDictionary/docs/file_000000005110620a83c21f1993021090.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "https://kabalikabalo.github.io/TamilDictionary/docs/file_000000005110620a83c21f1993021090.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "https://kabalikabalo.github.io/TamilDictionary/docs/index.html",
+  "background_color": "#0a0a0a",
+  "theme_color": "#1c1c1c",
+  "display": "standalone",
+  "orientation": "portrait",
+  "scope": "https://kabalikabalo.github.io/TamilDictionary/docs/"
+}
