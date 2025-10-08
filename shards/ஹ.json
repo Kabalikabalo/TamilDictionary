@@ -3495,5 +3495,10 @@
     "default": [
       "ha"
     ]
+  },
+  "ஹிதம்": {
+    "default": [
+      "goodness"
+    ]
   }
 }
