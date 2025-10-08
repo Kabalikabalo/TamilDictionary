@@ -100789,5 +100789,11 @@
     "default": [
       "spit"
     ]
+  },
+  "உபேயம்": {
+    "default": [
+      "goal",
+      "objective"
+    ]
   }
 }
