@@ -13956,26 +13956,10 @@
     ]
   },
   "நன்றி": {
-    "பெயர்ச்சொல்": [
-      "acknowledgement",
-      "credits",
-      "gratitude",
-      "sukriya",
-      "thanks",
-      "thankyou"
-    ],
     "default": [
-      "acknowledgment",
-      "goodness",
-      "gramercy",
-      "grammercy",
-      "grazie",
-      "thanks seen",
-      "thank you",
+      "acknowledgement",
       "gratitude",
-      "thanks",
-      "good deed .",
-      "benevolent act"
+      "thank you"
     ]
   },
   "நோய் நிலை நீடிக்கும் பகுதி": {
