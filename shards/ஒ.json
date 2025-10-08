@@ -46932,7 +46932,10 @@
     ]
   },
   "ஒத்துக்கொள்ளுதல்": {
-    "default": []
+    "default": [
+      "accept",
+      "acknowledge (e.g one's mistake)"
+    ]
   },
   "ஒத்துதல்": {
     "default": []
