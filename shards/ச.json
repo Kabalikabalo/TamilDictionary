@@ -181524,7 +181524,9 @@
     "default": []
   },
   "சீலன்": {
-    "default": []
+    "default": [
+      "characteristic"
+    ]
   },
   "சீலவான்": {
     "default": []
