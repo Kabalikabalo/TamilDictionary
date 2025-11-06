@@ -25109,11 +25109,7 @@
   },
   "no": {
     "default": [
-      [
-        "ஒப்பீட்டுச் சொற்றொடர்களில் எதிர்மறைத் தெரிவுகளைக் குறிக்கப் பயன்படும் சொல்",
-        "[He isnobetter than the previous boss]",
-        "[He liked the Secretarynobetter than his assistant]."
-      ]
+      "இல்லை"
     ]
   },
   "nn_junction": {
