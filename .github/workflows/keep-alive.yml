@@ -25,4 +25,4 @@ jobs:
         run: pip install requests
 
       - name: Run keep-alive script
-        run: python keep_alive.py
+        run: python fetch_word.py
