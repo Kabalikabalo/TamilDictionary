@@ -120258,5 +120258,10 @@
     "default": [
       "miranda"
     ]
+  },
+  "turn around": {
+    "default": [
+      "திரும்பு"
+    ]
   }
 }
