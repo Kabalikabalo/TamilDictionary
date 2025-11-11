@@ -8540,16 +8540,8 @@
     ]
   },
   "காதல்": {
-    "பெயர்ச்சொல்": [
-      "lore"
-    ],
     "default": [
-      "amor",
-      "amores",
-      "fondness",
-      "intentness",
-      "love",
-      "romantic love"
+      "love"
     ]
   },
   "கண்-அலகு இடைப்பகுதி": {
