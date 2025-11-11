@@ -161,6 +161,13 @@ body {
     opacity: 0.5;
     cursor: not-allowed;
 }
+.btn-secondary {
+    background: linear-gradient(135deg, #666, #888);
+    box-shadow: 0 8px 30px rgba(102, 102, 102, 0.3);
+}
+.btn-secondary:hover {
+    box-shadow: 0 12px 40px rgba(102, 102, 102, 0.5);
+}
 .btn-group {
     display: flex;
     gap: 1rem;
@@ -172,7 +179,7 @@ body {
 .status-message {
     padding: 1rem;
     border-radius: 12px;
-    margin-bottom: 1rem;
+    margin-top: 1rem;
     font-size: 0.95rem;
     animation: fadeInUp 0.5s;
 }
@@ -226,6 +233,12 @@ body {
     font-size: 0.9rem;
     margin-bottom: 1.5rem;
 }
+.token-saved-indicator {
+    display: inline-block;
+    margin-left: 0.5rem;
+    color: #81c784;
+    font-size: 0.9rem;
+}
 @keyframes fadeInUp {
     from { opacity: 0; transform: translateY(30px);}
     to { opacity: 1; transform: translateY(0);}
@@ -253,7 +266,12 @@ body {
     <!-- Setup Section -->
     <div id="setupSection" class="card">
         <div class="input-group">
-            <label for="token"><i class="fas fa-key"></i> GitHub Personal Access Token</label>
+            <label for="token">
+                <i class="fas fa-key"></i> GitHub Personal Access Token
+                <span id="tokenSavedIndicator" class="token-saved-indicator" style="display:none;">
+                    <i class="fas fa-check-circle"></i> Saved
+                </span>
+            </label>
             <input type="password" id="token" class="input-field" placeholder="Paste your PAT here">
         </div>
         <div class="input-group">
@@ -261,6 +279,9 @@ body {
             <input type="text" id="repo" class="input-field" value="Kabalikabalo/TamilDictionary">
         </div>
         <button id="loadBtn" class="btn"><i class="fas fa-download"></i> Load Shards</button>
+        <div id="forgetTokenSection" style="display:none; margin-top: 1rem;">
+            <button id="forgetTokenBtn" class="btn btn-secondary"><i class="fas fa-trash-alt"></i> Forget Saved Token</button>
+        </div>
         <div id="setupStatus"></div>
     </div>
 
@@ -310,6 +331,54 @@ function atobUTF8(str) { return decodeURIComponent(escape(atob(str))); }
 let token, repo, manifest = {}, manifestSha = '', currentShard = '', currentShardData = {}, currentShardSha = '', currentKey = '', mode = '';
 let repoDefaultBranch = 'main'; // Store the default branch
 
+// PAT persistence functions
+function saveToken(tokenValue) {
+    try {
+        localStorage.setItem('tamildict_pat', tokenValue);
+        updateTokenUI(true);
+    } catch (e) {
+        console.warn('Could not save token to localStorage:', e);
+    }
+}
+
+function loadSavedToken() {
+    try {
+        const savedToken = localStorage.getItem('tamildict_pat');
+        if (savedToken) {
+            document.getElementById('token').value = savedToken;
+            updateTokenUI(true);
+            return savedToken;
+        }
+    } catch (e) {
+        console.warn('Could not load token from localStorage:', e);
+    }
+    return null;
+}
+
+function forgetToken() {
+    try {
+        localStorage.removeItem('tamildict_pat');
+        document.getElementById('token').value = '';
+        updateTokenUI(false);
+        document.getElementById('setupStatus').innerHTML = '<div class="status-message status-success"><i class="fas fa-check"></i> Token forgotten successfully.</div>';
+    } catch (e) {
+        console.warn('Could not remove token from localStorage:', e);
+    }
+}
+
+function updateTokenUI(hasSavedToken) {
+    const indicator = document.getElementById('tokenSavedIndicator');
+    const forgetSection = document.getElementById('forgetTokenSection');
+    
+    if (hasSavedToken) {
+        indicator.style.display = 'inline-block';
+        forgetSection.style.display = 'block';
+    } else {
+        indicator.style.display = 'none';
+        forgetSection.style.display = 'none';
+    }
+}
+
 // Floating particles
 function createParticles() {
     for (let i = 0; i < 30; i++) {
@@ -322,7 +391,12 @@ function createParticles() {
         document.body.appendChild(particle);
     }
 }
-document.addEventListener('DOMContentLoaded', createParticles);
+
+// Initialize on page load
+document.addEventListener('DOMContentLoaded', () => {
+    createParticles();
+    loadSavedToken();
+});
 
 function showStatus(msg, type = 'info') {
     const div = document.getElementById('statusDisplay');
@@ -426,6 +500,10 @@ document.getElementById('loadBtn').addEventListener('click', async () => {
         document.getElementById('setupStatus').innerHTML = '<div class="status-message status-error">Please enter both token and repository.</div>';
         return;
     }
+    
+    // Save token to localStorage
+    saveToken(token);
+    
     document.getElementById('setupStatus').innerHTML = '<div class="status-message status-info"><i class="fas fa-spinner fa-spin"></i> Loading manifest...</div>';
     
     try {
@@ -454,6 +532,9 @@ document.getElementById('loadBtn').addEventListener('click', async () => {
         document.getElementById('setupStatus').innerHTML = '<div class="status-message status-error"><i class="fas fa-exclamation-triangle"></i> Error loading manifest. Check your token and repo.</div>';
     }
 });
+
+// Forget token button
+document.getElementById('forgetTokenBtn').addEventListener('click', forgetToken);
 
 function showStep1() {
     document.getElementById('step1').style.display = 'block';
