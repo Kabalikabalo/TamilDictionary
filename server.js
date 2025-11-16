@@ -18,6 +18,10 @@ const SHARD_DIR = process.env.SHARD_DIR || path.join(__dirname, 'shards');
 const MANIFEST_PATH = path.join(SHARD_DIR, 'manifest.json');
 const DICT_PATH = process.env.DICT_PATH || path.join(__dirname, 'dictionary.json');
 
+// Word of the day (hardcoded/default; can be overridden with env)
+const WORD_OF_THE_DAY_KEY = process.env.WORD_OF_THE_DAY || 'அறிவு'; // default hardcoded Tamil word
+const WORD_OF_THE_DAY_DEF = process.env.WORD_OF_THE_DAY_DEF || null; // optional explicit definition text
+
 app.use(cors());
 app.use(compression());
 
@@ -89,34 +93,26 @@ async function loadShard(bucket) {
   return p;
 }
 
-// --- Endpoints ---------------------------------------------------------------
+// Convenience helper: try to resolve a key from cache/shards/stream fallback
+async function lookupKey(wantedKey) {
+  // cache
+  const hit = cacheGet(wantedKey);
+  if (hit !== undefined) return { found: true, value: hit, source: 'cache' };
 
-app.get('/health', (_req, res) => res.json({ ok: true }));
-
-// Exact-key lookup
-app.get('/word/:key', async (req, res) => {
-  try {
-    const wantedKey = req.params.key;
-    const hit = cacheGet(wantedKey);
-    if (hit !== undefined) {
-      res.set('Cache-Control', 'public, max-age=86400, immutable');
-      return res.json(hit);
+  // shards
+  if (shardsEnabled) {
+    const bucket = bucketOf(wantedKey);
+    const shard = await loadShard(bucket);
+    const value = shard[wantedKey];
+    if (value !== undefined) {
+      cacheSet(wantedKey, value);
+      return { found: true, value, source: 'shard' };
     }
+    return { found: false };
+  }
 
-    // Prefer shards if available
-    if (shardsEnabled) {
-      const bucket = bucketOf(wantedKey);
-      const shard = await loadShard(bucket);
-      const value = shard[wantedKey];
-      if (value !== undefined) {
-        cacheSet(wantedKey, value);
-        res.set('Cache-Control', 'public, max-age=86400, immutable');
-        return res.json(value);
-      }
-      return res.status(404).json({ error: 'Word not found' });
-    }
-
-    // Fallback: stream the big JSON (no full-file load)
+  // streaming fallback: stream until we find the key
+  return new Promise((resolve, reject) => {
     const readStream = fs.createReadStream(DICT_PATH, { highWaterMark: 1024 * 128 });
     const pipeline = readStream.pipe(parser()).pipe(streamObject());
     let responded = false;
@@ -127,15 +123,62 @@ app.get('/word/:key', async (req, res) => {
         readStream.destroy();
         pipeline.destroy();
         cacheSet(wantedKey, value);
-        res.set('Cache-Control', 'public, max-age=86400, immutable');
-        res.json(value);
+        resolve({ found: true, value, source: 'stream' });
       }
     });
     pipeline.on('end', () => {
-      if (!responded) res.status(404).json({ error: 'Word not found' });
+      if (!responded) resolve({ found: false });
     });
     pipeline.on('error', (err) => {
-      if (!responded) res.status(500).json({ error: 'Server error', detail: String(err) });
+      if (!responded) reject(err);
+    });
+  });
+}
+
+// --- Endpoints ---------------------------------------------------------------
+
+app.get('/health', (_req, res) => res.json({ ok: true }));
+
+// Exact-key lookup
+app.get('/word/:key', async (req, res) => {
+  try {
+    const wantedKey = req.params.key;
+    const result = await lookupKey(wantedKey);
+    if (result.found) {
+      res.set('Cache-Control', 'public, max-age=86400, immutable');
+      return res.json(result.value);
+    }
+    return res.status(404).json({ error: 'Word not found' });
+  } catch (e) {
+    res.status(500).json({ error: 'Server error', detail: String(e) });
+  }
+});
+
+// Word of the day endpoint (returns a hardcoded key, and if available the full entry)
+app.get('/word-of-the-day', async (_req, res) => {
+  try {
+    const key = WORD_OF_THE_DAY_KEY;
+    // Try to resolve a full entry for the key; if not found, fallback to a minimal hardcoded response
+    try {
+      const result = await lookupKey(key);
+      if (result.found) {
+        // include a small meta field to indicate this is the configured word of the day
+        res.set('Cache-Control', 'public, max-age=300');
+        return res.json({ key, entry: result.value, source: result.source, wordOfTheDay: true });
+      }
+    } catch (err) {
+      // ignore lookup errors and fall through to returning the hardcoded value
+      console.error('Error while looking up word-of-the-day:', err);
+    }
+
+    // If a textual definition was provided via env var use it; otherwise return minimal response
+    const def = WORD_OF_THE_DAY_DEF;
+    res.set('Cache-Control', 'public, max-age=300');
+    return res.json({
+      key,
+      entry: def ? { definition: def } : null,
+      source: 'hardcoded',
+      wordOfTheDay: true,
     });
   } catch (e) {
     res.status(500).json({ error: 'Server error', detail: String(e) });
@@ -205,5 +248,6 @@ initShardsIfAvailable().then(() => {
     console.log(shardsEnabled
       ? `Using shards at: ${SHARD_DIR}`
       : `Using streaming dictionary at: ${DICT_PATH}`);
+    console.log(`Word of the day key: ${WORD_OF_THE_DAY_KEY}`);
   });
 });
