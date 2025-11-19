@@ -83461,18 +83461,8 @@
   },
   "that": {
     "default": [
-      [
-        "அது",
-        "அந்த"
-      ],
-      [
-        "[that]என்பது ஒரு சுட்டு பதிலிடு பெயர் (அ) சுட்டு பிரதிப்பெயர்",
-        "demonstrative pronoun",
-        "[I likethatboy]",
-        "[I don't know aboutthat]. [Let's discuss it later]",
-        "[Theseare my favourite dresses]",
-        "[Thoseare my friends]"
-      ]
+      "அது (pronoun)",
+      "அந்த (adjective)"
     ]
   },
   "thasildar": {
