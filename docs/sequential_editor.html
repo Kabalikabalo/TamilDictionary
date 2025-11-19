@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TamilDictionary Sequential Editor</title>
+<link rel="icon" type="image/png" href="file_000000005110620a83c21f1993021090.png">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Noto+Sans+Tamil:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<style>
+:root {
+    --primary-color: #ff6b35;
+    --secondary-color: #ff8c42;
+    --accent-color: #ffa726;
+    --glow-color: rgba(255, 107, 53, 0.3);
+    --glow-color-light: rgba(255, 107, 53, 0.1);
+    --particle-color: #ff6b35;
+    --dark-bg: #0a0a0a;
+    --card-bg: #1a1a1a;
+    --text-primary: #fff;
+    --text-secondary: #b0b0b0;
+    --border-color: #333;
+    --shadow-medium: 0 8px 30px var(--glow-color);
+    --border-radius: 16px;
+    --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--dark-bg);
+    color: var(--text-primary);
+    min-height: 100vh;
+    overflow-x: hidden;
+    position: relative;
+    margin: 0;
+    padding: 0;
+}
+.bg-animation {
+    position: fixed;
+    top: 0; left: 0; width: 100%; height: 100%;
+    z-index: -1;
+    background: radial-gradient(circle at 20% 50%, var(--glow-color-light) 0%, transparent 50%),
+                radial-gradient(circle at 80% 20%, var(--glow-color-light) 0%, transparent 50%),
+                radial-gradient(circle at 40% 80%, var(--glow-color-light) 0%, transparent 50%);
+    animation: bgFloat 20s ease-in-out infinite;
+}
+@keyframes bgFloat {
+    0%, 100% { transform: translateY(0px) rotate(0deg); }
+    33% { transform: translateY(-4px) rotate(0.2deg); }
+    66% { transform: translateY(2px) rotate(-0.2deg); }
+}
+.particle {
+    position: absolute;
+    width: 3px; height: 3px;
+    background: var(--particle-color);
+    border-radius: 50%;
+    opacity: 0.6;
+    animation: float 8s ease-in-out infinite;
+    pointer-events: none;
+}
+@keyframes float {
+    0%, 100% { transform: translateY(0px) translateX(0px); opacity: 0.3; }
+    25% { transform: translateY(-100px) translateX(20px); opacity: 0.8; }
+    50% { transform: translateY(-60px) translateX(-20px); opacity: 0.6; }
+    75% { transform: translateY(-120px) translateX(10px); opacity: 0.4; }
+}
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 2rem;
+    position: relative;
+    z-index: 1;
+}
+.header {
+    text-align: center;
+    margin-bottom: 2rem;
+    animation: fadeInUp 1s ease-out;
+}
+.logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: 0.5rem;
+    text-shadow: 0 0 30px var(--glow-color);
+    font-family: 'Noto Sans Tamil', serif;
+}
+.subtitle {
+    font-size: 1.1rem;
+    color: var(--text-secondary);
+    font-weight: 400;
+    letter-spacing: 0.5px;
+}
+.progress-bar-container {
+    background: var(--dark-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    animation: fadeInUp 1s ease-out 0.1s both;
+}
+.progress-text {
+    text-align: center;
+    color: var(--accent-color);
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+.progress-bar {
+    width: 100%;
+    height: 12px;
+    background: var(--dark-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    overflow: hidden;
+    position: relative;
+}
+.progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    width: 0%;
+    transition: width 0.5s ease;
+    box-shadow: 0 0 10px var(--glow-color);
+}
+.card {
+    background: #1a1a1a30;
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius);
+    padding: 2rem;
+    margin-bottom: 2rem;
+    box-shadow: var(--shadow-medium);
+    animation: fadeInUp 1s ease-out 0.2s both;
+    position: relative;
+    overflow: hidden;
+}
+.card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+    background: linear-gradient(90deg, var(--primary-color), var(--accent-color));
+    animation: slideIn 2s ease-out;
+}
+.input-group {
+    margin-bottom: 1.5rem;
+}
+.input-group label {
+    display: block;
+    color: var(--accent-color);
+    font-weight: 500;
+    margin-bottom: 0.5rem;
+    font-size: 0.95rem;
+}
+.input-field {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    background: var(--dark-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    font-size: 1.05rem;
+    color: var(--text-primary);
+    outline: none;
+    transition: var(--transition);
+    font-family: 'Inter', 'Noto Sans Tamil', sans-serif;
+    box-sizing: border-box;
+}
+.input-field:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px var(--glow-color-light);
+    transform: translateY(-2px);
+}
+.btn {
+    background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+    border: none;
+    border-radius: 12px;
+    padding: 1rem 2rem;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: var(--transition);
+    box-shadow: var(--shadow-medium);
+    font-size: 1rem;
+    width: 100%;
+    margin-top: 0.5rem;
+}
+.btn:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 12px 40px var(--glow-color);
+}
+.btn:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+}
+.btn-secondary {
+    background: linear-gradient(135deg, #666, #888);
+    box-shadow: 0 8px 30px rgba(102, 102, 102, 0.3);
+}
+.btn-secondary:hover {
+    box-shadow: 0 12px 40px rgba(102, 102, 102, 0.5);
+}
+.btn-group {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1rem;
+}
+.btn-group .btn {
+    flex: 1;
+}
+.status-message {
+    padding: 1rem;
+    border-radius: 12px;
+    margin-top: 1rem;
+    font-size: 0.95rem;
+    animation: fadeInUp 0.5s;
+}
+.status-info {
+    background: rgba(100, 181, 246, 0.1);
+    border: 1px solid #64b5f6;
+    color: #90caf9;
+}
+.status-success {
+    background: rgba(129, 199, 132, 0.1);
+    border: 1px solid #81c784;
+    color: #a5d6a7;
+}
+.status-error {
+    background: rgba(229, 115, 115, 0.1);
+    border: 1px solid #e57373;
+    color: #ef5350;
+}
+.status-warning {
+    background: var(--glow-color-light);
+    border: 1px solid var(--accent-color);
+    color: var(--accent-color);
+}
+.current-word-display {
+    background: var(--dark-bg);
+    border: 2px solid var(--primary-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    text-align: center;
+}
+.current-word {
+    color: var(--primary-color);
+    font-weight: 700;
+    font-size: 2rem;
+    text-transform: lowercase;
+}
+.translations-display {
+    background: var(--dark-bg);
+    border: 1px solid var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    font-family: 'Noto Sans Tamil', 'Inter', sans-serif;
+    line-height: 1.8;
+}
+.translations-display .label {
+    color: var(--accent-color);
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0.5rem;
+}
+.translations-display .content {
+    color: var(--text-primary);
+    font-size: 1.1rem;
+}
+.no-translations {
+    color: var(--text-secondary);
+    font-style: italic;
+}
+.token-saved-indicator {
+    display: inline-block;
+    margin-left: 0.5rem;
+    color: #81c784;
+    font-size: 0.9rem;
+}
+.completion-message {
+    text-align: center;
+    padding: 2rem;
+    font-size: 1.3rem;
+    color: var(--accent-color);
+}
+.completion-message i {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    display: block;
+}
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(30px);}
+    to { opacity: 1; transform: translateY(0);}
+}
+@keyframes slideIn {
+    from { transform: scaleX(0);}
+    to { transform: scaleX(1);}
+}
+@media (max-width: 768px) {
+    .container { padding: 1rem; }
+    .logo { font-size: 2rem; }
+    .card { padding: 1.5rem; }
+    .btn-group { flex-direction: column; }
+}
+</style>
+</head>
+<body>
+<div class="bg-animation"></div>
+<div class="container">
+    <header class="header">
+        <h1 class="logo">📚 அகராதி Sequential Editor</h1>
+        <p class="subtitle">TamilDictionary Sequential Word Processor</p>
+    </header>
+
+    <!-- Progress Bar -->
+    <div id="progressSection" style="display:none;" class="progress-bar-container">
+        <div class="progress-text" id="progressText">0 / 0 words processed (0%)</div>
+        <div class="progress-bar">
+            <div class="progress-fill" id="progressFill"></div>
+        </div>
+    </div>
+
+    <!-- Setup Section -->
+    <div id="setupSection" class="card">
+        <div class="input-group">
+            <label for="token">
+                <i class="fas fa-key"></i> GitHub Personal Access Token
+                <span id="tokenSavedIndicator" class="token-saved-indicator" style="display:none;">
+                    <i class="fas fa-check-circle"></i> Saved
+                </span>
+            </label>
+            <input type="password" id="token" class="input-field" placeholder="Paste your PAT here">
+        </div>
+        <div class="input-group">
+            <label for="repo"><i class="fas fa-code-branch"></i> Repository (owner/name)</label>
+            <input type="text" id="repo" class="input-field" value="Kabalikabalo/TamilDictionary">
+        </div>
+        <button id="loadBtn" class="btn"><i class="fas fa-play"></i> Start Processing</button>
+        <div id="forgetTokenSection" style="display:none; margin-top: 1rem;">
+            <button id="forgetTokenBtn" class="btn btn-secondary"><i class="fas fa-trash-alt"></i> Forget Saved Token</button>
+        </div>
+        <div id="resetProgressSection" style="display:none; margin-top: 0.5rem;">
+            <button id="resetProgressBtn" class="btn btn-secondary"><i class="fas fa-redo"></i> Reset Progress</button>
+        </div>
+        <div id="setupStatus"></div>
+    </div>
+
+    <!-- Word Processing Section -->
+    <div id="processingSection" class="card" style="display:none;">
+        <div class="current-word-display">
+            <div class="current-word" id="currentWordDisplay"></div>
+        </div>
+        
+        <div id="translationsSection" class="translations-display">
+            <div class="label">Current Translations:</div>
+            <div class="content" id="translationsContent"></div>
+        </div>
+
+        <!-- Action buttons for existing translations -->
+        <div id="existingActions" style="display:none;">
+            <div class="btn-group">
+                <button id="appendBtn" class="btn"><i class="fas fa-plus"></i> Append</button>
+                <button id="rewriteBtn" class="btn"><i class="fas fa-sync"></i> Rewrite</button>
+                <button id="skipExistingBtn" class="btn btn-secondary"><i class="fas fa-forward"></i> Skip</button>
+            </div>
+        </div>
+
+        <!-- Action buttons for no translations -->
+        <div id="noTranslationsActions" style="display:none;">
+            <div class="btn-group">
+                <button id="addBtn" class="btn"><i class="fas fa-plus-circle"></i> Add Translation</button>
+                <button id="skipNewBtn" class="btn btn-secondary"><i class="fas fa-forward"></i> Skip</button>
+            </div>
+        </div>
+
+        <!-- Translation input -->
+        <div id="translationInput" style="display:none;">
+            <div class="input-group">
+                <label for="translations"><i class="fas fa-language"></i> Translations (comma-separated)</label>
+                <textarea id="translations" class="input-field" rows="3" placeholder="Enter Tamil translations separated by commas..."></textarea>
+            </div>
+            <div class="btn-group">
+                <button id="saveBtn" class="btn"><i class="fas fa-save"></i> Save & Next</button>
+                <button id="cancelBtn" class="btn btn-secondary"><i class="fas fa-ban"></i> Cancel</button>
+            </div>
+        </div>
+
+        <div id="processingStatus"></div>
+    </div>
+
+    <!-- Completion Section -->
+    <div id="completionSection" class="card" style="display:none;">
+        <div class="completion-message">
+            <i class="fas fa-trophy"></i>
+            <div>🎉 Congratulations! 🎉</div>
+            <div style="font-size: 1rem; margin-top: 1rem; color: var(--text-secondary);">
+                You've processed all words in the list!
+            </div>
+            <button id="restartBtn" class="btn" style="margin-top: 2rem; max-width: 300px; margin-left: auto; margin-right: auto;">
+                <i class="fas fa-redo"></i> Start Over
+            </button>
+        </div>
+    </div>
+</div>
+
+<script>
+function btoaUTF8(str) { return btoa(unescape(encodeURIComponent(str))); }
+function atobUTF8(str) { return decodeURIComponent(escape(atob(str))); }
+
+let token, repo, manifest = {}, repoDefaultBranch = 'main';
+let wordsList = [];
+let currentIndex = 0;
+let currentWord = '';
+let currentShardData = {};
+let currentShardSha = '';
+let mode = '';
+
+// Storage keys
+const STORAGE_KEYS = {
+    TOKEN: 'tamildict_pat',
+    REPO: 'tamildict_repo',
+    PROGRESS: 'tamildict_progress'
+};
+
+// Initialize
+document.addEventListener('DOMContentLoaded', () => {
+    createParticles();
+    loadSavedToken();
+    loadSavedProgress();
+});
+
+function createParticles() {
+    for (let i = 0; i < 30; i++) {
+        const particle = document.createElement('div');
+        particle.classList.add('particle');
+        particle.style.left = Math.random() * 100 + '%';
+        particle.style.top = Math.random() * 100 + '%';
+        particle.style.animationDelay = Math.random() * 8 + 's';
+        particle.style.animationDuration = (Math.random() * 4 + 6) + 's';
+        document.body.appendChild(particle);
+    }
+}
+
+// Token management
+function saveToken(tokenValue) {
+    try {
+        localStorage.setItem(STORAGE_KEYS.TOKEN, tokenValue);
+        updateTokenUI(true);
+    } catch (e) {
+        console.warn('Could not save token:', e);
+    }
+}
+
+function loadSavedToken() {
+    try {
+        const savedToken = localStorage.getItem(STORAGE_KEYS.TOKEN);
+        const savedRepo = localStorage.getItem(STORAGE_KEYS.REPO);
+        if (savedToken) {
+            document.getElementById('token').value = savedToken;
+            updateTokenUI(true);
+        }
+        if (savedRepo) {
+            document.getElementById('repo').value = savedRepo;
+        }
+    } catch (e) {
+        console.warn('Could not load saved data:', e);
+    }
+}
+
+function forgetToken() {
+    try {
+        localStorage.removeItem(STORAGE_KEYS.TOKEN);
+        document.getElementById('token').value = '';
+        updateTokenUI(false);
+        showSetupStatus('Token forgotten successfully.', 'success');
+    } catch (e) {
+        console.warn('Could not remove token:', e);
+    }
+}
+
+function updateTokenUI(hasSavedToken) {
+    const indicator = document.getElementById('tokenSavedIndicator');
+    const forgetSection = document.getElementById('forgetTokenSection');
+    const resetSection = document.getElementById('resetProgressSection');
+    
+    if (hasSavedToken) {
+        indicator.style.display = 'inline-block';
+        forgetSection.style.display = 'block';
+        const savedProgress = localStorage.getItem(STORAGE_KEYS.PROGRESS);
+        if (savedProgress && parseInt(savedProgress) > 0) {
+            resetSection.style.display = 'block';
+        }
+    } else {
+        indicator.style.display = 'none';
+        forgetSection.style.display = 'none';
+        resetSection.style.display = 'none';
+    }
+}
+
+// Progress management
+function saveProgress(index) {
+    try {
+        localStorage.setItem(STORAGE_KEYS.PROGRESS, index.toString());
+    } catch (e) {
+        console.warn('Could not save progress:', e);
+    }
+}
+
+function loadSavedProgress() {
+    try {
+        const saved = localStorage.getItem(STORAGE_KEYS.PROGRESS);
+        if (saved) {
+            currentIndex = parseInt(saved);
+            return currentIndex;
+        }
+    } catch (e) {
+        console.warn('Could not load progress:', e);
+    }
+    return 0;
+}
+
+function resetProgress() {
+    if (confirm('Are you sure you want to reset your progress? This will start from the beginning.')) {
+        localStorage.removeItem(STORAGE_KEYS.PROGRESS);
+        currentIndex = 0;
+        updateProgress();
+        showSetupStatus('Progress reset successfully.', 'success');
+        document.getElementById('resetProgressSection').style.display = 'none';
+    }
+}
+
+function updateProgress() {
+    if (wordsList.length === 0) return;
+    
+    const percentage = Math.round((currentIndex / wordsList.length) * 100);
+    document.getElementById('progressText').textContent = 
+        `${currentIndex} / ${wordsList.length} words processed (${percentage}%)`;
+    document.getElementById('progressFill').style.width = percentage + '%';
+}
+
+// UI helpers
+function showSetupStatus(msg, type = 'info') {
+    const div = document.getElementById('setupStatus');
+    div.innerHTML = `<div class="status-message status-${type}">${msg}</div>`;
+}
+
+function showProcessingStatus(msg, type = 'info') {
+    const div = document.getElementById('processingStatus');
+    div.innerHTML = `<div class="status-message status-${type}">${msg}</div>`;
+}
+
+function bucketOf(key) {
+    if (!key || typeof key !== 'string') return '_misc';
+    const k = key.trim().toLowerCase();
+    if (!k) return '_misc';
+    return k[0] || '_misc';
+}
+
+function dedupe(arr) {
+    const s = new Set();
+    return arr.filter(t => t && !s.has(t) && s.add(t));
+}
+
+// Load and start processing
+document.getElementById('loadBtn').addEventListener('click', async () => {
+    token = document.getElementById('token').value.trim();
+    repo = document.getElementById('repo').value.trim();
+    
+    if (!token || !repo) {
+        showSetupStatus('Please enter both token and repository.', 'error');
+        return;
+    }
+    
+    saveToken(token);
+    localStorage.setItem(STORAGE_KEYS.REPO, repo);
+    
+    showSetupStatus('<i class="fas fa-spinner fa-spin"></i> Loading word list and manifest...', 'info');
+    
+    try {
+        // Get repo info
+        const repoRes = await fetch(`https://api.github.com/repos/${repo}`, {
+            headers: { Authorization: `token ${token}` }
+        });
+        const repoData = await repoRes.json();
+        repoDefaultBranch = repoData.default_branch || 'main';
+        
+        // Load words file
+        const wordsRes = await fetch(`https://api.github.com/repos/${repo}/contents/english_words.txt`, {
+            headers: { Authorization: `token ${token}` }
+        });
+        const wordsData = await wordsRes.json();
+        const wordsContent = atobUTF8(wordsData.content);
+        wordsList = wordsContent.split('\n').map(w => w.trim().toLowerCase()).filter(Boolean);
+        
+        if (wordsList.length === 0) {
+            throw new Error('No words found in english_words.txt');
+        }
+        
+        // Load manifest
+        const manifestRes = await fetch(`https://api.github.com/repos/${repo}/contents/shards/manifest.json`, {
+            headers: { Authorization: `token ${token}` }
+        });
+        const manifestData = await manifestRes.json();
+        manifest = JSON.parse(atobUTF8(manifestData.content));
+        
+        // Load saved progress
+        currentIndex = loadSavedProgress();
+        
+        // Start processing
+        document.getElementById('setupSection').style.display = 'none';
+        document.getElementById('progressSection').style.display = 'block';
+        document.getElementById('processingSection').style.display = 'block';
+        
+        updateProgress();
+        processNextWord();
+        
+    } catch (e) {
+        showSetupStatus(`<i class="fas fa-exclamation-triangle"></i> Error: ${e.message}`, 'error');
+    }
+});
+
+// Process next word
+async function processNextWord() {
+    if (currentIndex >= wordsList.length) {
+        showCompletion();
+        return;
+    }
+    
+    currentWord = wordsList[currentIndex];
+    document.getElementById('currentWordDisplay').textContent = currentWord;
+    
+    showProcessingStatus('<i class="fas fa-spinner fa-spin"></i> Loading translations...', 'info');
+    
+    // Hide all action sections
+    document.getElementById('existingActions').style.display = 'none';
+    document.getElementById('noTranslationsActions').style.display = 'none';
+    document.getElementById('translationInput').style.display = 'none';
+    
+    try {
+        const bucket = bucketOf(currentWord);
+        const shardRes = await fetch(`https://api.github.com/repos/${repo}/contents/shards/${bucket}.json`, {
+            headers: { Authorization: `token ${token}` }
+        });
+        
+        if (shardRes.status === 404) {
+            // Shard doesn't exist yet
+            currentShardData = {};
+            currentShardSha = '';
+            showNoTranslations();
+        } else {
+            const shardData = await shardRes.json();
+            
+            // Load shard content
+            if (shardData.content && shardData.encoding === 'base64') {
+                currentShardData = JSON.parse(atobUTF8(shardData.content));
+                currentShardSha = shardData.sha;
+            } else if (shardData.sha) {
+                const blobRes = await fetch(`https://api.github.com/repos/${repo}/git/blobs/${shardData.sha}`, {
+                    headers: { Authorization: `token ${token}` }
+                });
+                const blob = await blobRes.json();
+                currentShardData = JSON.parse(atobUTF8(blob.content));
+                currentShardSha = shardData.sha;
+            }
+            
+            // Check if word exists
+            if (currentShardData[currentWord]) {
+                showExistingTranslations();
+            } else {
+                showNoTranslations();
+            }
+        }
+    } catch (e) {
+        showProcessingStatus(`<i class="fas fa-exclamation-triangle"></i> Error: ${e.message}`, 'error');
+    }
+}
+
+function showExistingTranslations() {
+    const entry = currentShardData[currentWord];
+    let translationsHTML = '';
+    
+    for (const [fieldName, translations] of Object.entries(entry)) {
+        if (Array.isArray(translations)) {
+            translationsHTML += `<div style="margin-bottom: 0.5rem;"><strong>${fieldName}:</strong> ${translations.join(', ')}</div>`;
+        }
+    }
+    
+    document.getElementById('translationsContent').innerHTML = translationsHTML;
+    document.getElementById('existingActions').style.display = 'block';
+    showProcessingStatus('This word has existing translations.', 'info');
+}
+
+function showNoTranslations() {
+    document.getElementById('translationsContent').innerHTML = '<span class="no-translations">No translations found</span>';
+    document.getElementById('noTranslationsActions').style.display = 'block';
+    showProcessingStatus('No translations found for this word.', 'warning');
+}
+
+// Action buttons
+document.getElementById('appendBtn').addEventListener('click', () => {
+    mode = 'append';
+    showTranslationInput();
+});
+
+document.getElementById('rewriteBtn').addEventListener('click', () => {
+    mode = 'rewrite';
+    showTranslationInput();
+});
+
+document.getElementById('addBtn').addEventListener('click', () => {
+    mode = 'new';
+    showTranslationInput();
+});
+
+document.getElementById('skipExistingBtn').addEventListener('click', skipWord);
+document.getElementById('skipNewBtn').addEventListener('click', skipWord);
+
+function showTranslationInput() {
+    document.getElementById('existingActions').style.display = 'none';
+    document.getElementById('noTranslationsActions').style.display = 'none';
+    document.getElementById('translationInput').style.display = 'block';
+    document.getElementById('translations').value = '';
+    document.getElementById('translations').focus();
+    showProcessingStatus(`Enter translations to ${mode} for "${currentWord}"`, 'info');
+}
+
+document.getElementById('cancelBtn').addEventListener('click', () => {
+    document.getElementById('translationInput').style.display = 'none';
+    if (currentShardData[currentWord]) {
+        showExistingTranslations();
+    } else {
+        showNoTranslations();
+    }
+});
+
+function skipWord() {
+    currentIndex++;
+    saveProgress(currentIndex);
+    updateProgress();
+    processNextWord();
+}
+
+// Save translation
+document.getElementById('saveBtn').addEventListener('click', async () => {
+    const translationsInput = document.getElementById('translations').value;
+    const translations = translationsInput.split(',').map(s => s.trim()).filter(Boolean);
+    
+    if (!translations.length) {
+        showProcessingStatus('Please enter at least one translation.', 'error');
+        return;
+    }
+    
+    showProcessingStatus('<i class="fas fa-spinner fa-spin"></i> Saving...', 'info');
+    
+    // Update shard data
+    if (mode === 'new' || mode === 'rewrite') {
+        currentShardData[currentWord] = { default: dedupe(translations) };
+    } else if (mode === 'append') {
+        let entry = currentShardData[currentWord];
+        if (!entry || typeof entry !== 'object') {
+            entry = { default: [] };
+        }
+        
+        let targetField = 'default';
+        if (!Array.isArray(entry.default)) {
+            for (const [k, v] of Object.entries(entry)) {
+                if (Array.isArray(v)) {
+                    targetField = k;
+                    break;
+                }
+            }
+        }
+        
+        if (!entry[targetField] || !Array.isArray(entry[targetField])) {
+            entry[targetField] = [];
+        }
+        
+        entry[targetField] = dedupe([...entry[targetField], ...translations]);
+        currentShardData[currentWord] = entry;
+    }
+    
+    // Update manifest
+    const bucket = bucketOf(currentWord);
+    manifest[bucket] = manifest[bucket] || {};
+    manifest[bucket].keys = Object.keys(currentShardData).length;
+    manifest[bucket].file = `${bucket}.json`;
+    
+    try {
+        // Atomic commit
+        const result = await commitMultipleFiles([
+            {
+                path: `shards/${bucket}.json`,
+                content: JSON.stringify(currentShardData, null, 2)
+            },
+            {
+                path: 'shards/manifest.json',
+                content: JSON.stringify(manifest, null, 2)
+            }
+        ], `${mode === 'new' ? 'Add' : mode === 'append' ? 'Append' : 'Rewrite'} '${currentWord}'`);
+        
+        if (result.success) {
+            showProcessingStatus(`<i class="fas fa-check-circle"></i> Saved successfully!`, 'success');
+            
+            // Move to next word
+            currentIndex++;
+            saveProgress(currentIndex);
+            updateProgress();
+            
+            setTimeout(() => {
+                processNextWord();
+            }, 1000);
+        } else {
+            throw new Error(result.error || 'Commit failed');
+        }
+    } catch (e) {
+        showProcessingStatus(`<i class="fas fa-exclamation-triangle"></i> Error: ${e.message}`, 'error');
+    }
+});
+
+// Atomic commit function
+async function commitMultipleFiles(files, commitMessage) {
+    try {
+        const refRes = await fetch(`https://api.github.com/repos/${repo}/git/ref/heads/${repoDefaultBranch}`, {
+            headers: { Authorization: `token ${token}` }
+        });
+        const refData = await refRes.json();
+        const currentCommitSha = refData.object.sha;
+        
+        const commitRes = await fetch(`https://api.github.com/repos/${repo}/git/commits/${currentCommitSha}`, {
+            headers: { Authorization: `token ${token}` }
+        });
+        const commitData = await commitRes.json();
+        const baseTreeSha = commitData.tree.sha;
+        
+        const treeItems = [];
+        for (const file of files) {
+            const blobRes = await fetch(`https://api.github.com/repos/${repo}/git/blobs`, {
+                method: 'POST',
+                headers: { Authorization: `token ${token}` },
+                body: JSON.stringify({
+                    content: btoaUTF8(file.content),
+                    encoding: 'base64'
+                })
+            });
+            const blobData = await blobRes.json();
+            
+            treeItems.push({
+                path: file.path,
+                mode: '100644',
+                type: 'blob',
+                sha: blobData.sha
+            });
+        }
+        
+        const treeRes = await fetch(`https://api.github.com/repos/${repo}/git/trees`, {
+            method: 'POST',
+            headers: { Authorization: `token ${token}` },
+            body: JSON.stringify({
+                base_tree: baseTreeSha,
+                tree: treeItems
+            })
+        });
+        const treeData = await treeRes.json();
+        
+        const newCommitRes = await fetch(`https://api.github.com/repos/${repo}/git/commits`, {
+            method: 'POST',
+            headers: { Authorization: `token ${token}` },
+            body: JSON.stringify({
+                message: commitMessage,
+                tree: treeData.sha,
+                parents: [currentCommitSha]
+            })
+        });
+        const newCommitData = await newCommitRes.json();
+        
+        await fetch(`https://api.github.com/repos/${repo}/git/refs/heads/${repoDefaultBranch}`, {
+            method: 'PATCH',
+            headers: { Authorization: `token ${token}` },
+            body: JSON.stringify({
+                sha: newCommitData.sha
+            })
+        });
+        
+        return { success: true };
+    } catch (e) {
+        return { success: false, error: e.message };
+    }
+}
+
+function showCompletion() {
+    document.getElementById('processingSection').style.display = 'none';
+    document.getElementById('completionSection').style.display = 'block';
+}
+
+document.getElementById('restartBtn').addEventListener('click', () => {
+    resetProgress();
+    location.reload();
+});
+
+document.getElementById('forgetTokenBtn').addEventListener('click', forgetToken);
+document.getElementById('resetProgressBtn').addEventListener('click', resetProgress);
+
+// Keyboard shortcuts
+document.getElementById('translations').addEventListener('keydown', (e) => {
+    if (e.key === 'Enter' && e.ctrlKey) {
+        document.getElementById('saveBtn').click();
+    }
+});
+</script>
+</body>
+</html>
