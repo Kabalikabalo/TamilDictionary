@@ -288,6 +288,23 @@ body {
     margin-bottom: 1rem;
     display: block;
 }
+.file-upload-section {
+    background: var(--dark-bg);
+    border: 2px dashed var(--border-color);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin-top: 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: var(--transition);
+}
+.file-upload-section:hover {
+    border-color: var(--primary-color);
+    background: rgba(255, 107, 53, 0.05);
+}
+.file-upload-section input[type="file"] {
+    display: none;
+}
 @keyframes fadeInUp {
     from { opacity: 0; transform: translateY(30px);}
     to { opacity: 1; transform: translateY(0);}
@@ -335,6 +352,21 @@ body {
             <label for="repo"><i class="fas fa-code-branch"></i> Repository (owner/name)</label>
             <input type="text" id="repo" class="input-field" value="Kabalikabalo/TamilDictionary">
         </div>
+        
+        <!-- File upload option -->
+        <div id="fileUploadOption" style="display:none;">
+            <div class="file-upload-section" onclick="document.getElementById('fileInput').click()">
+                <i class="fas fa-upload" style="font-size: 2rem; color: var(--accent-color); margin-bottom: 0.5rem;"></i>
+                <div style="color: var(--text-secondary); margin-bottom: 0.5rem;">
+                    <strong>docs/english_words.txt</strong> not found in repository
+                </div>
+                <div style="color: var(--accent-color); font-size: 0.9rem;">
+                    Click to upload a word list file (one word per line)
+                </div>
+                <input type="file" id="fileInput" accept=".txt">
+            </div>
+        </div>
+        
         <button id="loadBtn" class="btn"><i class="fas fa-play"></i> Start Processing</button>
         <div id="forgetTokenSection" style="display:none; margin-top: 1rem;">
             <button id="forgetTokenBtn" class="btn btn-secondary"><i class="fas fa-trash-alt"></i> Forget Saved Token</button>
@@ -414,12 +446,14 @@ let currentWord = '';
 let currentShardData = {};
 let currentShardSha = '';
 let mode = '';
+let wordsFromFile = false;
 
 // Storage keys
 const STORAGE_KEYS = {
     TOKEN: 'tamildict_pat',
     REPO: 'tamildict_repo',
-    PROGRESS: 'tamildict_progress'
+    PROGRESS: 'tamildict_progress',
+    WORDS: 'tamildict_words'
 };
 
 // Initialize
@@ -561,6 +595,28 @@ function dedupe(arr) {
     return arr.filter(t => t && !s.has(t) && s.add(t));
 }
 
+// File upload handler
+document.getElementById('fileInput').addEventListener('change', (e) => {
+    const file = e.target.files[0];
+    if (file) {
+        const reader = new FileReader();
+        reader.onload = (event) => {
+            const content = event.target.result;
+            wordsList = content.split('\n').map(w => w.trim().toLowerCase()).filter(Boolean);
+            
+            if (wordsList.length > 0) {
+                localStorage.setItem(STORAGE_KEYS.WORDS, JSON.stringify(wordsList));
+                wordsFromFile = true;
+                showSetupStatus(`<i class="fas fa-check-circle"></i> Loaded ${wordsList.length} words from file!`, 'success');
+                document.getElementById('fileUploadOption').style.display = 'none';
+            } else {
+                showSetupStatus('No valid words found in file.', 'error');
+            }
+        };
+        reader.readAsText(file);
+    }
+});
+
 // Load and start processing
 document.getElementById('loadBtn').addEventListener('click', async () => {
     token = document.getElementById('token').value.trim();
@@ -574,32 +630,63 @@ document.getElementById('loadBtn').addEventListener('click', async () => {
     saveToken(token);
     localStorage.setItem(STORAGE_KEYS.REPO, repo);
     
-    showSetupStatus('<i class="fas fa-spinner fa-spin"></i> Loading word list and manifest...', 'info');
+    showSetupStatus('<i class="fas fa-spinner fa-spin"></i> Loading data...', 'info');
     
     try {
         // Get repo info
         const repoRes = await fetch(`https://api.github.com/repos/${repo}`, {
             headers: { Authorization: `token ${token}` }
         });
+        
+        if (!repoRes.ok) {
+            throw new Error('Failed to access repository. Check your token and repository name.');
+        }
+        
         const repoData = await repoRes.json();
         repoDefaultBranch = repoData.default_branch || 'main';
         
-        // Load words file
-        const wordsRes = await fetch(`https://api.github.com/repos/${repo}/contents/english_words.txt`, {
-            headers: { Authorization: `token ${token}` }
-        });
-        const wordsData = await wordsRes.json();
-        const wordsContent = atobUTF8(wordsData.content);
-        wordsList = wordsContent.split('\n').map(w => w.trim().toLowerCase()).filter(Boolean);
+        // Try to load words from localStorage first
+        const savedWords = localStorage.getItem(STORAGE_KEYS.WORDS);
+        if (savedWords) {
+            wordsList = JSON.parse(savedWords);
+            wordsFromFile = true;
+            showSetupStatus(`<i class="fas fa-info-circle"></i> Using ${wordsList.length} words from previous session.`, 'info');
+        } else {
+            // Try to load from repository at docs/english_words.txt
+            try {
+                const wordsRes = await fetch(`https://api.github.com/repos/${repo}/contents/docs/english_words.txt`, {
+                    headers: { Authorization: `token ${token}` }
+                });
+                
+                if (wordsRes.ok) {
+                    const wordsData = await wordsRes.json();
+                    const wordsContent = atobUTF8(wordsData.content);
+                    wordsList = wordsContent.split('\n').map(w => w.trim().toLowerCase()).filter(Boolean);
+                    localStorage.setItem(STORAGE_KEYS.WORDS, JSON.stringify(wordsList));
+                } else {
+                    throw new Error('File not found');
+                }
+            } catch (e) {
+                // Show file upload option
+                document.getElementById('fileUploadOption').style.display = 'block';
+                showSetupStatus('<i class="fas fa-exclamation-circle"></i> Please upload a word list file to continue.', 'warning');
+                return;
+            }
+        }
         
         if (wordsList.length === 0) {
-            throw new Error('No words found in english_words.txt');
+            throw new Error('No words to process. Please upload a word list file.');
         }
         
         // Load manifest
         const manifestRes = await fetch(`https://api.github.com/repos/${repo}/contents/shards/manifest.json`, {
             headers: { Authorization: `token ${token}` }
         });
+        
+        if (!manifestRes.ok) {
+            throw new Error('Failed to load manifest.json from shards directory.');
+        }
+        
         const manifestData = await manifestRes.json();
         manifest = JSON.parse(atobUTF8(manifestData.content));
         
@@ -836,7 +923,7 @@ async function commitMultipleFiles(files, commitMessage) {
         for (const file of files) {
             const blobRes = await fetch(`https://api.github.com/repos/${repo}/git/blobs`, {
                 method: 'POST',
-                headers: { Authorization: `token ${token}` },
+                headers: { Authorization: `token ${token}`, 'Content-Type': 'application/json' },
                 body: JSON.stringify({
                     content: btoaUTF8(file.content),
                     encoding: 'base64'
@@ -854,7 +941,7 @@ async function commitMultipleFiles(files, commitMessage) {
         
         const treeRes = await fetch(`https://api.github.com/repos/${repo}/git/trees`, {
             method: 'POST',
-            headers: { Authorization: `token ${token}` },
+            headers: { Authorization: `token ${token}`, 'Content-Type': 'application/json' },
             body: JSON.stringify({
                 base_tree: baseTreeSha,
                 tree: treeItems
@@ -864,7 +951,7 @@ async function commitMultipleFiles(files, commitMessage) {
         
         const newCommitRes = await fetch(`https://api.github.com/repos/${repo}/git/commits`, {
             method: 'POST',
-            headers: { Authorization: `token ${token}` },
+            headers: { Authorization: `token ${token}`, 'Content-Type': 'application/json' },
             body: JSON.stringify({
                 message: commitMessage,
                 tree: treeData.sha,
@@ -875,7 +962,7 @@ async function commitMultipleFiles(files, commitMessage) {
         
         await fetch(`https://api.github.com/repos/${repo}/git/refs/heads/${repoDefaultBranch}`, {
             method: 'PATCH',
-            headers: { Authorization: `token ${token}` },
+            headers: { Authorization: `token ${token}`, 'Content-Type': 'application/json' },
             body: JSON.stringify({
                 sha: newCommitData.sha
             })
@@ -883,6 +970,7 @@ async function commitMultipleFiles(files, commitMessage) {
         
         return { success: true };
     } catch (e) {
+        console.error('Commit error:', e);
         return { success: false, error: e.message };
     }
 }
