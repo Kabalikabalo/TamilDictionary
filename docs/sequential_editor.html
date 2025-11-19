@@ -170,6 +170,30 @@ body {
     box-shadow: 0 0 0 3px var(--glow-color-light);
     transform: translateY(-2px);
 }
+.input-field-number {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    background: var(--dark-bg);
+    border: 2px solid var(--border-color);
+    border-radius: 12px;
+    font-size: 1.05rem;
+    color: var(--text-primary);
+    outline: none;
+    transition: var(--transition);
+    font-family: 'Inter', sans-serif;
+    box-sizing: border-box;
+}
+.input-field-number:focus {
+    border-color: var(--primary-color);
+    box-shadow: 0 0 0 3px var(--glow-color-light);
+    transform: translateY(-2px);
+}
+.helper-text {
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    margin-top: 0.25rem;
+    font-style: italic;
+}
 .btn {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
     border: none;
@@ -305,6 +329,20 @@ body {
 .file-upload-section input[type="file"] {
     display: none;
 }
+.format-hint {
+    background: rgba(100, 181, 246, 0.05);
+    border: 1px solid rgba(100, 181, 246, 0.3);
+    border-radius: 8px;
+    padding: 0.75rem;
+    margin-top: 0.5rem;
+    font-size: 0.85rem;
+    color: var(--text-secondary);
+    font-family: 'Noto Sans Tamil', 'Inter', monospace;
+    line-height: 1.6;
+}
+.format-hint strong {
+    color: #90caf9;
+}
 @keyframes fadeInUp {
     from { opacity: 0; transform: translateY(30px);}
     to { opacity: 1; transform: translateY(0);}
@@ -353,6 +391,16 @@ body {
             <input type="text" id="repo" class="input-field" value="Kabalikabalo/TamilDictionary">
         </div>
         
+        <div class="input-group">
+            <label for="startWord">
+                <i class="fas fa-play-circle"></i> Start at Word Number (Optional)
+            </label>
+            <input type="number" id="startWord" class="input-field-number" min="1" placeholder="Leave empty to continue from last position">
+            <div class="helper-text">
+                💡 Enter a number (e.g., 100) to skip to that word, or leave empty to resume where you left off
+            </div>
+        </div>
+        
         <!-- File upload option -->
         <div id="fileUploadOption" style="display:none;">
             <div class="file-upload-section" onclick="document.getElementById('fileInput').click()">
@@ -367,7 +415,7 @@ body {
             </div>
         </div>
         
-        <button id="loadBtn" class="btn"><i class="fas fa-play"></i> Start Processing</button>
+        <button id="loadBtn" class="btn"><i class="fas fa-rocket"></i> Start Processing</button>
         <div id="forgetTokenSection" style="display:none; margin-top: 1rem;">
             <button id="forgetTokenBtn" class="btn btn-secondary"><i class="fas fa-trash-alt"></i> Forget Saved Token</button>
         </div>
@@ -408,8 +456,18 @@ body {
         <!-- Translation input -->
         <div id="translationInput" style="display:none;">
             <div class="input-group">
-                <label for="translations"><i class="fas fa-language"></i> Translations (comma-separated)</label>
-                <textarea id="translations" class="input-field" rows="3" placeholder="Enter Tamil translations separated by commas..."></textarea>
+                <label for="translations">
+                    <i class="fas fa-language"></i> Translations (structured or comma-separated)
+                </label>
+                <textarea id="translations" class="input-field" rows="5" placeholder="Enter translations..."></textarea>
+                <div class="format-hint">
+                    <strong>Format examples:</strong><br>
+                    • <strong>Structured:</strong> பெயர்ச்சொல்: தேடல்<br>
+                    &nbsp;&nbsp;வினைச்சொல்: தேடு, கண்டுபிடி<br>
+                    • <strong>Simple:</strong> தேடு, கண்டுபிடி (goes to "default")<br>
+                    • <strong>Mixed:</strong> பெயர்ச்சொல்: தேடல்<br>
+                    &nbsp;&nbsp;கண்டுபிடி, தேடுதல் (unheaded → "default")
+                </div>
             </div>
             <div class="btn-group">
                 <button id="saveBtn" class="btn"><i class="fas fa-save"></i> Save & Next</button>
@@ -595,6 +653,48 @@ function dedupe(arr) {
     return arr.filter(t => t && !s.has(t) && s.add(t));
 }
 
+// Parse structured translation input
+function parseTranslationInput(input) {
+    const lines = input.split('\n').map(l => l.trim()).filter(Boolean);
+    const result = {};
+    
+    for (const line of lines) {
+        // Check if line has a field header (format: "field: values")
+        const colonIndex = line.indexOf(':');
+        
+        if (colonIndex > 0) {
+            const field = line.substring(0, colonIndex).trim();
+            const values = line.substring(colonIndex + 1).trim();
+            
+            if (field && values) {
+                // Parse comma-separated values
+                const translations = values.split(',').map(v => v.trim()).filter(Boolean);
+                
+                if (!result[field]) {
+                    result[field] = [];
+                }
+                result[field].push(...translations);
+            }
+        } else {
+            // No header, treat as comma-separated values for "default"
+            const translations = line.split(',').map(v => v.trim()).filter(Boolean);
+            if (translations.length > 0) {
+                if (!result.default) {
+                    result.default = [];
+                }
+                result.default.push(...translations);
+            }
+        }
+    }
+    
+    // Deduplicate each field
+    for (const field in result) {
+        result[field] = dedupe(result[field]);
+    }
+    
+    return result;
+}
+
 // File upload handler
 document.getElementById('fileInput').addEventListener('change', (e) => {
     const file = e.target.files[0];
@@ -621,6 +721,7 @@ document.getElementById('fileInput').addEventListener('change', (e) => {
 document.getElementById('loadBtn').addEventListener('click', async () => {
     token = document.getElementById('token').value.trim();
     repo = document.getElementById('repo').value.trim();
+    const startWordInput = document.getElementById('startWord').value.trim();
     
     if (!token || !repo) {
         showSetupStatus('Please enter both token and repository.', 'error');
@@ -690,16 +791,30 @@ document.getElementById('loadBtn').addEventListener('click', async () => {
         const manifestData = await manifestRes.json();
         manifest = JSON.parse(atobUTF8(manifestData.content));
         
-        // Load saved progress
-        currentIndex = loadSavedProgress();
+        // Handle start word number
+        if (startWordInput) {
+            const startNum = parseInt(startWordInput);
+            if (startNum >= 1 && startNum <= wordsList.length) {
+                currentIndex = startNum - 1; // Convert to 0-based index
+                saveProgress(currentIndex);
+                showSetupStatus(`<i class="fas fa-info-circle"></i> Starting at word #${startNum}: "${wordsList[currentIndex]}"`, 'info');
+            } else {
+                throw new Error(`Invalid start word number. Must be between 1 and ${wordsList.length}.`);
+            }
+        } else {
+            // Load saved progress
+            currentIndex = loadSavedProgress();
+        }
         
         // Start processing
-        document.getElementById('setupSection').style.display = 'none';
-        document.getElementById('progressSection').style.display = 'block';
-        document.getElementById('processingSection').style.display = 'block';
-        
-        updateProgress();
-        processNextWord();
+        setTimeout(() => {
+            document.getElementById('setupSection').style.display = 'none';
+            document.getElementById('progressSection').style.display = 'block';
+            document.getElementById('processingSection').style.display = 'block';
+            
+            updateProgress();
+            processNextWord();
+        }, 1000);
         
     } catch (e) {
         showSetupStatus(`<i class="fas fa-exclamation-triangle"></i> Error: ${e.message}`, 'error');
@@ -829,40 +944,42 @@ function skipWord() {
 
 // Save translation
 document.getElementById('saveBtn').addEventListener('click', async () => {
-    const translationsInput = document.getElementById('translations').value;
-    const translations = translationsInput.split(',').map(s => s.trim()).filter(Boolean);
+    const translationsInput = document.getElementById('translations').value.trim();
     
-    if (!translations.length) {
+    if (!translationsInput) {
         showProcessingStatus('Please enter at least one translation.', 'error');
         return;
     }
     
     showProcessingStatus('<i class="fas fa-spinner fa-spin"></i> Saving...', 'info');
     
-    // Update shard data
+    // Parse the structured input
+    const parsedTranslations = parseTranslationInput(translationsInput);
+    
+    if (Object.keys(parsedTranslations).length === 0) {
+        showProcessingStatus('No valid translations found in input.', 'error');
+        return;
+    }
+    
+    // Update shard data based on mode
     if (mode === 'new' || mode === 'rewrite') {
-        currentShardData[currentWord] = { default: dedupe(translations) };
+        currentShardData[currentWord] = parsedTranslations;
     } else if (mode === 'append') {
         let entry = currentShardData[currentWord];
         if (!entry || typeof entry !== 'object') {
-            entry = { default: [] };
+            entry = {};
         }
         
-        let targetField = 'default';
-        if (!Array.isArray(entry.default)) {
-            for (const [k, v] of Object.entries(entry)) {
-                if (Array.isArray(v)) {
-                    targetField = k;
-                    break;
-                }
+        // Merge new fields with existing entry
+        for (const [field, translations] of Object.entries(parsedTranslations)) {
+            if (!entry[field]) {
+                entry[field] = [];
+            } else if (!Array.isArray(entry[field])) {
+                entry[field] = [];
             }
+            entry[field] = dedupe([...entry[field], ...translations]);
         }
         
-        if (!entry[targetField] || !Array.isArray(entry[targetField])) {
-            entry[targetField] = [];
-        }
-        
-        entry[targetField] = dedupe([...entry[targetField], ...translations]);
         currentShardData[currentWord] = entry;
     }
     
