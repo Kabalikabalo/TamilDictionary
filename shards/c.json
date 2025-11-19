@@ -100192,34 +100192,12 @@
     ]
   },
   "click": {
-    "பெயர்ச்சொல்": [
-      [
-        "[கணினி.] சொடுக்கு."
-      ],
-      [
-        "சொடுக்கொலி"
-      ],
-      [
-        "கொளுவி",
-        "கொளுக்கி"
-      ]
-    ],
-    "வினைச்சொல்": [
-      [
-        "[கணினி.] சொடுக்கு."
-      ],
-      [
-        "சுட்டு"
-      ],
-      [
-        "கொளுவு"
-      ],
-      [
-        "ஒத்துப் போதல்: [When we met at the party, we just clicked and we’ve been best friends ever since.]"
-      ],
-      [
-        "சட்டென்று புரிந்து கொள்: [Then it clicked - I had been going the wrong way all that time.]"
-      ]
+    "default": [
+      "கொளுவு",
+      "சொடுக்கொலி (sound)",
+      "சுட்டு (computer)",
+      "ஒத்துப் போதல் (people)",
+      "சட்டென்று புரிந்து கொள் (suddenly understand)"
     ]
   },
   "click-clack": {
