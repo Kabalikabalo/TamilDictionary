@@ -48394,9 +48394,11 @@
   },
   "his": {
     "default": [
-      [
-        "அவன்"
-      ]
+      "அவரின் (honorific)",
+      "அவனின்",
+      "அவரது (honorific)",
+      "அவன்",
+      "அவனுடைய"
     ]
   },
   "his_-_hospital_information_system": {
