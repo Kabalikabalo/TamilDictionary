@@ -58319,10 +58319,11 @@
     ]
   },
   "long": {
+    "default": [
+      "(lengthy) நீளமான"
+    ],
     "வினைச்சொல்": [
-      [
-        "ஏங்கு: [to long to return home]"
-      ]
+      "ஏங்கு"
     ]
   },
   "long-arm_statute": {
