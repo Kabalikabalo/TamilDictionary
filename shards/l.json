@@ -20913,13 +20913,9 @@
     ]
   },
   "left": {
-    "பெயர்ச்சொல்": [
-      [
-        "இடது"
-      ],
-      [
-        "விடப்பட்ட"
-      ]
+    "default": [
+      "இடது (direction)",
+      "விடப்பட்ட (e.g left alone)"
     ]
   },
   "left-continuous_function": {
