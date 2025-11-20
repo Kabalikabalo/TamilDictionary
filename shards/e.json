@@ -71065,17 +71065,8 @@
   },
   "even": {
     "default": [
-      [
-        "சமமான",
-        "ஒரு சீரான: [anevenroad]"
-      ],
-      [
-        "இரட்டைப்படை",
-        "இரண்டால் வகுபடக் கூடிய: [anevennumber]"
-      ],
-      [
-        "கூட: [Eventhe slightest noise disturbs him]"
-      ]
+      "சமமான",
+      "(mathematics) இரட்டைப்படை"
     ]
   },
   "even-aged_forest": {
