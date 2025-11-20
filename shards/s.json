@@ -66870,20 +66870,14 @@
   },
   "still": {
     "default": [
-      [
-        "அசையாது [: to stand still]"
-      ],
-      [
-        "அசைவில்லாத",
-        "அமைதியான [: still air, still water]"
-      ],
-      [
-        "இன்னும் [: Are you still here?]"
-      ],
-      [
-        "இருப்பினும்",
-        "இருந்தும் [: It was futile, still they fought.]"
-      ]
+      "அசையாக (e.g to stand still)",
+      "அசைவில்லாத",
+      "அமைதியான (still air",
+      "still water)",
+      "இன்னும் (Are you still here?)",
+      "இருப்பினும்",
+      "இருந்தும் (It was futile",
+      "still they fought)"
     ]
   },
   "stiletto": {
