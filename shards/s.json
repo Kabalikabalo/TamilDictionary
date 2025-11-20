@@ -253217,5 +253217,12 @@
     "default": [
       "வேண்டும்"
     ]
+  },
+  "save": {
+    "default": [
+      "சேமி",
+      "காப்பாற்று (protect)",
+      "சேர்த்து வை (accumulate and store)"
+    ]
   }
 }
