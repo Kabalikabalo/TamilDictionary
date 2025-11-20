@@ -184281,38 +184281,17 @@
   },
   "set": {
     "default": [
-      [
-        "வை: [to set a vase on a table]"
-      ],
-      [
-        "நிறுவு: [to set a time limit]"
-      ],
-      [
-        "முடிவு செய் -- [set the rules]"
-      ],
-      [
-        "வரையறு -- [set the parameters]"
-      ],
-      [
-        "பதிவு செய் -- [set the record]"
-      ],
-      [
-        "(இடத்தைத்) தெரிவு செய் -- [the film is set in Croatia]"
-      ],
-      [
-        "ஏற்பாடு செய்",
-        "தயார் செய் -- arrange -- [set this poem to music]",
-        "[set the table for dinner]"
-      ],
-      [
-        "தொடங்கு -- [set fire to a small heap of papers]"
-      ],
-      [
-        "சரி செய் -- [set the clock, please]"
-      ],
-      [
-        "இருத்து -- [The goldsmith set the gem in place]"
-      ]
+      "வை (place)",
+      "நிறுவு (establish)",
+      "முடிவு செய் (decide)",
+      "வரையறு (define)",
+      "பதிவு செய் (record)",
+      "(இடத்தை) தெரிவு செய் (locate)",
+      "ஏற்பாடு செய் (arrange)",
+      "தொடங்கு (ignite)",
+      "சரி செய் (adjust)",
+      "இருத்து (embed)",
+      "வரிசை (group of items)"
     ]
   },
   "seston": {
