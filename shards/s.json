@@ -65058,17 +65058,18 @@
     ]
   },
   "stock": {
+    "பெயர்ச்சொல்": [
+      "இருப்பு (inventory)",
+      "கையிருப்பு (on-hand stock)",
+      "பங்கு (share in company)",
+      "சரக்கு (goods)",
+      "சூப் ரசம் (broth)",
+      "கால்நடை (livestock)"
+    ],
     "வினைச்சொல்": [
-      [
-        "இருப்பு",
-        "கையிருப்பு"
-      ],
-      [
-        "பங்கு"
-      ],
-      [
-        "சரக்கிருப்பு"
-      ]
+      "இருப்பு வை (to keep in stock)",
+      "நிரப்பு (to fill shelves)",
+      "சரக்கு சேர் (to add goods)"
     ]
   },
   "stochastics_index": {
