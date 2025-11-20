@@ -92349,18 +92349,8 @@
   },
   "please": {
     "default": [
-      [
-        "தயவு செய்து: [Please do.]"
-      ],
-      [
-        "மகிழ்வி: [It please him.]"
-      ],
-      [
-        "மகிழ்வூட்டு"
-      ],
-      [
-        "விருப்பம் போல்: [As he pleases.]"
-      ]
+      "தயவு செய்து (polite)",
+      "மகிழ்வூட்டு (to make happy)"
     ]
   },
   "pleasantry": {
