@@ -343,6 +343,44 @@ body {
 .format-hint strong {
     color: #90caf9;
 }
+.btn-gemini {
+    background: linear-gradient(135deg, #4285f4, #34a853);
+    box-shadow: 0 8px 30px rgba(66, 133, 244, 0.3);
+}
+.btn-gemini:hover {
+    box-shadow: 0 12px 40px rgba(66, 133, 244, 0.5);
+}
+.ai-translation-box {
+    background: rgba(66, 133, 244, 0.1);
+    border: 2px solid rgba(66, 133, 244, 0.4);
+    border-radius: 12px;
+    padding: 1.5rem;
+    margin: 1rem 0;
+    animation: fadeInUp 0.5s;
+}
+.ai-translation-box .label {
+    color: #64b5f6;
+    font-weight: 600;
+    font-size: 0.9rem;
+    margin-bottom: 0.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.ai-translation-box .content {
+    color: var(--text-primary);
+    font-size: 1.05rem;
+    font-family: 'Noto Sans Tamil', 'Inter', sans-serif;
+    line-height: 1.6;
+    padding: 0.75rem;
+    background: var(--dark-bg);
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+.btn-small {
+    padding: 0.6rem 1.2rem;
+    font-size: 0.9rem;
+}
 @keyframes fadeInUp {
     from { opacity: 0; transform: translateY(30px);}
     to { opacity: 1; transform: translateY(0);}
@@ -389,6 +427,16 @@ body {
         <div class="input-group">
             <label for="repo"><i class="fas fa-code-branch"></i> Repository (owner/name)</label>
             <input type="text" id="repo" class="input-field" value="Kabalikabalo/TamilDictionary">
+        </div>
+        
+        <div class="input-group">
+            <label for="geminiKey">
+                <i class="fas fa-robot"></i> Gemini API Key (Optional)
+                <span id="geminiSavedIndicator" class="token-saved-indicator" style="display:none;">
+                    <i class="fas fa-check-circle"></i> Saved
+                </span>
+            </label>
+            <input type="password" id="geminiKey" class="input-field" placeholder="Enter Gemini API key for AI assistance">
         </div>
         
         <div class="input-group">
@@ -466,9 +514,25 @@ body {
                     &nbsp;&nbsp;கண்டுபிடி, தேடுதல் (unheaded → "default")
                 </div>
             </div>
+            <button id="geminiBtn" class="btn btn-gemini" style="display:none; margin-bottom: 1rem;">
+                <i class="fas fa-robot"></i> Get Gemini Translation
+            </button>
             <div class="btn-group">
                 <button id="saveBtn" class="btn"><i class="fas fa-save"></i> Save & Next</button>
                 <button id="cancelBtn" class="btn btn-secondary"><i class="fas fa-ban"></i> Cancel</button>
+            </div>
+        </div>
+        
+        <!-- AI Translation Approval -->
+        <div id="aiTranslationBox" style="display:none;" class="ai-translation-box">
+            <div class="label">
+                <i class="fas fa-robot"></i> Gemini AI Translation
+            </div>
+            <div class="content" id="aiTranslationContent"></div>
+            <div class="btn-group">
+                <button id="approveAiBtn" class="btn btn-small"><i class="fas fa-check"></i> Approve & Save</button>
+                <button id="editAiBtn" class="btn btn-small btn-secondary"><i class="fas fa-edit"></i> Edit</button>
+                <button id="discardAiBtn" class="btn btn-small btn-secondary"><i class="fas fa-times"></i> Discard</button>
             </div>
         </div>
 
@@ -508,7 +572,8 @@ const STORAGE_KEYS = {
     TOKEN: 'tamildict_pat',
     REPO: 'tamildict_repo',
     PROGRESS: 'tamildict_progress',
-    WORDS: 'tamildict_words'
+    WORDS: 'tamildict_words',
+    GEMINI_API_KEY: 'tamildict_gemini_api'
 };
 
 // Initialize
@@ -516,7 +581,39 @@ document.addEventListener('DOMContentLoaded', () => {
     createParticles();
     loadSavedToken();
     loadSavedProgress();
+    loadSavedGeminiKey();
 });
+
+// Gemini API key management
+function saveGeminiKey(keyValue) {
+    try {
+        localStorage.setItem(STORAGE_KEYS.GEMINI_API_KEY, keyValue);
+        updateGeminiKeyUI(true);
+    } catch (e) {
+        console.warn('Could not save Gemini API key:', e);
+    }
+}
+
+function loadSavedGeminiKey() {
+    try {
+        const savedKey = localStorage.getItem(STORAGE_KEYS.GEMINI_API_KEY);
+        if (savedKey) {
+            document.getElementById('geminiKey').value = savedKey;
+            updateGeminiKeyUI(true);
+        }
+    } catch (e) {
+        console.warn('Could not load Gemini API key:', e);
+    }
+}
+
+function updateGeminiKeyUI(hasSavedKey) {
+    const indicator = document.getElementById('geminiSavedIndicator');
+    if (hasSavedKey) {
+        indicator.style.display = 'inline-block';
+    } else {
+        indicator.style.display = 'none';
+    }
+}
 
 function createParticles() {
     for (let i = 0; i < 30; i++) {
@@ -728,6 +825,12 @@ document.getElementById('loadBtn').addEventListener('click', async () => {
     saveToken(token);
     localStorage.setItem(STORAGE_KEYS.REPO, repo);
     
+    // Save Gemini API key if provided
+    const geminiKey = document.getElementById('geminiKey').value.trim();
+    if (geminiKey) {
+        saveGeminiKey(geminiKey);
+    }
+    
     showSetupStatus('<i class="fas fa-spinner fa-spin"></i> Loading data...', 'info');
     
     try {
@@ -918,8 +1021,18 @@ function showTranslationInput() {
     document.getElementById('existingActions').style.display = 'none';
     document.getElementById('noTranslationsActions').style.display = 'none';
     document.getElementById('translationInput').style.display = 'block';
+    document.getElementById('aiTranslationBox').style.display = 'none';
     document.getElementById('translations').value = '';
     document.getElementById('translations').focus();
+    
+    // Show Gemini button if API key is available
+    const geminiKey = localStorage.getItem(STORAGE_KEYS.GEMINI_API_KEY);
+    if (geminiKey) {
+        document.getElementById('geminiBtn').style.display = 'block';
+    } else {
+        document.getElementById('geminiBtn').style.display = 'none';
+    }
+    
     showProcessingStatus(`Enter translations to ${mode} for "${currentWord}"`, 'info');
 }
 
@@ -1101,6 +1214,135 @@ document.getElementById('restartBtn').addEventListener('click', () => {
 
 document.getElementById('forgetTokenBtn').addEventListener('click', forgetToken);
 document.getElementById('resetProgressBtn').addEventListener('click', resetProgress);
+
+// Gemini API call
+async function getGeminiTranslation(englishWord, currentTranslations = null) {
+    const apiKey = localStorage.getItem(STORAGE_KEYS.GEMINI_API_KEY);
+    if (!apiKey) {
+        throw new Error('Gemini API key not found');
+    }
+    
+    let existingTranslationsText = '';
+    if (currentTranslations) {
+        existingTranslationsText = '\n\nEXISTING TRANSLATIONS (for reference and ideas - you can improve, modify, or completely change these):\n';
+        for (const [fieldName, translations] of Object.entries(currentTranslations)) {
+            if (Array.isArray(translations)) {
+                existingTranslationsText += `${fieldName}: ${translations.join(', ')}\n`;
+            }
+        }
+    }
+    
+    const prompt = `Translate the English word "${englishWord}" to Tamil.${existingTranslationsText}
+
+IMPORTANT INSTRUCTIONS:
+1. If the word can be used as BOTH a noun and a verb, provide BOTH translations in this format:
+   பெயர்ச்சொல்: [Tamil noun translation(s)]
+   வினைச்சொல்: [Tamil verb translation(s)]
+
+(must follow this format exactly with new line for new heading)
+2. If it's ONLY a noun, use:
+   பெயர்ச்சொல்: [Tamil translation(s)]
+
+3. If it's ONLY a verb, use:
+   வினைச்சொல்: [Tamil translation(s)]
+
+4. Provide multiple Tamil translations separated by commas if there are multiple valid translations.
+
+5. You can add bracketed explanations in English after any translation to clarify use case, like this:
+   தேடு (online), கண்டுபிடி (information)
+
+6. Keep translations concise and accurate.
+
+Examples:
+- "search" → 
+  பெயர்ச்சொல்: தேடல், ஆராய்ச்சி
+  வினைச்சொல்: தேடு, கண்டுபிடி
+
+- "book" →
+  பெயர்ச்சொல்: புத்தகம், நூல்
+  வினைச்சொல்: முன்பதிவு செய் (இடம் அல்லது டிக்கெட்)
+
+- "happiness" →
+  பெயர்ச்சொல்: மகிழ்ச்சி, சந்தோஷம்
+
+Provide ONLY the Tamil translation in the specified format, nothing else.`;
+    
+    try {
+        const response = await fetch(`https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash:generateContent?key=${apiKey}`, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                contents: [{
+                    parts: [{
+                        text: prompt
+                    }]
+                }]
+            })
+        });
+        
+        if (!response.ok) {
+            const errorData = await response.json();
+            throw new Error(errorData.error?.message || 'Gemini API request failed');
+        }
+        
+        const data = await response.json();
+        const translation = data.candidates[0].content.parts[0].text.trim();
+        return translation;
+    } catch (e) {
+        throw new Error(`Gemini API error: ${e.message}`);
+    }
+}
+
+// Gemini button handler
+document.getElementById('geminiBtn').addEventListener('click', async () => {
+    document.getElementById('geminiBtn').disabled = true;
+    showProcessingStatus('<i class="fas fa-spinner fa-spin"></i> Getting translation from Gemini AI...', 'info');
+    
+    try {
+        // If rewriting, pass current translations to Gemini for reference
+        let currentTranslations = null;
+        if (mode === 'rewrite' && currentShardData[currentWord]) {
+            currentTranslations = currentShardData[currentWord];
+        }
+        
+        const translation = await getGeminiTranslation(currentWord, currentTranslations);
+        
+        // Show AI translation box
+        document.getElementById('aiTranslationContent').textContent = translation;
+        document.getElementById('aiTranslationBox').style.display = 'block';
+        document.getElementById('translationInput').style.display = 'none';
+        showProcessingStatus('<i class="fas fa-check-circle"></i> Gemini translation received!', 'success');
+    } catch (e) {
+        showProcessingStatus(`<i class="fas fa-exclamation-triangle"></i> ${e.message}`, 'error');
+    } finally {
+        document.getElementById('geminiBtn').disabled = false;
+    }
+});
+
+// AI Translation approval buttons
+document.getElementById('approveAiBtn').addEventListener('click', () => {
+    const aiTranslation = document.getElementById('aiTranslationContent').textContent;
+    document.getElementById('translations').value = aiTranslation;
+    document.getElementById('saveBtn').click();
+});
+
+document.getElementById('editAiBtn').addEventListener('click', () => {
+    const aiTranslation = document.getElementById('aiTranslationContent').textContent;
+    document.getElementById('translations').value = aiTranslation;
+    document.getElementById('aiTranslationBox').style.display = 'none';
+    document.getElementById('translationInput').style.display = 'block';
+    document.getElementById('translations').focus();
+    showProcessingStatus('Edit the translation as needed, then save.', 'info');
+});
+
+document.getElementById('discardAiBtn').addEventListener('click', () => {
+    document.getElementById('aiTranslationBox').style.display = 'none';
+    document.getElementById('translationInput').style.display = 'block';
+    document.getElementById('translations').focus();
+    showProcessingStatus('AI translation discarded. Enter your own translation.', 'warning');
+});
 
 // Keyboard shortcuts
 document.getElementById('translations').addEventListener('keydown', (e) => {
