@@ -224027,13 +224027,12 @@
     ]
   },
   "current": {
+    "default": [
+      "இப்போதைய (e.g current affairs)"
+    ],
     "பெயர்ச்சொல்": [
-      [
-        "மின்சாரம்"
-      ],
-      [
-        "நீரோட்டம்"
-      ]
+      "மின்சாரம் (electricity)",
+      "நீரோட்டம் (water)"
     ]
   },
   "current-bedding": {
