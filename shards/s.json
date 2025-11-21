@@ -118071,12 +118071,8 @@
   },
   "something": {
     "default": [
-      [
-        "ஏதோ ஒன்று: [Something is wrong there. Something's happening.]"
-      ],
-      [
-        "[பேச்சு வழக்கு.] மதிப்புடைய நபர் அல்லது பொருள்: [He is really something! This writer has something to say and she says it well.]"
-      ]
+      "ஏதோ",
+      "எதாவது"
     ]
   },
   "somethin": {
