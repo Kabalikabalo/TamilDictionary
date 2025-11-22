@@ -5871,16 +5871,25 @@
     ]
   },
   "works": {
-    "default": [
-      [
-        "செய்மங்கள்",
-        "பணிகள் / ஆய்வுகள் / நூல்கள்",
-        "பணிமங்கள்"
-      ],
-      [
-        "[வணிகவியல்.] பணிகள்",
-        "வேலைகள்"
-      ]
+    "பெயர்ச்சொல்": [
+      "படைப்புகள் (artistic/literary creations)",
+      "நூல்கள் (books",
+      "literary works)",
+      "பணிகள் (tasks",
+      "duties)",
+      "வேலைகள் (jobs)",
+      "தொழிற்சாலை (factory",
+      "plant)"
+    ],
+    "வினைச்சொல்": [
+      "செயல்படுகிறது (functions",
+      "operates)",
+      "வேலை செய்கிறது (does work",
+      "works)",
+      "பலனளிக்கிறது (is effective",
+      "yields results)",
+      "இயங்குகிறது (runs",
+      "operates - for machines)"
     ]
   },
   "workroom": {
