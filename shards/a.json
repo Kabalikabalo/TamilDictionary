@@ -197080,5 +197080,10 @@
       "சராசரி எடு (calculate the average)",
       "சராசரியாக்கு (make/bring to an average)"
     ]
+  },
+  "applications": {
+    "default": [
+      "விண்ணப்பங்கள்"
+    ]
   }
 }
