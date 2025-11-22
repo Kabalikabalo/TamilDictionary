@@ -19,7 +19,7 @@ const MANIFEST_PATH = path.join(SHARD_DIR, 'manifest.json');
 const DICT_PATH = process.env.DICT_PATH || path.join(__dirname, 'dictionary.json');
 
 // Word of the day (hardcoded/default; can be overridden with env)
-const WORD_OF_THE_DAY_KEY = process.env.WORD_OF_THE_DAY || 'சாசனம்'; // default hardcoded Tamil word
+const WORD_OF_THE_DAY_KEY = process.env.WORD_OF_THE_DAY || 'கங்குல்'; // default hardcoded Tamil word
 const WORD_OF_THE_DAY_DEF = process.env.WORD_OF_THE_DAY_DEF || null; // optional explicit definition text
 
 app.use(cors());
