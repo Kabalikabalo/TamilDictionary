@@ -235307,5 +235307,10 @@
       "தள்ளுவண்டி (shopping cart)",
       "கைவண்டி (handcart)"
     ]
+  },
+  "california": {
+    "default": [
+      "கலிஃபோர்னியா"
+    ]
   }
 }
