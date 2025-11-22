@@ -65134,25 +65134,16 @@
     ]
   },
   "reference": {
-    "default": [
-      [
-        "குறிப்புதவி",
-        "மேற்கோள் - citation or quotation",
-        "நன்றி நவிலல் acknowledgement"
-      ],
-      [
-        "குறிப்புதவி நூல் - reference book."
-      ],
-      [
-        "ஆலோசித்தல்",
-        "உயவுதல்/உயவுத்துணை",
-        "உசாவுதல்/உசாத்துணை - consultation"
-      ],
-      [
-        "ஆதாரம்",
-        "எடுகோள்",
-        "எடுக்கை"
-      ]
+    "பெயர்ச்சொல்": [
+      "மேற்கோள் (citation)",
+      "ஆதாரம் (source)",
+      "குறிப்புதவி (for informational purpose)",
+      "பரிந்துரையாளர் (person giving recommendation)"
+    ],
+    "வினைச்சொல்": [
+      "குறிப்பிடு (to mention",
+      "to refer to)",
+      "மேற்கோள் காட்டு (to cite)"
     ]
   },
   "referee_laboratory": {
